@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\unrealP\\KJB_Portfolio_UE4\\KJB_Portfolio\\Source\\KJB_Portfolio\\KJB_Portfolio.Build.cs",
+		"C:\\unrealP\\KJB_Portfolio_UE4\\KJB_Portfolio\\Source\\KJB_Portfolio.Target.cs",
+		"C:\\unrealP\\KJB_Portfolio_UE4\\KJB_Portfolio\\Source\\KJB_PortfolioEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

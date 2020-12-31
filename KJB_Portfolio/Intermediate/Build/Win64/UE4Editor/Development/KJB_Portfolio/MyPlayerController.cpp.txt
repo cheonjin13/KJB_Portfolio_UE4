@@ -1,0 +1,4 @@
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\Definitions.KJB_Portfolio.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\MyPlayerController.h
+c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\../KJB_Portfolio.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\MyPlayerController.generated.h

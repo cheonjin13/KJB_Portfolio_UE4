@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "KJB_Portfolio",
+			"Path": "C:\\unrealP\\KJB_Portfolio_UE4\\KJB_Portfolio\\Source\\KJB_Portfolio.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "KJB_PortfolioEditor",
+			"Path": "C:\\unrealP\\KJB_Portfolio_UE4\\KJB_Portfolio\\Source\\KJB_PortfolioEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

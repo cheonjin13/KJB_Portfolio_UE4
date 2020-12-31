@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\KJB_Portfolio.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D89A78FA-A404-42AB-ADA7-10F7A2263DA2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\KJB_Portfolio.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\KJB_PortfolioEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A9D3727B-F648-491D-9817-46AE955BF45C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\KJB_Portfolio">
+      <UniqueIdentifier>{150861EA-5D54-4F36-8AEC-02FC7C3FC95A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\KJB_Portfolio\KJB_Portfolio.Build.cs">
+      <Filter>Source\KJB_Portfolio</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\KJB_Portfolio\KJB_Portfolio.cpp">
+      <Filter>Source\KJB_Portfolio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KJB_Portfolio\KJB_Portfolio.h">
+      <Filter>Source\KJB_Portfolio</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KJB_Portfolio\KJB_PortfolioCharacter.cpp">
+      <Filter>Source\KJB_Portfolio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KJB_Portfolio\KJB_PortfolioCharacter.h">
+      <Filter>Source\KJB_Portfolio</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KJB_Portfolio\KJB_PortfolioGameMode.cpp">
+      <Filter>Source\KJB_Portfolio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KJB_Portfolio\KJB_PortfolioGameMode.h">
+      <Filter>Source\KJB_Portfolio</Filter>
+    </ClInclude>
+    <Filter Include="Source\KJB_Portfolio\Private">
+      <UniqueIdentifier>{9EF9C722-55CF-48E8-A734-1C1857CFD443}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\MyCharacter.cpp">
+      <Filter>Source\KJB_Portfolio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\MyGameModeBase.cpp">
+      <Filter>Source\KJB_Portfolio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\MyPlayerController.cpp">
+      <Filter>Source\KJB_Portfolio\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\KJB_Portfolio\Public">
+      <UniqueIdentifier>{E2D6B05B-3AB9-41DC-9687-07D5E1F9853D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\MyCharacter.h">
+      <Filter>Source\KJB_Portfolio\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\MyGameModeBase.h">
+      <Filter>Source\KJB_Portfolio\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\MyPlayerController.h">
+      <Filter>Source\KJB_Portfolio\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

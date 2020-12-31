@@ -1,0 +1,2 @@
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\Definitions.KJB_Portfolio.h
+c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\KJB_Portfolio.h
