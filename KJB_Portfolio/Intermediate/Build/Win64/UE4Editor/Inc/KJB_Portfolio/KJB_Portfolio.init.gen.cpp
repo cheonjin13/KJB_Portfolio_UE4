@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeKJB_Portfolio_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xC04FFCE3,
-				0x33048383,
+				0x0F2C4A6E,
+				0x6A43C052,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

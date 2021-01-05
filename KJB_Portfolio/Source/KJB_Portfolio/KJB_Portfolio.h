@@ -2,7 +2,8 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+//#include "CoreMinimal.h"
+#include "EngineMinimal.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(GameLog, Log, All);
 #define ALOG_CALLINFO (FString(__FUNCTION__) + TEXT("(") + FString::FromInt(__LINE__) + TEXT(")"))	//어떤함수의 몇번째줄에서 호출되었는지 로그를 남김

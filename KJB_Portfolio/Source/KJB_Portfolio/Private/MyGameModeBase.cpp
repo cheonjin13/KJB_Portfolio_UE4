@@ -4,9 +4,11 @@
 #include "MyGameModeBase.h"
 #include "MyCharacter.h"
 #include "MyPlayerController.h"
+#include "RpgHUD.h"
 
 AMyGameModeBase::AMyGameModeBase()
 {
 	DefaultPawnClass = AMyCharacter::StaticClass();
 	PlayerControllerClass = AMyPlayerController::StaticClass();
+	HUDClass = ARpgHUD::StaticClass();
 }
