@@ -24,6 +24,9 @@ protected:
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "UI")
 	TSubclassOf<class UDamageWidget> DamageWidgetClass;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item")
+	TArray<TSubclassOf<class UItem>> SpawnItemArray;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -70,4 +73,8 @@ private: //º¯¼ö
 
 	UPROPERTY()
 	TSubclassOf<class ADamageWidgetActor> DamageWidgetActorClass;
+
+	UPROPERTY()
+	int32 ItemRandom;
+
 };

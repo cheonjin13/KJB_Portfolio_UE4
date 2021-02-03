@@ -1,0 +1,5 @@
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\Definitions.KJB_Portfolio.h
+D:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/ItemActor.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\ItemActor.generated.h

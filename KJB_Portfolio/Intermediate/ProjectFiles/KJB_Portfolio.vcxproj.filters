@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\KJB_Portfolio.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{844BD36F-2A96-4108-8F75-3D3878DB7B8D}</UniqueIdentifier>
+      <UniqueIdentifier>{30817AAB-F08D-4150-813F-59218D172EDE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\KJB_Portfolio.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F1941DEE-580B-497E-8500-AF580DDB818B}</UniqueIdentifier>
+      <UniqueIdentifier>{7A8C8881-009B-4783-A8B6-F7BED47561B1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\KJB_Portfolio">
-      <UniqueIdentifier>{1B00280C-5DEC-4C5D-A09A-D28F5CBABDD5}</UniqueIdentifier>
+      <UniqueIdentifier>{5B910053-7A86-412E-85FF-29F736C75F20}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\KJB_Portfolio\KJB_Portfolio.Build.cs">
       <Filter>Source\KJB_Portfolio</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\KJB_Portfolio</Filter>
     </ClInclude>
     <Filter Include="Source\KJB_Portfolio\Private">
-      <UniqueIdentifier>{28972A1F-A839-4D28-8EBE-96A64161EEF4}</UniqueIdentifier>
+      <UniqueIdentifier>{0CD4E166-F1F9-43CB-9AC2-9B6A53E1BC6A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\KJB_Portfolio\Private\AttackBTTNode.cpp">
       <Filter>Source\KJB_Portfolio\Private</Filter>
@@ -87,6 +87,9 @@
       <Filter>Source\KJB_Portfolio\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\KJB_Portfolio\Private\Item.cpp">
+      <Filter>Source\KJB_Portfolio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\ItemActor.cpp">
       <Filter>Source\KJB_Portfolio\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\KJB_Portfolio\Private\Monster.cpp">
@@ -150,7 +153,7 @@
       <Filter>Source\KJB_Portfolio\Private</Filter>
     </ClCompile>
     <Filter Include="Source\KJB_Portfolio\Public">
-      <UniqueIdentifier>{AA955308-A388-4E68-A815-E00814A58B0D}</UniqueIdentifier>
+      <UniqueIdentifier>{281206EA-DCD1-4CC9-A5AC-52B6E36FBDEA}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\KJB_Portfolio\Public\AttackBTTNode.h">
       <Filter>Source\KJB_Portfolio\Public</Filter>
@@ -183,6 +186,9 @@
       <Filter>Source\KJB_Portfolio\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\KJB_Portfolio\Public\Item.h">
+      <Filter>Source\KJB_Portfolio\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\ItemActor.h">
       <Filter>Source\KJB_Portfolio\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\KJB_Portfolio\Public\Monster.h">

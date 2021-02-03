@@ -25,8 +25,8 @@ void EmptyLinkFunctionForGeneratedCodeKJB_Portfolio_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x246AD099,
-				0x00501201,
+				0x71F62209,
+				0x6468C6BA,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

@@ -11,6 +11,8 @@
 #include "MyPlayerController.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "DamageWidgetActor.h"
+#include "ItemActor.h"
+#include "Item.h"
 
 // Sets default values
 AMonster::AMonster()
@@ -59,6 +61,9 @@ AMonster::AMonster()
 
 	IsAttacking = false;
 	IsDamaged = false;
+
+	ItemRandom = 0;
+
 }
 
 // Called when the game starts or when spawned
@@ -70,6 +75,7 @@ void AMonster::BeginPlay()
 	{
 		CharacterWidget->BindMonsterStat(MonsterStat);
 	}
+
 }
 
 // Called every frame
@@ -166,6 +172,21 @@ void AMonster::SetCharacterState(ECharacterState NewState)
 		{
 			Destroy();
 		}), DeadTimer, false);
+
+
+		ItemRandom = FMath::RandRange(0, SpawnItemArray.Num() - 1);
+
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = this;
+		FVector SpawnLocation = GetActorLocation();
+		SpawnLocation.X += FMath::RandRange(0.0f, 50.0f);
+		SpawnLocation.Y += FMath::RandRange(0.0f, 50.0f);
+		if (SpawnItemArray.Num() > 0)
+		{
+			ALOG(Warning, TEXT("%f"), SpawnItemArray.Num());
+			GetWorld()->SpawnActor<UItem>(SpawnItemArray[ItemRandom].Get(), SpawnLocation, GetActorRotation(), SpawnParams);
+		}
+
 		break;
 	}
 }

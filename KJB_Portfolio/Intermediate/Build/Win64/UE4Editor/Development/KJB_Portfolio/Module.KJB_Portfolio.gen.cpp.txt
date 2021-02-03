@@ -1,9 +1,9 @@
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\Definitions.KJB_Portfolio.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/AttackBTTNode.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\Definitions.KJB_Portfolio.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/AttackBTTNode.gen.cpp
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/AttackBTTNode.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\../KJB_Portfolio.h
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/AttackBTTNode.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\../KJB_Portfolio.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
@@ -223,16 +223,16 @@ D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTask
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITask.generated.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTNode.generated.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTaskNode.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\AttackBTTNode.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/CanAttackBTDeco.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/CanAttackBTDeco.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\AttackBTTNode.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/CanAttackBTDeco.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/CanAttackBTDeco.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTDecorator.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTAuxiliaryNode.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTAuxiliaryNode.generated.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTDecorator.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\CanAttackBTDeco.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/CharacterWidget.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/CharacterWidget.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\CanAttackBTDeco.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/CharacterWidget.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/CharacterWidget.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -348,58 +348,54 @@ D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\CharacterWidget.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/DamageWidget.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/DamageWidget.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\DamageWidget.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/DamageWidgetActor.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/DamageWidgetActor.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\DamageWidgetActor.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/DetectBTS.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/DetectBTS.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\CharacterWidget.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/DamageWidget.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/DamageWidget.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\DamageWidget.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/DamageWidgetActor.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/DamageWidgetActor.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\DamageWidgetActor.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/DetectBTS.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/DetectBTS.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTService.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTService.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\DetectBTS.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/GameDatas.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/GameDatas.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\DetectBTS.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/GameDatas.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/GameDatas.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\GameDatas.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/GameInterface.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/GameInterface.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\UICustom.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\UICustom.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\GameInterface.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/Inventory.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/Inventory.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\Inventory.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/InventoryComponent.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/InventoryComponent.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\InventoryComponent.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/Item.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/Item.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\Item.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_Portfolio.gen.cpp
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_Portfolio.init.gen.cpp
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_PortfolioCharacter.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/KJB_PortfolioCharacter.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\KJB_PortfolioCharacter.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_PortfolioGameMode.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/KJB_PortfolioGameMode.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\KJB_PortfolioGameMode.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/Monster.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/Monster.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\Monster.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MonsterAnimInstance.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MonsterAnimInstance.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MonsterAnimInstance.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MonsterDataComponent.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MonsterDataComponent.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MonsterDataComponent.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyAIController.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyAIController.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\GameDatas.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/GameInterface.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/GameInterface.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\UICustom.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\UICustom.generated.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\GameInterface.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/Inventory.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/Inventory.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\Inventory.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/InventoryComponent.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/InventoryComponent.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\InventoryComponent.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/Item.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/Item.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\Item.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_Portfolio.gen.cpp
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_PortfolioCharacter.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/KJB_PortfolioCharacter.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\KJB_PortfolioCharacter.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_PortfolioGameMode.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/KJB_PortfolioGameMode.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\KJB_PortfolioGameMode.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MonsterAnimInstance.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MonsterAnimInstance.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MonsterAnimInstance.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MonsterDataComponent.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MonsterDataComponent.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MonsterDataComponent.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyAIController.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyAIController.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\AIController.h
 d:\epic games\ue_4.25\engine\source\runtime\aimodule\classes\Navigation/PathFollowingComponent.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavigationData.h
@@ -414,62 +410,62 @@ D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\Gen
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyAIController.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyAnimInstance.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyAnimInstance.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyAnimInstance.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyCharacter.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyCharacter.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\Slot.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\Slot.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyCharacter.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyCharacterDataComponent.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyCharacterDataComponent.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyCharacterDataComponent.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyGameInstance.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyGameInstance.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyAIController.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyAnimInstance.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyAnimInstance.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyAnimInstance.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyCharacter.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyCharacter.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\Slot.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\Slot.generated.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyCharacter.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyCharacterDataComponent.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyCharacterDataComponent.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyCharacterDataComponent.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyGameInstance.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyGameInstance.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyGameInstance.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyGameModeBase.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyGameModeBase.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyGameModeBase.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyPlayerController.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyPlayerController.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyPlayerController.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyPlayerState.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyPlayerState.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyGameInstance.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyGameModeBase.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyGameModeBase.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyGameModeBase.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyPlayerController.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyPlayerController.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyPlayerController.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyPlayerState.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyPlayerState.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyPlayerState.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/PatrolBTTNode.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/PatrolBTTNode.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\PatrolBTTNode.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/PlayerWidget.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/PlayerWidget.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\PlayerWidget.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/RpgHUD.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/RpgHUD.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyPlayerState.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/PatrolBTTNode.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/PatrolBTTNode.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\PatrolBTTNode.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/PlayerWidget.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/PlayerWidget.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\PlayerWidget.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/RpgHUD.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/RpgHUD.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\RpgHUD.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/Slot.gen.cpp
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/SlotDragDrop.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/SlotDragDrop.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\RpgHUD.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/Slot.gen.cpp
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/SlotDragDrop.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/SlotDragDrop.h
 D:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/DragDropOperation.h
 D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DragDropOperation.generated.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\SlotDragDrop.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/TurnBTTNode.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/TurnBTTNode.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\TurnBTTNode.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/UICustom.gen.cpp
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/UISlot.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/UISlot.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\UISlot.generated.h
-D:/jbUR/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/UsableItem.gen.cpp
-D:\jbUR\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/UsableItem.h
-d:\jbur\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\UsableItem.generated.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\SlotDragDrop.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/TurnBTTNode.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/TurnBTTNode.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\TurnBTTNode.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/UICustom.gen.cpp
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/UISlot.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/UISlot.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\UISlot.generated.h
+D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/UsableItem.gen.cpp
+D:\KJB\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/UsableItem.h
+d:\kjb\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\UsableItem.generated.h

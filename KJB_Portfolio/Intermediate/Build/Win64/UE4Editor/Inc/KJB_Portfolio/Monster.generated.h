@@ -69,6 +69,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMonster); \
 
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_Monster_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__DamageWidgetClass() { return STRUCT_OFFSET(AMonster, DamageWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__SpawnItemArray() { return STRUCT_OFFSET(AMonster, SpawnItemArray); } \
 	FORCEINLINE static uint32 __PPO__MyAnim() { return STRUCT_OFFSET(AMonster, MyAnim); } \
 	FORCEINLINE static uint32 __PPO__IsAttacking() { return STRUCT_OFFSET(AMonster, IsAttacking); } \
 	FORCEINLINE static uint32 __PPO__AttackRange() { return STRUCT_OFFSET(AMonster, AttackRange); } \
@@ -76,7 +77,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMonster); \
 	FORCEINLINE static uint32 __PPO__IsDamaged() { return STRUCT_OFFSET(AMonster, IsDamaged); } \
 	FORCEINLINE static uint32 __PPO__CurrentState() { return STRUCT_OFFSET(AMonster, CurrentState); } \
 	FORCEINLINE static uint32 __PPO__DeadTimer() { return STRUCT_OFFSET(AMonster, DeadTimer); } \
-	FORCEINLINE static uint32 __PPO__DamageWidgetActorClass() { return STRUCT_OFFSET(AMonster, DamageWidgetActorClass); }
+	FORCEINLINE static uint32 __PPO__DamageWidgetActorClass() { return STRUCT_OFFSET(AMonster, DamageWidgetActorClass); } \
+	FORCEINLINE static uint32 __PPO__ItemRandom() { return STRUCT_OFFSET(AMonster, ItemRandom); }
 
 
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_Monster_h_11_PROLOG

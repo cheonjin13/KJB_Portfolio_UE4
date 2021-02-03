@@ -24,6 +24,7 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_UMonsterAnimInstance_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_UMonsterDataComponent_NoRegister();
+	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_UItem_NoRegister();
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_UDamageWidget_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AMonster::execOnAttackMontageEnded)
@@ -96,6 +97,10 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ItemRandom_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ItemRandom;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageWidgetActorClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_DamageWidgetActorClass;
@@ -139,6 +144,11 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MonsterStat;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnItemArray_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_SpawnItemArray;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnItemArray_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageWidgetClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_DamageWidgetClass;
@@ -160,6 +170,12 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 		{ "ModuleRelativePath", "Public/Monster.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonster_Statics::NewProp_ItemRandom_MetaData[] = {
+		{ "ModuleRelativePath", "Public/Monster.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMonster_Statics::NewProp_ItemRandom = { "ItemRandom", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonster, ItemRandom), METADATA_PARAMS(Z_Construct_UClass_AMonster_Statics::NewProp_ItemRandom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonster_Statics::NewProp_ItemRandom_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetActorClass_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Monster.h" },
@@ -248,6 +264,14 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMonster_Statics::NewProp_MonsterStat = { "MonsterStat", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonster, MonsterStat), Z_Construct_UClass_UMonsterDataComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMonster_Statics::NewProp_MonsterStat_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonster_Statics::NewProp_MonsterStat_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonster_Statics::NewProp_SpawnItemArray_MetaData[] = {
+		{ "Category", "Item" },
+		{ "ModuleRelativePath", "Public/Monster.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMonster_Statics::NewProp_SpawnItemArray = { "SpawnItemArray", nullptr, (EPropertyFlags)0x0024080000010005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonster, SpawnItemArray), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AMonster_Statics::NewProp_SpawnItemArray_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonster_Statics::NewProp_SpawnItemArray_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMonster_Statics::NewProp_SpawnItemArray_Inner = { "SpawnItemArray", nullptr, (EPropertyFlags)0x0004000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UItem_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetClass_MetaData[] = {
 		{ "Category", "UI" },
 		{ "ModuleRelativePath", "Public/Monster.h" },
@@ -255,6 +279,7 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetClass = { "DamageWidgetClass", nullptr, (EPropertyFlags)0x0024080000010005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonster, DamageWidgetClass), Z_Construct_UClass_UDamageWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMonster_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_ItemRandom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetActorClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_DeadTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_CurrentState,
@@ -266,6 +291,8 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_MyAnim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_HPBarWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_MonsterStat,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_SpawnItemArray,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_SpawnItemArray_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMonster_Statics::StaticCppClassTypeInfo = {
@@ -295,7 +322,7 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMonster, 829172842);
+	IMPLEMENT_CLASS(AMonster, 2115364459);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<AMonster>()
 	{
 		return AMonster::StaticClass();
