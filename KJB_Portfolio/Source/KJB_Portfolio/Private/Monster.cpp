@@ -62,6 +62,13 @@ AMonster::AMonster()
 	IsAttacking = false;
 	IsDamaged = false;
 
+	
+	static ConstructorHelpers::FObjectFinder<UBlueprint> BP_SPAWNITEM(TEXT("Blueprint'/Game/MyContents/Items/ItemActor/BP_ItemActor.BP_ItemActor'"));
+	if (BP_SPAWNITEM.Succeeded())
+	{
+		ItemActorBPClass = (UClass*)BP_SPAWNITEM.Object->GeneratedClass;
+	}
+
 	ItemRandom = 0;
 
 }
@@ -179,12 +186,17 @@ void AMonster::SetCharacterState(ECharacterState NewState)
 		FActorSpawnParameters SpawnParams;
 		SpawnParams.Owner = this;
 		FVector SpawnLocation = GetActorLocation();
-		SpawnLocation.X += FMath::RandRange(0.0f, 50.0f);
-		SpawnLocation.Y += FMath::RandRange(0.0f, 50.0f);
+		SpawnLocation.X += FMath::RandRange(-50.0f, 50.0f);
+		SpawnLocation.Y += FMath::RandRange(-50.0f, 50.0f);
+		SpawnLocation.Z -= GetCapsuleComponent()->GetScaledCapsuleHalfHeight();
 		if (SpawnItemArray.Num() > 0)
 		{
 			ALOG(Warning, TEXT("%f"), SpawnItemArray.Num());
-			GetWorld()->SpawnActor<UItem>(SpawnItemArray[ItemRandom].Get(), SpawnLocation, GetActorRotation(), SpawnParams);
+			AItemActor* ItemSpawner = GetWorld()->SpawnActor<AItemActor>(ItemActorBPClass, SpawnLocation, GetActorRotation(), SpawnParams);
+			if (ItemSpawner)
+			{
+				ItemSpawner->SetItem(SpawnItemArray[ItemRandom]);
+			}
 		}
 
 		break;

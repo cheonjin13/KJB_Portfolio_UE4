@@ -73,7 +73,9 @@ private: //º¯¼ö
 
 	UPROPERTY()
 	TSubclassOf<class ADamageWidgetActor> DamageWidgetActorClass;
-
+	
+	UPROPERTY()
+	TSubclassOf<class AItemActor> ItemActorBPClass;
 	UPROPERTY()
 	int32 ItemRandom;
 

@@ -19,10 +19,7 @@ class KJB_PORTFOLIO_API AMyCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AMyCharacter();
-	void Attack();
-	bool DraggingSwap(int from, ESlotType fromtype, int to, ESlotType totype);
-	bool SwapInven(int from, int to);
-
+	void Attack();	
 
 	FOnAttackEndDelegate OnAttackEnd;
 

@@ -6,6 +6,7 @@
 #include "Blueprint/WidgetTree.h"
 #include "MyCharacter.h"
 
+/*
 void UInventory::Init()
 {
 	for (int i = 0; i < Player->InventorySize; i++)
@@ -38,4 +39,4 @@ void UInventory::RefreshSlot(int slotnum)
 		Player->Inventory[slotnum].Thumbnail = DefaultTexture;
 
 	Slots[slotnum]->Refresh();
-}
+}*/

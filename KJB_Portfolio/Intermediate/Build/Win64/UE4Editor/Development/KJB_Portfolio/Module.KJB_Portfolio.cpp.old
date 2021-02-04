@@ -13,7 +13,6 @@
 #include "D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/Inventory.cpp"
 #include "D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/InventoryComponent.cpp"
 #include "D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/Item.cpp"
-#include "D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/Monster.cpp"
 #include "D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/MonsterAnimInstance.cpp"
 #include "D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/MonsterDataComponent.cpp"
 #include "D:/KJB/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/MyAIController.cpp"

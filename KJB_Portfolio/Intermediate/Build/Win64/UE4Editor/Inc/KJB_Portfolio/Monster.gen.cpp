@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 	UPackage* Z_Construct_UPackage__Script_KJB_Portfolio();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_AItemActor_NoRegister();
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_ADamageWidgetActor_NoRegister();
 	KJB_PORTFOLIO_API UEnum* Z_Construct_UEnum_KJB_Portfolio_ECharacterState();
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_UMonsterAnimInstance_NoRegister();
@@ -101,6 +102,10 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ItemRandom;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ItemActorBPClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ItemActorBPClass;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageWidgetActorClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_DamageWidgetActorClass;
@@ -176,6 +181,12 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMonster_Statics::NewProp_ItemRandom = { "ItemRandom", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonster, ItemRandom), METADATA_PARAMS(Z_Construct_UClass_AMonster_Statics::NewProp_ItemRandom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonster_Statics::NewProp_ItemRandom_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonster_Statics::NewProp_ItemActorBPClass_MetaData[] = {
+		{ "ModuleRelativePath", "Public/Monster.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMonster_Statics::NewProp_ItemActorBPClass = { "ItemActorBPClass", nullptr, (EPropertyFlags)0x0044000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonster, ItemActorBPClass), Z_Construct_UClass_AItemActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMonster_Statics::NewProp_ItemActorBPClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonster_Statics::NewProp_ItemActorBPClass_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetActorClass_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Monster.h" },
@@ -280,6 +291,7 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetClass = { "DamageWidgetClass", nullptr, (EPropertyFlags)0x0024080000010005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonster, DamageWidgetClass), Z_Construct_UClass_UDamageWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMonster_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_ItemRandom,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_ItemActorBPClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_DamageWidgetActorClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_DeadTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonster_Statics::NewProp_CurrentState,
@@ -322,7 +334,7 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMonster, 2115364459);
+	IMPLEMENT_CLASS(AMonster, 2529742571);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<AMonster>()
 	{
 		return AMonster::StaticClass();

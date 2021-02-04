@@ -16,6 +16,8 @@
 			"Inventory.cpp.obj",
 			"InventoryComponent.cpp.obj",
 			"Item.cpp.obj",
+			"ItemActor.cpp.obj",
+			"Monster.cpp.obj",
 			"MonsterAnimInstance.cpp.obj",
 			"MonsterDataComponent.cpp.obj",
 			"MyAIController.cpp.obj",
@@ -34,9 +36,7 @@
 			"TurnBTTNode.cpp.obj",
 			"UICustom.cpp.obj",
 			"UISlot.cpp.obj",
-			"UsableItem.cpp.obj",
-			"ItemActor.cpp.obj",
-			"Monster.cpp.obj"
+			"UsableItem.cpp.obj"
 		],
 		"Module.KJB_Portfolio.gen.cpp.obj": [
 			"AttackBTTNode.gen.cpp.obj",
@@ -50,9 +50,12 @@
 			"Inventory.gen.cpp.obj",
 			"InventoryComponent.gen.cpp.obj",
 			"Item.gen.cpp.obj",
+			"ItemActor.gen.cpp.obj",
 			"KJB_Portfolio.gen.cpp.obj",
+			"KJB_Portfolio.init.gen.cpp.obj",
 			"KJB_PortfolioCharacter.gen.cpp.obj",
 			"KJB_PortfolioGameMode.gen.cpp.obj",
+			"Monster.gen.cpp.obj",
 			"MonsterAnimInstance.gen.cpp.obj",
 			"MonsterDataComponent.gen.cpp.obj",
 			"MyAIController.gen.cpp.obj",
@@ -71,10 +74,7 @@
 			"TurnBTTNode.gen.cpp.obj",
 			"UICustom.gen.cpp.obj",
 			"UISlot.gen.cpp.obj",
-			"UsableItem.gen.cpp.obj",
-			"ItemActor.gen.cpp.obj",
-			"KJB_Portfolio.init.gen.cpp.obj",
-			"Monster.gen.cpp.obj"
+			"UsableItem.gen.cpp.obj"
 		]
 	}
 }

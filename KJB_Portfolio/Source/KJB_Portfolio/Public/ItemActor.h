@@ -23,12 +23,18 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Mesh")
 	class UStaticMeshComponent* Mesh;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
-	class USphereComponent* ItemRange;
+	class USphereComponent* Trigger;
+	UPROPERTY(VisibleAnywhere, Category = "UI")
+	class UWidgetComponent* ItemNameWidget;
 
+private:
+	void OnCharacterOverlap(UPrimitiveComponent* OverlappedCom, AActor* OtherActor,
+		UPrimitiveComponent* otherComp, int32 OtherBodyIndex, bool bFromSweep,
+		const FHitResult& SweepResult);
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
+	virtual void PostInitializeComponents() override;
 
 };

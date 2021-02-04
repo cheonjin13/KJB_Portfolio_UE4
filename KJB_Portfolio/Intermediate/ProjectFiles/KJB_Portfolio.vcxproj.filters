@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\KJB_Portfolio.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{30817AAB-F08D-4150-813F-59218D172EDE}</UniqueIdentifier>
+      <UniqueIdentifier>{BCBBCB70-0FB6-494C-9B04-1A5EC5EC1AA8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\KJB_Portfolio.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7A8C8881-009B-4783-A8B6-F7BED47561B1}</UniqueIdentifier>
+      <UniqueIdentifier>{BD022066-4EAF-4EAF-8EC8-4645B050AE84}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\KJB_Portfolio">
-      <UniqueIdentifier>{5B910053-7A86-412E-85FF-29F736C75F20}</UniqueIdentifier>
+      <UniqueIdentifier>{93FC48F6-C57F-44B6-AC69-4B00297B6751}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\KJB_Portfolio\KJB_Portfolio.Build.cs">
       <Filter>Source\KJB_Portfolio</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\KJB_Portfolio</Filter>
     </ClInclude>
     <Filter Include="Source\KJB_Portfolio\Private">
-      <UniqueIdentifier>{0CD4E166-F1F9-43CB-9AC2-9B6A53E1BC6A}</UniqueIdentifier>
+      <UniqueIdentifier>{0367F43B-15A7-4F56-A87A-923109501224}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\KJB_Portfolio\Private\AttackBTTNode.cpp">
       <Filter>Source\KJB_Portfolio\Private</Filter>
@@ -153,7 +153,7 @@
       <Filter>Source\KJB_Portfolio\Private</Filter>
     </ClCompile>
     <Filter Include="Source\KJB_Portfolio\Public">
-      <UniqueIdentifier>{281206EA-DCD1-4CC9-A5AC-52B6E36FBDEA}</UniqueIdentifier>
+      <UniqueIdentifier>{95730109-D161-4D24-8D37-0CB0A55C24A6}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\KJB_Portfolio\Public\AttackBTTNode.h">
       <Filter>Source\KJB_Portfolio\Public</Filter>

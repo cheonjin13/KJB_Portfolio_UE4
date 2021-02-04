@@ -9,8 +9,8 @@ void UGameInterface::Init()
 {
 	if (Inventory)
 	{
-		Inventory->Player = this->Player;
-		Inventory->Init();
+		//Inventory->Player = this->Player;
+		//Inventory->Init();
 	}
 }
 
@@ -21,5 +21,5 @@ void UGameInterface::SetPlayer(AMyCharacter * player)
 
 void UGameInterface::RefreshInventory(int slotnum)
 {
-	Inventory->RefreshSlot(slotnum);
+	//Inventory->RefreshSlot(slotnum);
 }

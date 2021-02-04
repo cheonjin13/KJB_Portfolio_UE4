@@ -15,8 +15,8 @@ class KJB_PORTFOLIO_API UInventory : public UUICustom
 	GENERATED_BODY()
 	
 public:
-	void Init() override;
-	void RefreshSlot(int slotnum);
+	//void Init() override;
+	//void RefreshSlot(int slotnum);
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	UTexture2D* DefaultTexture;

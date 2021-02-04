@@ -327,26 +327,6 @@ void AMyCharacter::Attack()
 	}
 }
 
-bool AMyCharacter::DraggingSwap(int from, ESlotType fromtype, int to, ESlotType totype)
-{
-	if (fromtype == ESlotType::SLOT_ITEM && (fromtype == totype))
-		return SwapInven(from, to);
-
-	return true;
-}
-
-bool AMyCharacter::SwapInven(int from, int to)
-{
-	if (from < 0 || to < 0) return false;
-
-	Inventory.Swap(from, to);
-	//GameUIWidget->RefreshInventory(from);
-	//GameUIWidget->RefreshInventory(to);
-
-
-	return true;
-}
-
 void AMyCharacter::AttackCheck()
 {
 	FHitResult HitResult;

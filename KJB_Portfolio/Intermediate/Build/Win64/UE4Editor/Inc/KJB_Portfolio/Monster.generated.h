@@ -78,6 +78,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMonster); \
 	FORCEINLINE static uint32 __PPO__CurrentState() { return STRUCT_OFFSET(AMonster, CurrentState); } \
 	FORCEINLINE static uint32 __PPO__DeadTimer() { return STRUCT_OFFSET(AMonster, DeadTimer); } \
 	FORCEINLINE static uint32 __PPO__DamageWidgetActorClass() { return STRUCT_OFFSET(AMonster, DamageWidgetActorClass); } \
+	FORCEINLINE static uint32 __PPO__ItemActorBPClass() { return STRUCT_OFFSET(AMonster, ItemActorBPClass); } \
 	FORCEINLINE static uint32 __PPO__ItemRandom() { return STRUCT_OFFSET(AMonster, ItemRandom); }
 
 

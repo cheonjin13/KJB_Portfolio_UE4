@@ -27,10 +27,10 @@ class KJB_PORTFOLIO_API USlot : public UUICustom
 	GENERATED_BODY()
 	
 public:
-	void Init() override;
-	void SetType(ESlotType type);
-	void SetTexture(UTexture2D* tex);
-	void Refresh();
+	//void Init() override;
+	//void SetType(ESlotType type);
+	//void SetTexture(UTexture2D* tex);
+	//void Refresh();
 
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (UIMax = 31.00, UIMin = 0.00))
@@ -48,7 +48,7 @@ public:
 	TSubclassOf<USlot> DragVisualClass;
 
 protected:
-	void NativeOnDragDetected(const FGeometry& InGeometry, const FPointerEvent& InMouseEvent, UDragDropOperation*& OutOperation) override;
-	bool NativeOnDrop(const FGeometry& InGeometry, const FDragDropEvent& InDragDropEvent, UDragDropOperation* InOperation);
-	FReply NativeOnMouseButtonDown(const FGeometry& InGeometry, const FPointerEvent& InMouseEvent) override;
+	//void NativeOnDragDetected(const FGeometry& InGeometry, const FPointerEvent& InMouseEvent, UDragDropOperation*& OutOperation) override;
+	//bool NativeOnDrop(const FGeometry& InGeometry, const FDragDropEvent& InDragDropEvent, UDragDropOperation* InOperation);
+	//FReply NativeOnMouseButtonDown(const FGeometry& InGeometry, const FPointerEvent& InMouseEvent) override;
 };

@@ -9,7 +9,7 @@
 #include "SlotDragDrop.h"
 #include "MyCharacter.h"
 
-
+/*
 void USlot::Init()
 {
 	Refresh();
@@ -142,3 +142,4 @@ FReply USlot::NativeOnMouseButtonDown(const FGeometry & InGeometry, const FPoint
 
 	return reply.NativeReply;
 }
+*/
