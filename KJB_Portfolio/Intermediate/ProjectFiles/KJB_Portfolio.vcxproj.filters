@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\KJB_Portfolio.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F09B48A4-5F6F-4576-A2F1-E56376C54D54}</UniqueIdentifier>
+      <UniqueIdentifier>{EB0DB1D9-8643-4925-8840-242197B417D1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\KJB_Portfolio.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6687FCEA-83DC-4563-A152-A7DDE3408E85}</UniqueIdentifier>
+      <UniqueIdentifier>{3FF03162-45D5-428C-A215-8B4D36E643E5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\KJB_Portfolio">
-      <UniqueIdentifier>{AB5B1F6A-A8F0-49FC-B9D5-C40BD07936CE}</UniqueIdentifier>
+      <UniqueIdentifier>{9CC95073-7045-4A35-8236-CF1869BBFB7B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\KJB_Portfolio\KJB_Portfolio.Build.cs">
       <Filter>Source\KJB_Portfolio</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\KJB_Portfolio</Filter>
     </ClInclude>
     <Filter Include="Source\KJB_Portfolio\Private">
-      <UniqueIdentifier>{EC374F91-728A-4EC6-A828-DDF70A3E664F}</UniqueIdentifier>
+      <UniqueIdentifier>{610C0888-B330-4430-B06D-B031263CDFB9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\KJB_Portfolio\Private\AttackBTTNode.cpp">
       <Filter>Source\KJB_Portfolio\Private</Filter>
@@ -72,15 +72,6 @@
       <Filter>Source\KJB_Portfolio\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\KJB_Portfolio\Private\DetectBTS.cpp">
-      <Filter>Source\KJB_Portfolio\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\GameDatas.cpp">
-      <Filter>Source\KJB_Portfolio\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\GameInterface.cpp">
-      <Filter>Source\KJB_Portfolio\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\Inventory.cpp">
       <Filter>Source\KJB_Portfolio\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\KJB_Portfolio\Private\InventoryComponent.cpp">
@@ -137,26 +128,14 @@
     <ClCompile Include="..\..\Source\KJB_Portfolio\Private\RpgHUD.cpp">
       <Filter>Source\KJB_Portfolio\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\Slot.cpp">
-      <Filter>Source\KJB_Portfolio\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\SlotDragDrop.cpp">
-      <Filter>Source\KJB_Portfolio\Private</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\KJB_Portfolio\Private\TurnBTTNode.cpp">
-      <Filter>Source\KJB_Portfolio\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\UICustom.cpp">
-      <Filter>Source\KJB_Portfolio\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\KJB_Portfolio\Private\UISlot.cpp">
       <Filter>Source\KJB_Portfolio\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\KJB_Portfolio\Private\UsableItem.cpp">
       <Filter>Source\KJB_Portfolio\Private</Filter>
     </ClCompile>
     <Filter Include="Source\KJB_Portfolio\Public">
-      <UniqueIdentifier>{7AC8D678-0824-4F72-A0FE-24624C92ABE4}</UniqueIdentifier>
+      <UniqueIdentifier>{F143F620-E928-4CE1-B353-AC0FC180F100}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\KJB_Portfolio\Public\AttackBTTNode.h">
       <Filter>Source\KJB_Portfolio\Public</Filter>
@@ -174,15 +153,6 @@
       <Filter>Source\KJB_Portfolio\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\KJB_Portfolio\Public\DetectBTS.h">
-      <Filter>Source\KJB_Portfolio\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\GameDatas.h">
-      <Filter>Source\KJB_Portfolio\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\GameInterface.h">
-      <Filter>Source\KJB_Portfolio\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\Inventory.h">
       <Filter>Source\KJB_Portfolio\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\KJB_Portfolio\Public\InventoryComponent.h">
@@ -239,19 +209,7 @@
     <ClInclude Include="..\..\Source\KJB_Portfolio\Public\RpgHUD.h">
       <Filter>Source\KJB_Portfolio\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\Slot.h">
-      <Filter>Source\KJB_Portfolio\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\SlotDragDrop.h">
-      <Filter>Source\KJB_Portfolio\Public</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\KJB_Portfolio\Public\TurnBTTNode.h">
-      <Filter>Source\KJB_Portfolio\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\UICustom.h">
-      <Filter>Source\KJB_Portfolio\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\KJB_Portfolio\Public\UISlot.h">
       <Filter>Source\KJB_Portfolio\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\KJB_Portfolio\Public\UsableItem.h">
