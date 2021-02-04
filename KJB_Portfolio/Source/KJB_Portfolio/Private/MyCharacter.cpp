@@ -12,7 +12,6 @@
 #include "PlayerWidget.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Particles/ParticleSystem.h"
-#include "GameInterface.h"
 #include "InventoryComponent.h"
 #include "Item.h"
 
@@ -115,10 +114,8 @@ AMyCharacter::AMyCharacter()
 		InventoryBPClass = UI_INVENTORY.Class;
 	}
 
-
-	InventorySize = 32;
-	Inventory.Init(FItemData(), InventorySize);
 	IsShowInventory = false;
+	IsPossibleItemRoot = false;
 }
 
 void AMyCharacter::UseItem(UItem * Item)
@@ -299,6 +296,11 @@ void AMyCharacter::ShowInventory()
 			controller->SetInputMode(Inputmode);
 		}
 	}
+}
+
+void AMyCharacter::RootingItem()
+{
+
 }
 
 

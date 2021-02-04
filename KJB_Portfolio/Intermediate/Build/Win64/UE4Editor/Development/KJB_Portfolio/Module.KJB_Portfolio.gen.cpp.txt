@@ -384,6 +384,9 @@ c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\in
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/ItemActor.gen.cpp
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/ItemActor.h
 c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\ItemActor.generated.h
+C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/ItemWidget.gen.cpp
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/ItemWidget.h
+c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\ItemWidget.generated.h
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_Portfolio.gen.cpp
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_Portfolio.init.gen.cpp
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_PortfolioCharacter.gen.cpp
@@ -423,8 +426,6 @@ C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyAnimIns
 c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyAnimInstance.generated.h
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyCharacter.gen.cpp
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyCharacter.h
-c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\Slot.h
-c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\Slot.generated.h
 c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\MyCharacter.generated.h
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/MyCharacterDataComponent.gen.cpp
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/MyCharacterDataComponent.h
@@ -461,6 +462,8 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
 c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\RpgHUD.generated.h
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/Slot.gen.cpp
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/Slot.h
+c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\intermediate\build\win64\ue4editor\inc\kjb_portfolio\Slot.generated.h
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/SlotDragDrop.gen.cpp
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio/Public/SlotDragDrop.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/DragDropOperation.h

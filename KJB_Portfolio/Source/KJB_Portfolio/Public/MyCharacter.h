@@ -4,8 +4,6 @@
 
 #include "../KJB_Portfolio.h"
 #include "GameFramework/Character.h"
-#include "GameDatas.h"
-#include "Slot.h"
 #include "MyCharacter.generated.h"
 
 
@@ -59,14 +57,6 @@ public: //변수
 	//Item Inventory
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UInventoryComponent* InventoryComp;
-	//삭제예정
-	UPROPERTY()
-	float InventorySize;
-
-	// don't use
-	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "UI")
-	TArray<FItemData> Inventory;
-
 
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "UI")
 	TSubclassOf<class UUserWidget> InventoryBPClass;
@@ -74,8 +64,8 @@ public: //변수
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "UI")
 	UUserWidget* InventoryWidget;
 
-	//UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
-	//USkeletalMeshComponent* WeaponMesh;
+	UPROPERTY()
+	bool IsPossibleItemRoot;
 
 
 private: //함수
@@ -85,6 +75,7 @@ private: //함수
 	void LookUp(float NewAxisValue);
 	void Running();
 	void ShowInventory();
+	void RootingItem();
 
 	void AttackCheck();
 	UFUNCTION()

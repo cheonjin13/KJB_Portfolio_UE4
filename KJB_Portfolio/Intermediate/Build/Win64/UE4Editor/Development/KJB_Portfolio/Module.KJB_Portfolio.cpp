@@ -14,6 +14,7 @@
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/InventoryComponent.cpp"
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/Item.cpp"
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/ItemActor.cpp"
+#include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/ItemWidget.cpp"
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/Monster.cpp"
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/MonsterAnimInstance.cpp"
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/MonsterDataComponent.cpp"

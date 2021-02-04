@@ -8,14 +8,27 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef KJB_PORTFOLIO_ItemActor_generated_h
 #error "ItemActor.generated.h already included, missing '#pragma once' in ItemActor.h"
 #endif
 #define KJB_PORTFOLIO_ItemActor_generated_h
 
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_ItemActor_h_12_SPARSE_DATA
-#define KJB_Portfolio_Source_KJB_Portfolio_Public_ItemActor_h_12_RPC_WRAPPERS
-#define KJB_Portfolio_Source_KJB_Portfolio_Public_ItemActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define KJB_Portfolio_Source_KJB_Portfolio_Public_ItemActor_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnCharacterOverlapEnd); \
+	DECLARE_FUNCTION(execOnCharacterOverlap);
+
+
+#define KJB_Portfolio_Source_KJB_Portfolio_Public_ItemActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnCharacterOverlapEnd); \
+	DECLARE_FUNCTION(execOnCharacterOverlap);
+
+
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_ItemActor_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAItemActor(); \

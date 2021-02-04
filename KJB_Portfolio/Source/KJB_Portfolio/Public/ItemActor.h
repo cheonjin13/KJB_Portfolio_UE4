@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "../KJB_Portfolio.h"
 #include "GameFramework/Actor.h"
 #include "ItemActor.generated.h"
 
@@ -25,12 +25,18 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	class USphereComponent* Trigger;
 	UPROPERTY(VisibleAnywhere, Category = "UI")
-	class UWidgetComponent* ItemNameWidget;
+	class UWidgetComponent* ItemWidgetComp;
 
 private:
-	void OnCharacterOverlap(UPrimitiveComponent* OverlappedCom, AActor* OtherActor,
+	UFUNCTION()
+	void OnCharacterOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 		UPrimitiveComponent* otherComp, int32 OtherBodyIndex, bool bFromSweep,
 		const FHitResult& SweepResult);
+
+	UFUNCTION()
+	void OnCharacterOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
+		UPrimitiveComponent* otherComp, int32 OtherBodyIndex);
+
 
 protected:
 	// Called when the game starts or when spawned

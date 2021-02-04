@@ -11,6 +11,7 @@
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/InventoryComponent.gen.cpp"
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/Item.gen.cpp"
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/ItemActor.gen.cpp"
+#include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/ItemWidget.gen.cpp"
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_Portfolio.gen.cpp"
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_Portfolio.init.gen.cpp"
 #include "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Build/Win64/UE4Editor/Inc/KJB_Portfolio/KJB_PortfolioCharacter.gen.cpp"

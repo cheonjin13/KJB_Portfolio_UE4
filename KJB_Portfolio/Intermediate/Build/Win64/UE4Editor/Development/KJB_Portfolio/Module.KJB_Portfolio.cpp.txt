@@ -262,14 +262,19 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTDecorator.generated.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\CanAttackBTDeco.generated.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\MyCharacter.h
-c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\GameDatas.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
-C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\GameDatas.generated.h
-c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\Slot.h
-c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\UICustom.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\MyCharacter.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Blackboard/BlackboardKeyType.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardKeyType.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\AISystem.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/AISystemBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AISystemBase.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISystem.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardData.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardData.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardComponent.generated.h
+C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/CharacterWidget.cpp
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\CharacterWidget.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -385,21 +390,6 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\UICustom.generated.h
-C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\Slot.generated.h
-C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\MyCharacter.generated.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardComponent.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Blackboard/BlackboardKeyType.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardKeyType.generated.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\AISystem.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/AISystemBase.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AISystemBase.generated.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISystem.generated.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardData.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardData.generated.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardComponent.generated.h
-C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/CharacterWidget.cpp
-C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\CharacterWidget.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\CharacterWidget.generated.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\MyCharacterDataComponent.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\MyCharacterDataComponent.generated.h
@@ -431,12 +421,22 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\DetectBTS.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/GameDatas.cpp
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\GameDatas.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\GameDatas.generated.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\GameInterface.h
+c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\UICustom.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\UICustom.generated.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\GameInterface.generated.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\Inventory.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\Inventory.generated.h
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/GameInterface.cpp
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/Inventory.cpp
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\Slot.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\Slot.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetTree.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/PanelWidget.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/PanelSlot.h
@@ -452,6 +452,9 @@ C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/Item.cpp
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/ItemActor.cpp
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\ItemActor.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\ItemActor.generated.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\ItemWidget.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\ItemWidget.generated.h
+C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/ItemWidget.cpp
 C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Source/KJB_Portfolio/Private/Monster.cpp
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\MonsterAnimInstance.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\MonsterAnimInstance.generated.h
