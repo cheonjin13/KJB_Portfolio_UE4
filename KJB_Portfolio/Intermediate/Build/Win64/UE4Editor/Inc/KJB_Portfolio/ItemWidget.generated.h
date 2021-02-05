@@ -60,7 +60,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UItemWidget); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UItemWidget)
 
 
-#define KJB_Portfolio_Source_KJB_Portfolio_Public_ItemWidget_h_15_PRIVATE_PROPERTY_OFFSET
+#define KJB_Portfolio_Source_KJB_Portfolio_Public_ItemWidget_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ItemName() { return STRUCT_OFFSET(UItemWidget, ItemName); }
+
+
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_ItemWidget_h_12_PROLOG
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_ItemWidget_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

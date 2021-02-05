@@ -17,6 +17,7 @@ class KJB_PORTFOLIO_API UItemWidget : public UUserWidget
 public:
 	void SetItemText(FText text);
 private:
+	UPROPERTY(meta = (BindWidget))
 	class UTextBlock* ItemName;
 
 protected:

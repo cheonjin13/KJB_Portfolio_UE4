@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeDamageWidgetActor() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_KJB_Portfolio();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ADamageWidgetActor::StaticRegisterNativesADamageWidgetActor()
 	{
@@ -40,6 +41,10 @@ void EmptyLinkFunctionForGeneratedCodeDamageWidgetActor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageWidget_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DamageWidget;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Root_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Root;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -70,9 +75,17 @@ void EmptyLinkFunctionForGeneratedCodeDamageWidgetActor() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADamageWidgetActor_Statics::NewProp_DamageWidget = { "DamageWidget", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADamageWidgetActor, DamageWidget), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADamageWidgetActor_Statics::NewProp_DamageWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADamageWidgetActor_Statics::NewProp_DamageWidget_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADamageWidgetActor_Statics::NewProp_Root_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/DamageWidgetActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADamageWidgetActor_Statics::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADamageWidgetActor, Root), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADamageWidgetActor_Statics::NewProp_Root_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADamageWidgetActor_Statics::NewProp_Root_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADamageWidgetActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADamageWidgetActor_Statics::NewProp_DestroyTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADamageWidgetActor_Statics::NewProp_DamageWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADamageWidgetActor_Statics::NewProp_Root,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ADamageWidgetActor_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ADamageWidgetActor>::IsAbstract,
@@ -101,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeDamageWidgetActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADamageWidgetActor, 1550148975);
+	IMPLEMENT_CLASS(ADamageWidgetActor, 3955281680);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<ADamageWidgetActor>()
 	{
 		return ADamageWidgetActor::StaticClass();

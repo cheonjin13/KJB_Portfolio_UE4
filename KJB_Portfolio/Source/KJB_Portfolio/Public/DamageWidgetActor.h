@@ -26,6 +26,9 @@ public:
 
 private:
 
+	UPROPERTY()
+	UStaticMeshComponent* Root;
+
 	UPROPERTY(VisibleAnywhere, Category = "UI")
 	class UWidgetComponent* DamageWidget;
 

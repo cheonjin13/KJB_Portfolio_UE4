@@ -59,6 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADamageWidgetActor); \
 
 
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_DamageWidgetActor_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Root() { return STRUCT_OFFSET(ADamageWidgetActor, Root); } \
 	FORCEINLINE static uint32 __PPO__DamageWidget() { return STRUCT_OFFSET(ADamageWidgetActor, DamageWidget); } \
 	FORCEINLINE static uint32 __PPO__DestroyTimer() { return STRUCT_OFFSET(ADamageWidgetActor, DestroyTimer); }
 

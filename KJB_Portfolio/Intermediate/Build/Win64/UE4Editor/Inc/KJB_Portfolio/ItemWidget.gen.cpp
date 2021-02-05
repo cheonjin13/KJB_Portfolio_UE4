@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeItemWidget() {}
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_UItemWidget();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_KJB_Portfolio();
+	UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
 // End Cross Module References
 	void UItemWidget::StaticRegisterNativesUItemWidget()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeItemWidget() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ItemName_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ItemName;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +51,17 @@ void EmptyLinkFunctionForGeneratedCodeItemWidget() {}
 		{ "ModuleRelativePath", "Public/ItemWidget.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UItemWidget_Statics::NewProp_ItemName_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/ItemWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UItemWidget_Statics::NewProp_ItemName = { "ItemName", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UItemWidget, ItemName), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UItemWidget_Statics::NewProp_ItemName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UItemWidget_Statics::NewProp_ItemName_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UItemWidget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItemWidget_Statics::NewProp_ItemName,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UItemWidget_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UItemWidget>::IsAbstract,
 	};
@@ -54,11 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeItemWidget() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_UItemWidget_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UItemWidget_Statics::PropPointers),
 		0,
 		0x00B010A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UItemWidget_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UItemWidget_Statics::Class_MetaDataParams))
@@ -72,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeItemWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UItemWidget, 2616206816);
+	IMPLEMENT_CLASS(UItemWidget, 492185299);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<UItemWidget>()
 	{
 		return UItemWidget::StaticClass();

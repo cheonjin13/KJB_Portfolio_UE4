@@ -17,5 +17,4 @@ void UItemWidget::SetItemText(FText text)
 void UItemWidget::NativeConstruct()
 {
 	Super::NativeConstruct();
-	ItemName = Cast<UTextBlock>(GetWidgetFromName(TEXT("ItemName")));
 }

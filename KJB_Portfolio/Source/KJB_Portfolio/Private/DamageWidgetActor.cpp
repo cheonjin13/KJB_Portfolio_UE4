@@ -11,6 +11,9 @@ ADamageWidgetActor::ADamageWidgetActor()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	Root = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Root"));
+	RootComponent = Root;
+
 	DamageWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("DAMAGEWIDGET"));
 	DamageWidget->SetupAttachment(RootComponent);
 	DamageWidget->SetWidgetSpace(EWidgetSpace::Screen);
