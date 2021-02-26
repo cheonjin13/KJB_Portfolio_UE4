@@ -16,7 +16,11 @@ class KJB_PORTFOLIO_API UInventoryComponent : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UInventoryComponent();
+
+	UFUNCTION(BlueprintCallable)
 	bool AddItem(class UItem* Item);
+
+	UFUNCTION(BlueprintCallable)
 	bool RemoveItem(class UItem* Item);
 
 

@@ -1,0 +1,11 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\unrealP\KJB_Portfolio_UE4).
+  Building KJB_PortfolioEditor...
+  Using Visual Studio 2017 14.16.27042 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 12 processes...
+    [1/3] UE4Editor-KJB_Portfolio-0006.lib
+       C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-0006.lib 라이브러리 및 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-0006.exp 개체를 생성하고 있습니다.
+    [2/3] UE4Editor-KJB_Portfolio-0006.dll
+       C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-0006.suppressed.lib 라이브러리 및 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-0006.suppressed.exp 개체를 생성하고 있습니다.
+    [3/3] KJB_PortfolioEditor.target
+  Total time in Parallel executor: 2.71 seconds
+  Total execution time: 3.38 seconds

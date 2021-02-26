@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UItem;
 #ifdef KJB_PORTFOLIO_InventoryComponent_generated_h
 #error "InventoryComponent.generated.h already included, missing '#pragma once' in InventoryComponent.h"
 #endif
@@ -21,8 +22,18 @@ static inline void FOnInventoryUpdatedDelegate_DelegateWrapper(const FMulticastS
 
 
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_InventoryComponent_h_14_SPARSE_DATA
-#define KJB_Portfolio_Source_KJB_Portfolio_Public_InventoryComponent_h_14_RPC_WRAPPERS
-#define KJB_Portfolio_Source_KJB_Portfolio_Public_InventoryComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define KJB_Portfolio_Source_KJB_Portfolio_Public_InventoryComponent_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execRemoveItem); \
+	DECLARE_FUNCTION(execAddItem);
+
+
+#define KJB_Portfolio_Source_KJB_Portfolio_Public_InventoryComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRemoveItem); \
+	DECLARE_FUNCTION(execAddItem);
+
+
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_InventoryComponent_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInventoryComponent(); \

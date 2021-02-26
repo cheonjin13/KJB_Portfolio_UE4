@@ -107,15 +107,8 @@ AMyCharacter::AMyCharacter()
 	InventoryComp = CreateDefaultSubobject<UInventoryComponent>(TEXT("Inventory"));
 	InventoryComp->Capacity = 20;
 
-	//WidgetBlueprint'/Game/MyContents/UI/WBP_Inventory.WBP_Inventory'
-	static ConstructorHelpers::FClassFinder<UUserWidget> UI_INVENTORY(TEXT("/Game/MyContents/UI/WBP_Inventory.WBP_Inventory_C"));
-	if (UI_INVENTORY.Succeeded())
-	{
-		InventoryBPClass = UI_INVENTORY.Class;
-	}
-
+	
 	IsShowInventory = false;
-	IsPossibleItemRoot = false;
 }
 
 void AMyCharacter::UseItem(UItem * Item)
@@ -267,12 +260,14 @@ void AMyCharacter::Running()
 
 void AMyCharacter::ShowInventory()
 {
+	
 	IsShowInventory = !IsShowInventory;
 
 	if (IsShowInventory)
 	{
 		if (InventoryBPClass != nullptr)
 		{
+			ALOG(Warning, TEXT("Inventory open"));
 			APlayerController* controller = Cast<APlayerController>(Controller);
 			if (controller == nullptr) return;
 			InventoryWidget = CreateWidget<UUserWidget>(controller, InventoryBPClass);
@@ -297,12 +292,6 @@ void AMyCharacter::ShowInventory()
 		}
 	}
 }
-
-void AMyCharacter::RootingItem()
-{
-
-}
-
 
 
 void AMyCharacter::Attack()

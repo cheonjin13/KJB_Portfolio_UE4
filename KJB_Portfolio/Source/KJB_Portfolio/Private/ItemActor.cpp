@@ -30,20 +30,20 @@ AItemActor::AItemActor()
 
 }
 
-void AItemActor::SetItem(TSubclassOf<class UItem> item)
+void AItemActor::SetItem(class UItem* item)
 {
 	if (item == nullptr) return;
 	Item = item;
-
-	if (Item.GetDefaultObject()->PickupMesh)
+	
+	if (Item->PickupMesh)
 	{
-		Mesh->SetStaticMesh(Item.GetDefaultObject()->PickupMesh);
+		Mesh->SetStaticMesh(Item->PickupMesh);
 	}
 
 	auto widget = Cast<UItemWidget>(ItemWidgetComp->GetUserWidgetObject());
 	if (widget != nullptr)
 	{		
-		widget->SetItemText(Item.GetDefaultObject()->ItemDisplayName);
+		widget->SetItemText(Item->ItemDisplayName);
 	}
 
 }
@@ -60,7 +60,7 @@ void AItemActor::OnCharacterOverlap(UPrimitiveComponent * OverlappedComp, AActor
 			widget->SetVisibility(ESlateVisibility::Visible);
 			if (Item != nullptr)
 			{
-				widget->SetItemText(Item.GetDefaultObject()->ItemDisplayName);
+				widget->SetItemText(Item->ItemDisplayName);
 			}
 		}
 	}

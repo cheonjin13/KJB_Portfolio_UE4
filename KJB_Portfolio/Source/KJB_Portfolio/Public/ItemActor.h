@@ -15,10 +15,10 @@ public:
 	// Sets default values for this actor's properties
 	AItemActor();
 
-	void SetItem(TSubclassOf<class UItem> item);
+	void SetItem(class UItem* item);
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TSubclassOf<class UItem> Item;
+	class UItem* Item;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Mesh")
 	class UStaticMeshComponent* Mesh;

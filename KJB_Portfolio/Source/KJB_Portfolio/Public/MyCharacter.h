@@ -55,7 +55,7 @@ public: //º¯¼ö
 	class UCapsuleComponent* HitCheck;
 
 	//Item Inventory
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UInventoryComponent* InventoryComp;
 
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "UI")

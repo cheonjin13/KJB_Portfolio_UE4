@@ -23,7 +23,6 @@ void EmptyLinkFunctionForGeneratedCodeItemActor() {}
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_UItem_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AItemActor::execOnCharacterOverlapEnd)
@@ -226,7 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeItemActor() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Item_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Item;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Item;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -272,10 +271,11 @@ void EmptyLinkFunctionForGeneratedCodeItemActor() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItemActor_Statics::NewProp_Item_MetaData[] = {
 		{ "Category", "ItemActor" },
+		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/ItemActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AItemActor_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x0014000000000015, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItemActor, Item), Z_Construct_UClass_UItem_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AItemActor_Statics::NewProp_Item_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItemActor_Statics::NewProp_Item_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AItemActor_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItemActor, Item), Z_Construct_UClass_UItem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AItemActor_Statics::NewProp_Item_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItemActor_Statics::NewProp_Item_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AItemActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemActor_Statics::NewProp_ItemWidgetComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemActor_Statics::NewProp_Trigger,
@@ -309,7 +309,7 @@ void EmptyLinkFunctionForGeneratedCodeItemActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AItemActor, 3242201248);
+	IMPLEMENT_CLASS(AItemActor, 600131128);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<AItemActor>()
 	{
 		return AItemActor::StaticClass();

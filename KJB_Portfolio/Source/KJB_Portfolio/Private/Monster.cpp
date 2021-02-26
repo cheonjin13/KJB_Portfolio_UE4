@@ -195,7 +195,7 @@ void AMonster::SetCharacterState(ECharacterState NewState)
 			AItemActor* ItemSpawner = GetWorld()->SpawnActor<AItemActor>(ItemActorBPClass, SpawnLocation, GetActorRotation(), SpawnParams);
 			if (ItemSpawner)
 			{
-				ItemSpawner->SetItem(SpawnItemArray[ItemRandom]);
+				ItemSpawner->SetItem(SpawnItemArray[ItemRandom].GetDefaultObject());
 			}
 		}
 
