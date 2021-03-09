@@ -8,6 +8,7 @@
 
 DECLARE_MULTICAST_DELEGATE(FOnHPChangeDelegate);
 DECLARE_MULTICAST_DELEGATE(FOnHPIsZeroDelegate);
+DECLARE_MULTICAST_DELEGATE(FOnMPChangeDelegate);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class KJB_PORTFOLIO_API UMyCharacterDataComponent : public UActorComponent
@@ -26,17 +27,25 @@ public:
 	void SetNewLevel(int32 NewLevel);
 	void SetHP(float NewHP);
 	float GetHPRatio();
+	void SetMP(float NewMP);
+	float GetMPRatio();
 	void SetDamage(float NewDamage);
 	float GetAttack();
 	void SetHPUsePotion(float PotionPoint);
+
+	UFUNCTION(BlueprintCallable)
+	bool UseMP(float val);
 		
 public:
 	FOnHPChangeDelegate OnHPChange;
 	FOnHPIsZeroDelegate OnHPIsZero;
+	FOnMPChangeDelegate OnMPChange;
 private:
 	struct FPlayerStatData* CurrentStatData = nullptr;
 	UPROPERTY(EditInstanceOnly, Category = "Stat", meta = (AllowPrivateAccess = true))
 	int32 Level;
 	UPROPERTY(Transient, VisibleInstanceOnly, Category = "Stat", meta = (AllowPrivateAccess = true))
 	float CurrentHP;
+	UPROPERTY(Transient, VisibleInstanceOnly, Category = "Stat", meta = (AllowPrivateAccess = true))
+	float CurrentMP;
 };

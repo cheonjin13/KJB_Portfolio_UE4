@@ -42,8 +42,8 @@ public: //º¯¼ö
 	USpringArmComponent* SpringArm;
 	UPROPERTY(VisibleAnywhere, Category = "Camera")
 	UCameraComponent* Camera;
-
-	UPROPERTY(VisibleAnywhere, Category = "Stat")
+	
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Stat")
 	class UMyCharacterDataComponent* CharacterStat;
 	UPROPERTY(VisibleAnywhere, Category = "UI")
 	class UWidgetComponent* HPBarWidget;

@@ -237,7 +237,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryComponent() {}
 	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UInventoryComponent_Statics::NewProp_OnInventoryUpdated = { "OnInventoryUpdated", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInventoryComponent, OnInventoryUpdated), Z_Construct_UDelegateFunction_KJB_Portfolio_OnInventoryUpdatedDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_OnInventoryUpdated_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_OnInventoryUpdated_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInventoryComponent_Statics::NewProp_Capacity_MetaData[] = {
-		{ "Category", "inventory" },
+		{ "Category", "Inventory" },
 		{ "Comment", "//?\xce\xba??\xe4\xb8\xae ?\xeb\xb7\xae\n" },
 		{ "ModuleRelativePath", "Public/InventoryComponent.h" },
 		{ "ToolTip", "?\xce\xba??\xe4\xb8\xae ?\xeb\xb7\xae" },
@@ -295,7 +295,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInventoryComponent, 2294105918);
+	IMPLEMENT_CLASS(UInventoryComponent, 622442574);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<UInventoryComponent>()
 	{
 		return UInventoryComponent::StaticClass();

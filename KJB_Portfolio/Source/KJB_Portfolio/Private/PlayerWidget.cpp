@@ -63,7 +63,7 @@ void UPlayerWidget::UpdateMPWidget()
 	{
 		if (MPProgressBar != nullptr)
 		{
-			//MPProgressBar->SetPercent(CurrentCharacterStat->GetMPRatio());
+			MPProgressBar->SetPercent(CurrentCharacterStat->GetMPRatio());
 		}
 	}
 }

@@ -104,7 +104,7 @@ AMyCharacter::AMyCharacter()
 	DeadTimer = 5.0f;
 	
 	//인벤토리
-	InventoryComp = CreateDefaultSubobject<UInventoryComponent>(TEXT("InventoryComp"));
+	InventoryComp = CreateDefaultSubobject<UInventoryComponent>(TEXT("Inventory"));
 	InventoryComp->Capacity = 20;
 
 	

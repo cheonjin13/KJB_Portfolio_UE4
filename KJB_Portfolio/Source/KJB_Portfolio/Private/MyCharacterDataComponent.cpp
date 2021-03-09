@@ -49,6 +49,7 @@ void UMyCharacterDataComponent::SetNewLevel(int32 NewLevel)
 	{
 		Level = NewLevel;
 		SetHP(CurrentStatData->MaxHP);
+		SetMP(CurrentStatData->MaxMP);
 	}
 }
 
@@ -60,14 +61,25 @@ void UMyCharacterDataComponent::SetHP(float NewHP)
 	{
 		CurrentHP = 0.0f;
 		OnHPIsZero.Broadcast();
-	}
-	
+	}	
 }
 
 float UMyCharacterDataComponent::GetHPRatio()
 {
 	if (CurrentStatData == nullptr) return 0.0f;
 	return CurrentHP < KINDA_SMALL_NUMBER ? 0.0f : CurrentHP / CurrentStatData->MaxHP;
+}
+
+void UMyCharacterDataComponent::SetMP(float NewMP)
+{
+	CurrentMP = NewMP;
+	OnMPChange.Broadcast();
+}
+
+float UMyCharacterDataComponent::GetMPRatio()
+{
+	if (CurrentStatData == nullptr) return 0.0f;
+	return CurrentMP < KINDA_SMALL_NUMBER ? 0.0f : CurrentMP / CurrentStatData->MaxMP;
 }
 
 void UMyCharacterDataComponent::SetDamage(float NewDamage)
@@ -86,4 +98,14 @@ void UMyCharacterDataComponent::SetHPUsePotion(float PotionPoint)
 {
 	if (CurrentStatData == nullptr) return;
 	SetHP(FMath::Clamp<float>(CurrentHP + PotionPoint, 0.0f, CurrentStatData->MaxHP));
+}
+
+bool UMyCharacterDataComponent::UseMP(float val)
+{
+	if (val < CurrentMP)
+	{
+		SetMP(CurrentMP - val);
+		return true;
+	}
+	return false;
 }

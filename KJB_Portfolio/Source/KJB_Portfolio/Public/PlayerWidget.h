@@ -14,6 +14,7 @@ class KJB_PORTFOLIO_API UPlayerWidget : public UUserWidget
 {
 	GENERATED_BODY()
 	
+
 public:
 	void BindCharacterStat(class UMyCharacterDataComponent* NewDataStat);
 	void BindPlayerState(class AMyPlayerState* PlayerState);
@@ -30,6 +31,7 @@ private:
 	class UTextBlock* PlayerLevel;
 	UPROPERTY()
 	class UTextBlock* ExpPercent;
+
 protected:
 	virtual void NativeConstruct() override;
 	void UpdateHPWidget();

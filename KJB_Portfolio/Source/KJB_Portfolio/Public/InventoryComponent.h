@@ -35,7 +35,7 @@ public:
 	TArray<class UItem*> DefaultItems;
 
 	//인벤토리 용량
-	UPROPERTY(EditDefaultsOnly, Category = "inventory")
+	UPROPERTY(EditDefaultsOnly, Category = "Inventory")
 	int32 Capacity;
 
 	// UI 업데이트를 위한 델리게이트
