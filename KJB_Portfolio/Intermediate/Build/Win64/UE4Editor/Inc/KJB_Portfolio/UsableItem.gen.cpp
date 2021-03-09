@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeUsableItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UUsableItem, 3381296022);
+	IMPLEMENT_CLASS(UUsableItem, 3413026042);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<UUsableItem>()
 	{
 		return UUsableItem::StaticClass();

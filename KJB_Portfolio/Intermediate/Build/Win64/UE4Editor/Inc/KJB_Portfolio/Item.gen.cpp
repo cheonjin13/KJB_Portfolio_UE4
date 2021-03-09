@@ -143,6 +143,10 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Weight;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxCount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_MaxCount;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Count_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Count;
@@ -213,13 +217,22 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UItem_Statics::NewProp_Weight = { "Weight", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UItem, Weight), METADATA_PARAMS(Z_Construct_UClass_UItem_Statics::NewProp_Weight_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UItem_Statics::NewProp_Weight_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UItem_Statics::NewProp_MaxCount_MetaData[] = {
+		{ "Category", "Item" },
+		{ "Comment", "//?????? ?\xd6\xb4? ????\n" },
+		{ "ModuleRelativePath", "Public/Item.h" },
+		{ "ToolTip", "?????? ?\xd6\xb4? ????" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UItem_Statics::NewProp_MaxCount = { "MaxCount", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UItem, MaxCount), METADATA_PARAMS(Z_Construct_UClass_UItem_Statics::NewProp_MaxCount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UItem_Statics::NewProp_MaxCount_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UItem_Statics::NewProp_Count_MetaData[] = {
 		{ "Category", "Item" },
 		{ "Comment", "//?????? ????\n" },
 		{ "ModuleRelativePath", "Public/Item.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UItem_Statics::NewProp_Count = { "Count", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UItem, Count), METADATA_PARAMS(Z_Construct_UClass_UItem_Statics::NewProp_Count_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UItem_Statics::NewProp_Count_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UItem_Statics::NewProp_Count = { "Count", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UItem, Count), METADATA_PARAMS(Z_Construct_UClass_UItem_Statics::NewProp_Count_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UItem_Statics::NewProp_Count_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UItem_Statics::NewProp_ItemDescription_MetaData[] = {
 		{ "Category", "Item" },
@@ -281,6 +294,7 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UItem_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItem_Statics::NewProp_OwningInventory,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItem_Statics::NewProp_Weight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItem_Statics::NewProp_MaxCount,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItem_Statics::NewProp_Count,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItem_Statics::NewProp_ItemDescription,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItem_Statics::NewProp_ItemDisplayName,
@@ -318,7 +332,7 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UItem, 3245798306);
+	IMPLEMENT_CLASS(UItem, 2912319707);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<UItem>()
 	{
 		return UItem::StaticClass();

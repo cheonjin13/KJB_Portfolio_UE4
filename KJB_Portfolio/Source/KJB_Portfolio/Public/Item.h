@@ -53,8 +53,12 @@ public:
 	FText ItemDescription;
 
 	//아이템 수량
-	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Item")
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Item")
 	int Count;
+
+	//아이템 최대 수량
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Item")
+	int MaxCount;
 
 	//아이템 무게
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Item", meta = (ClampMin = 0.00))

@@ -75,7 +75,6 @@ private: //ÇÔ¼ö
 	void LookUp(float NewAxisValue);
 	void Running();
 	void ShowInventory();
-	void RootingItem();
 
 	void AttackCheck();
 	UFUNCTION()

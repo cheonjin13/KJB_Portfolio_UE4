@@ -62,6 +62,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayerWidget); \
 
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_PlayerWidget_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__HPProgressBar() { return STRUCT_OFFSET(UPlayerWidget, HPProgressBar); } \
+	FORCEINLINE static uint32 __PPO__MPProgressBar() { return STRUCT_OFFSET(UPlayerWidget, MPProgressBar); } \
 	FORCEINLINE static uint32 __PPO__ExpBar() { return STRUCT_OFFSET(UPlayerWidget, ExpBar); } \
 	FORCEINLINE static uint32 __PPO__PlayerLevel() { return STRUCT_OFFSET(UPlayerWidget, PlayerLevel); } \
 	FORCEINLINE static uint32 __PPO__ExpPercent() { return STRUCT_OFFSET(UPlayerWidget, ExpPercent); }

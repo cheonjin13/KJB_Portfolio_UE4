@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "../KJB_Portfolio.h"
 #include "Components/ActorComponent.h"
 #include "InventoryComponent.generated.h"
 
@@ -22,7 +22,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	bool RemoveItem(class UItem* Item);
-
+	
 
 protected:
 	// Called when the game starts
@@ -44,5 +44,4 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Items")
 	TArray<class UItem*> Items;
-		
 };

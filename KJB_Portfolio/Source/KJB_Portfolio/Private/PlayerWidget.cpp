@@ -29,6 +29,11 @@ void UPlayerWidget::NativeConstruct()
 	if (HPProgressBar == nullptr) return;
 	UpdateHPWidget();
 
+	MPProgressBar = Cast<UProgressBar>(GetWidgetFromName(TEXT("PB_PlayerMP")));
+	if (MPProgressBar == nullptr) return;
+	UpdateMPWidget();
+
+
 	ExpBar = Cast<UProgressBar>(GetWidgetFromName(TEXT("PB_PlayerExp")));
 	if (ExpBar == nullptr) return;
 
@@ -48,6 +53,17 @@ void UPlayerWidget::UpdateHPWidget()
 		if (HPProgressBar != nullptr)
 		{
 			HPProgressBar->SetPercent(CurrentCharacterStat->GetHPRatio());
+		}
+	}
+}
+
+void UPlayerWidget::UpdateMPWidget()
+{
+	if (CurrentCharacterStat.IsValid())
+	{
+		if (MPProgressBar != nullptr)
+		{
+			//MPProgressBar->SetPercent(CurrentCharacterStat->GetMPRatio());
 		}
 	}
 }

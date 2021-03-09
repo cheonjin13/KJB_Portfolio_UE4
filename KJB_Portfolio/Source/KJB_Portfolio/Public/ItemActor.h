@@ -17,7 +17,7 @@ public:
 
 	void SetItem(class UItem* item);
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	class UItem* Item;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Mesh")

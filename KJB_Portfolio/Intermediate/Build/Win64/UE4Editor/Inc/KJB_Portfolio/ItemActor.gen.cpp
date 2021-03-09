@@ -275,7 +275,7 @@ void EmptyLinkFunctionForGeneratedCodeItemActor() {}
 		{ "ModuleRelativePath", "Public/ItemActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AItemActor_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItemActor, Item), Z_Construct_UClass_UItem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AItemActor_Statics::NewProp_Item_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItemActor_Statics::NewProp_Item_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AItemActor_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItemActor, Item), Z_Construct_UClass_UItem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AItemActor_Statics::NewProp_Item_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItemActor_Statics::NewProp_Item_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AItemActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemActor_Statics::NewProp_ItemWidgetComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemActor_Statics::NewProp_Trigger,
@@ -309,7 +309,7 @@ void EmptyLinkFunctionForGeneratedCodeItemActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AItemActor, 600131128);
+	IMPLEMENT_CLASS(AItemActor, 1789607538);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<AItemActor>()
 	{
 		return AItemActor::StaticClass();

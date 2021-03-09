@@ -18,9 +18,11 @@ bool UInventoryComponent::AddItem(UItem * Item)
 		return false;
 	}
 
+
 	Item->OwningInventory = this;
 	Item->World = GetWorld();
 	Items.Add(Item);
+	
 
 	//Update UI
 	OnInventoryUpdated.Broadcast();
@@ -44,6 +46,7 @@ bool UInventoryComponent::RemoveItem(UItem * Item)
 	return false;
 }
 
+
 // Called when the game starts
 void UInventoryComponent::BeginPlay()
 {
@@ -59,3 +62,31 @@ void UInventoryComponent::BeginPlay()
 
 
 
+/*
+	int32 sum = Target->Count + val->Count;
+	if (sum > Target->MaxCount)
+	{
+		int32 num = sum / Target->MaxCount;
+		while (num > 0)
+		{
+			if (num == 1)
+			{
+				val->Count = sum % Target->MaxCount;
+				Items.Add(val);
+				break;
+			}
+			val->Count = Target->MaxCount;
+			Items.Add(val);
+			num--;			
+		}
+
+		Target->Count = Target->MaxCount;
+
+		OnInventoryUpdated.Broadcast();
+
+	}
+
+	Target->Count = sum;
+
+	OnInventoryUpdated.Broadcast();
+	*/

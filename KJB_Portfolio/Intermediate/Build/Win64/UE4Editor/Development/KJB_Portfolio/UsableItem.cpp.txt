@@ -9,8 +9,6 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Internatio
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\Item.generated.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\UsableItem.generated.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\InventoryComponent.h
-C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\InventoryComponent.generated.h
-C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\MyCharacter.h
 c:\unrealp\kjb_portfolio_ue4\kjb_portfolio\source\kjb_portfolio\public\../KJB_Portfolio.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
@@ -196,6 +194,8 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 c:\program files\epic games\ue_4.25\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\InventoryComponent.generated.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\MyCharacter.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\MyCharacter.generated.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\MyCharacterDataComponent.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\MyCharacterDataComponent.generated.h

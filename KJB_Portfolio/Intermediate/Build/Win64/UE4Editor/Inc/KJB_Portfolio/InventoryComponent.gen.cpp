@@ -243,7 +243,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryComponent() {}
 		{ "ToolTip", "?\xce\xba??\xe4\xb8\xae ?\xeb\xb7\xae" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UInventoryComponent_Statics::NewProp_Capacity = { "Capacity", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInventoryComponent, Capacity), METADATA_PARAMS(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_Capacity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_Capacity_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UInventoryComponent_Statics::NewProp_Capacity = { "Capacity", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInventoryComponent, Capacity), METADATA_PARAMS(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_Capacity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_Capacity_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInventoryComponent_Statics::NewProp_DefaultItems_MetaData[] = {
 		{ "Category", "InventoryComponent" },
@@ -295,7 +295,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInventoryComponent, 1444781101);
+	IMPLEMENT_CLASS(UInventoryComponent, 2294105918);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<UInventoryComponent>()
 	{
 		return UInventoryComponent::StaticClass();

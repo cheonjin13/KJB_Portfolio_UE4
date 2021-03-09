@@ -23,6 +23,8 @@ private:
 	UPROPERTY()
 	class UProgressBar* HPProgressBar;
 	UPROPERTY()
+	class UProgressBar* MPProgressBar;
+	UPROPERTY()
 	class UProgressBar* ExpBar;
 	UPROPERTY()
 	class UTextBlock* PlayerLevel;
@@ -31,5 +33,6 @@ private:
 protected:
 	virtual void NativeConstruct() override;
 	void UpdateHPWidget();
+	void UpdateMPWidget();
 	void UpdatePlayerState();
 };

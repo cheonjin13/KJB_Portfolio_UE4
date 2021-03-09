@@ -1,0 +1,947 @@
+﻿Log file open, 02/28/21 15:17:44
+LogInit: Display: Running engine for game: KJB_Portfolio
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.202512
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: NVIDIA GeForce GTX 1660 SUPER
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=cheonjin13 -epicuserid=9ce07566b3e8499d8258e7641dbf49df -epiclocale=ko
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.02.28-06.17.44:873][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.28-06.17.44:873][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.02.28-06.17.44:873][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.02.28-06.17.44:876][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:876][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.28-06.17.44:876][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.28-06.17.44:876][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:876][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.28-06.17.44:876][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:876][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.28-06.17.44:877][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.28-06.17.44:878][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.28-06.17.44:878][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.28-06.17.44:878][  0]LogHAL: Display: Platform has ~ 16 GB [17110773760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.28-06.17.44:878][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.28-06.17.44:878][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2021.02.28-06.17.44:878][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.28-06.17.44:879][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.28-06.17.44:879][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.28-06.17.44:880][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.28-06.17.44:880][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.28-06.17.44:880][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.02.28-06.17.44:880][  0]LogInit: Computer: DESKTOP-6HEEP2H
+[2021.02.28-06.17.44:880][  0]LogInit: User: KJB
+[2021.02.28-06.17.44:880][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.02.28-06.17.44:880][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.28-06.17.44:880][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.02.28-06.17.44:880][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.28-06.17.44:880][  0]LogMemory: Process Physical Memory: 120.94 MB used, 120.94 MB peak
+[2021.02.28-06.17.44:880][  0]LogMemory: Process Virtual Memory: 105.37 MB used, 105.37 MB peak
+[2021.02.28-06.17.44:880][  0]LogMemory: Physical Memory: 6480.78 MB used,  9837.33 MB free, 16318.11 MB total
+[2021.02.28-06.17.44:880][  0]LogMemory: Virtual Memory: 5175.56 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2021.02.28-06.17.44:888][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.28-06.17.44:995][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.28-06.17.44:996][  0]LogInit: Using OS detected language (ko-KR).
+[2021.02.28-06.17.44:996][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.02.28-06.17.44:999][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2021.02.28-06.17.45:075][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.28-06.17.45:126][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.28-06.17.45:126][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.28-06.17.45:291][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.28-06.17.45:291][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.28-06.17.45:291][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.28-06.17.45:291][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.28-06.17.45:401][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 SUPER' (Feature Level 11_0)
+[2021.02.28-06.17.45:401][  0]LogD3D11RHI:       5991/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.02.28-06.17.45:404][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.28-06.17.45:404][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.28-06.17.45:404][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.28-06.17.45:408][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.28-06.17.45:409][  0]LogD3D11RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.28-06.17.45:409][  0]LogWindows: EnumDisplayDevices:
+[2021.02.28-06.17.45:409][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 SUPER' (P:1 D:1)
+[2021.02.28-06.17.45:410][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2021.02.28-06.17.45:410][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2021.02.28-06.17.45:411][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2021.02.28-06.17.45:411][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.02.28-06.17.45:411][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 SUPER
+[2021.02.28-06.17.45:411][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.02.28-06.17.45:411][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.02.28-06.17.45:411][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.02.28-06.17.45:491][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.28-06.17.45:491][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.28-06.17.45:491][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.28-06.17.45:507][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.28-06.17.45:841][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.28-06.17.45:864][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.28-06.17.45:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.28-06.17.45:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.28-06.17.45:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.28-06.17.45:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.28-06.17.45:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.28-06.17.45:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.28-06.17.45:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.28-06.17.45:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.28-06.17.45:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.28-06.17.45:895][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.28-06.17.45:895][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.28-06.17.45:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.28-06.17.45:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.28-06.17.45:930][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.28-06.17.45:941][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.28-06.17.45:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.28-06.17.45:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.28-06.17.45:973][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.28-06.17.46:001][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.28-06.17.46:001][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.28-06.17.46:019][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.28-06.17.46:019][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.28-06.17.46:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.28-06.17.46:041][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.28-06.17.46:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.28-06.17.46:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.28-06.17.46:062][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.28-06.17.46:075][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.28-06.17.46:165][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Shaders/WorkingDirectory/3984/).
+[2021.02.28-06.17.46:165][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/KJB/AppData/Local/Temp/UnrealShaderWorkingDir/E60E8E0444CF3EDA0FE60F9065F7ECF4/'.
+[2021.02.28-06.17.46:165][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.02.28-06.17.46:165][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.28-06.17.46:165][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.28-06.17.46:849][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.28-06.17.46:888][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/KJB/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.28-06.17.46:888][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/KJB/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.02.28-06.17.46:888][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.28-06.17.46:888][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.28-06.17.46:888][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.28-06.17.46:888][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.28-06.17.46:899][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.28-06.17.46:899][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.28-06.17.46:899][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.28-06.17.46:900][  0]LogDerivedDataCache: Using Local data cache path C:/Users/KJB/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.28-06.17.46:900][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.28-06.17.46:900][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.28-06.17.46:943][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.28-06.17.46:943][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.28-06.17.46:966][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2021.02.28-06.17.47:180][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.28-06.17.47:293][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.28-06.17.47:293][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.28-06.17.47:293][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.28-06.17.47:293][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.28-06.17.47:293][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.28-06.17.47:308][  0]LogNetVersion: KJB_Portfolio 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3600608709)
+[2021.02.28-06.17.47:677][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001FC4CE6FAC0), frame # 0
+[2021.02.28-06.17.47:677][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC4CE67C40), frame # 0
+[2021.02.28-06.17.47:678][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC4BED5E00), frame # 0
+[2021.02.28-06.17.47:709][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.025803 seconds
+[2021.02.28-06.17.47:714][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.02.28-06.17.47:714][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.02.28-06.17.47:714][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.28-06.17.48:122][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.28-06.17.48:128][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.28-06.17.49:029][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.02.28-06.17.49:029][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.02.28-06.17.49:033][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.02.28-06.17.49:037][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.02.28-06.17.49:048][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.02.28-06.17.49:370][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.28-06.17.49:396][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.28-06.17.49:396][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.28-06.17.49:457][  0]LogOcInput: OculusInput pre-init called
+[2021.02.28-06.17.49:473][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.28-06.17.49:473][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.28-06.17.49:541][  0]LogEngine: Initializing Engine...
+[2021.02.28-06.17.49:542][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.28-06.17.49:542][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.28-06.17.49:543][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.28-06.17.49:636][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.28-06.17.49:646][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.28-06.17.49:646][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC5CCE6800), frame # 0
+[2021.02.28-06.17.49:646][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC5CD45080), frame # 0
+[2021.02.28-06.17.49:655][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.28-06.17.49:655][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.28-06.17.49:655][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.28-06.17.49:655][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.28-06.17.49:655][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.28-06.17.49:655][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.28-06.17.49:655][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.28-06.17.49:655][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.28-06.17.49:655][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.28-06.17.49:656][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.28-06.17.49:676][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.28-06.17.49:676][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.28-06.17.49:735][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.02.28-06.17.49:738][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.28-06.17.49:740][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.28-06.17.49:740][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.28-06.17.49:741][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.28-06.17.49:742][  0]LogInit: FAudioDevice initialized.
+[2021.02.28-06.17.49:742][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.28-06.17.49:858][  0]LogDerivedDataCache: Saved boot cache 0.12s 125MB C:/Users/KJB/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.28-06.17.49:864][  0]LogInit: Texture streaming: Enabled
+[2021.02.28-06.17.49:888][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.28-06.17.49:888][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.28-06.17.49:893][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.28-06.17.49:933][  0]LogInit: Transaction tracking system initialized
+[2021.02.28-06.17.49:963][  0]BlueprintLog: New page: 에디터 로드
+[2021.02.28-06.17.50:057][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2021.02.28-06.17.50:420][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.28-06.17.50:420][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.28-06.17.50:596][  0]LogFileCache: Scanning file cache for directory 'C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/' took 0.07s
+[2021.02.28-06.17.50:785][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.02.28-06.17.50:785][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.442
+[2021.02.28-06.17.50:785][  0]Cmd: MAP LOAD FILE="../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.28-06.17.50:786][  0]LightingResults: New page: 라이팅 빌드
+[2021.02.28-06.17.50:786][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.28-06.17.50:786][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.28-06.17.50:786][  0]MapCheck: New page: 맵 체크
+[2021.02.28-06.17.50:786][  0]LightingResults: New page: 라이팅 빌드
+[2021.02.28-06.17.50:798][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC5CCE6800), frame # 0
+[2021.02.28-06.17.50:798][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC5CD45080), frame # 0
+[2021.02.28-06.17.50:799][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.02.28-06.17.50:897][  0]LogAIModule: Creating AISystem for world NewMap
+[2021.02.28-06.17.50:897][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC3C99FE00), frame # 0
+[2021.02.28-06.17.50:897][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC4F20EAC0), frame # 0
+[2021.02.28-06.17.50:902][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.28-06.17.50:914][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.02.28-06.17.50:915][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.28-06.17.50:915][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.183ms.
+[2021.02.28-06.17.50:915][  0]LogFileHelpers: Loading map 'NewMap' took 0.130
+[2021.02.28-06.17.50:920][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.577
+[2021.02.28-06.17.51:053][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.28-06.17.51:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.28-06.17.51:064][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.28-06.17.51:069][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.28-06.17.51:079][  0]LogCollectionManager: Loaded 0 collections in 0.001706 seconds
+[2021.02.28-06.17.51:093][  0]LogFileCache: Scanning file cache for directory 'C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Collections/' took 0.00s
+[2021.02.28-06.17.51:093][  0]LogFileCache: Scanning file cache for directory 'C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/Developers/KJB/Collections/' took 0.00s
+[2021.02.28-06.17.51:093][  0]LogFileCache: Scanning file cache for directory 'C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/Collections/' took 0.00s
+[2021.02.28-06.17.51:093][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3455 classes and 824 folders.
+[2021.02.28-06.17.51:095][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.28-06.17.51:151][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.28-06.17.51:157][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.02.28-06.17.51:189][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.28-06.17.51:191][  0]LogSlate: Took 0.001142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2021.02.28-06.17.51:193][  0]LogSlate: Took 0.001459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2021.02.28-06.17.51:193][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.28-06.17.51:196][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.28-06.17.51:243][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 9 NumSamples 1 (Frame:1).
+[2021.02.28-06.17.51:311][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.28-06.17.51:311][  0]LogLoad: (Engine Initialization) Total time: 7.97 seconds
+[2021.02.28-06.17.51:311][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.28-06.17.51:374][  0]LogContentStreaming: Texture pool size now 600 MB
+[2021.02.28-06.17.51:400][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.28-06.17.51:447][  1]LogAssetRegistry: Asset discovery search completed in 4.4822 seconds
+[2021.02.28-06.17.51:451][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2021.02.28-06.18.26:218][444]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.28-06.18.26:227][444]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContents/SkillSystem/Materials/MI_SkillCooldown.MI_SkillCooldown
+[2021.02.28-06.18.42:933][530]LogSlate: Window '색 선택 툴' being destroyed
+[2021.02.28-06.18.55:842][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.02.28-06.18.55:845][119]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2021.02.28-06.18.55:856][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.02.28-06.18.55:861][119]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/MI_SkillCooldownEAA948024D24EAA60F9B61A3BF1A4133.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/SkillSystem/Materials/MI_SkillCooldown.uasset'
+[2021.02.28-06.18.55:873][119]AssetCheck: New page: 애셋 저장: MI_SkillCooldown
+[2021.02.28-06.18.55:873][119]LogContentValidation: Display: MaterialInstanceConstant /Game/MyContents/SkillSystem/Materials/MI_SkillCooldown.MI_SkillCooldown 유효성 검사
+[2021.02.28-06.18.57:260][280]LogSlate: Window 'MI_SkillCooldown' being destroyed
+[2021.02.28-06.18.57:263][280]LogSlate: Window 'MI_SkillCooldown' being destroyed
+[2021.02.28-06.18.57:273][280]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.02.28-06.18.57:273][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.28-06.19.05:610][704]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MyContents/SkillSystem/UI/W_SkillHotKey.W_SkillHotKey
+[2021.02.28-06.19.05:788][704]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2021.02.28-06.19.06:819][704]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.28-06.19.52:450][ 91]BlueprintLog: New page: W_SkillHotKey 컴파일
+[2021.02.28-06.19.52:505][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2021.02.28-06.19.52:531][ 91]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.28-06.19.52:532][ 91]LogSlate: Took 0.001492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2021.02.28-06.19.53:013][126]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/W_SkillHotKeyD4A5991B4F008EC209F31299442F301D.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/SkillSystem/UI/W_SkillHotKey.uasset'
+[2021.02.28-06.19.53:027][126]AssetCheck: New page: 애셋 저장: W_SkillHotKey
+[2021.02.28-06.19.53:027][126]LogContentValidation: Display: WidgetBlueprint /Game/MyContents/SkillSystem/UI/W_SkillHotKey.W_SkillHotKey 유효성 검사
+[2021.02.28-06.20.13:568][499]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.02.28-06.20.33:546][859]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.02.28-06.22.42:206][ 50]BlueprintLog: New page: W_SkillHotKey 컴파일
+[2021.02.28-06.22.42:235][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.02.28-06.22.42:786][ 81]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/W_SkillHotKeyFEF4F97247618F9C247B42BCB2AEADD4.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/SkillSystem/UI/W_SkillHotKey.uasset'
+[2021.02.28-06.22.42:800][ 81]AssetCheck: New page: 애셋 저장: W_SkillHotKey
+[2021.02.28-06.22.42:800][ 81]LogContentValidation: Display: WidgetBlueprint /Game/MyContents/SkillSystem/UI/W_SkillHotKey.W_SkillHotKey 유효성 검사
+[2021.02.28-06.22.53:974][109]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/SkillSystem/SkillActors/Master_Skill.Master_Skill
+[2021.02.28-06.23.46:606][281]BlueprintLog: New page: Master_Skill 컴파일
+[2021.02.28-06.23.46:645][281]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2021.02.28-06.23.47:253][311]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Master_Skill7B1EDFAF4E284000B2E0BDAB66F47686.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/SkillSystem/SkillActors/Master_Skill.uasset'
+[2021.02.28-06.23.47:269][311]AssetCheck: New page: 애셋 저장: Master_Skill
+[2021.02.28-06.23.47:269][311]LogContentValidation: Display: Blueprint /Game/MyContents/SkillSystem/SkillActors/Master_Skill.Master_Skill 유효성 검사
+[2021.02.28-06.27.54:850][985]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2021.02.28-06.27.54:852][985]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContents/NewMap' took 0.035
+[2021.02.28-06.27.54:852][985]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContents/SkillSystem/UI/W_SkillHotKey] ([1] browsable assets)...
+[2021.02.28-06.27.54:853][985]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContents/SkillSystem/UI/W_SkillHotKey]
+[2021.02.28-06.27.54:908][985]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/W_SkillHotKey_Auto12107AC3A4597D36DE9DDB3AAC3599111.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Autosaves/Game/MyContents/SkillSystem/UI/W_SkillHotKey_Auto1.uasset'
+[2021.02.28-06.27.54:909][985]LogFileHelpers: Auto-saving content packages took 0.057
+[2021.02.28-06.29.54:884][114]BlueprintLog: New page: W_SkillHotKey 컴파일
+[2021.02.28-06.29.54:915][114]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.02.28-06.29.55:436][151]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/W_SkillHotKeyB8D73B2A4B2C024A66BDFE9B578F4B84.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/SkillSystem/UI/W_SkillHotKey.uasset'
+[2021.02.28-06.29.55:451][151]AssetCheck: New page: 애셋 저장: W_SkillHotKey
+[2021.02.28-06.29.55:451][151]LogContentValidation: Display: WidgetBlueprint /Game/MyContents/SkillSystem/UI/W_SkillHotKey.W_SkillHotKey 유효성 검사
+[2021.02.28-06.31.07:804][873]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/W_SkillHotKey3596F64F47F6D77F23229C92F427FCBA.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/SkillSystem/UI/W_SkillHotKey.uasset'
+[2021.02.28-06.31.07:817][873]AssetCheck: New page: 애셋 저장: W_SkillHotKey
+[2021.02.28-06.31.07:817][873]LogContentValidation: Display: WidgetBlueprint /Game/MyContents/SkillSystem/UI/W_SkillHotKey.W_SkillHotKey 유효성 검사
+[2021.02.28-06.31.36:516][629]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.31.37:401][729]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Character/BP_PlayerBase.BP_PlayerBase
+[2021.02.28-06.31.37:727][729]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.18:471][547]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.18:471][547]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.18:473][547]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.18:473][547]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.23:685][164]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.23:686][164]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.23:687][164]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.23:688][164]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:356][351]BlueprintLog: New page: BP_PlayerBase 컴파일
+[2021.02.28-06.33.25:375][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:377][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:378][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:379][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:419][351]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.02.28-06.33.25:424][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:425][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:426][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:426][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:427][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:434][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:435][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:435][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:436][351]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-06.33.25:772][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContents/Character/BP_PlayerBase" FILE="../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Character/BP_PlayerBase.uasset" SILENT=true
+[2021.02.28-06.33.25:824][380]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/BP_PlayerBaseF02AA400424C61FE171B50A2408BF890.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Character/BP_PlayerBase.uasset'
+[2021.02.28-06.33.25:840][380]AssetCheck: New page: 애셋 저장: BP_PlayerBase
+[2021.02.28-06.33.25:840][380]LogContentValidation: Display: Blueprint /Game/MyContents/Character/BP_PlayerBase.BP_PlayerBase 유효성 검사
+[2021.02.28-06.34.16:547][613]LogEditorTransaction: Undo 노드 이동
+[2021.02.28-06.35.20:972][ 92]BlueprintLog: New page: Master_Skill 컴파일
+[2021.02.28-06.35.21:022][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2021.02.28-06.35.22:035][179]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Master_SkillC96A3D684A85AA327CE59BBE2F3B37F0.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/SkillSystem/SkillActors/Master_Skill.uasset'
+[2021.02.28-06.35.22:048][179]AssetCheck: New page: 애셋 저장: Master_Skill
+[2021.02.28-06.35.22:048][179]LogContentValidation: Display: Blueprint /Game/MyContents/SkillSystem/SkillActors/Master_Skill.Master_Skill 유효성 검사
+[2021.02.28-06.35.58:281][ 41]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/KJB_Portfolio.InventoryComponent
+[2021.02.28-06.47.24:922][287]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{9bd00b8a-d7c0-409b-8725-506fddd41424}.
+[2021.02.28-06.47.24:922][287]LogTemp: Resetting audio stream to device id 
+[2021.02.28-06.47.24:941][287]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.28-06.47.24:941][287]LogAudioMixer: Display: 1: FrontRight
+[2021.02.28-07.34.15:918][663]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{b8df9652-b760-491d-8787-84da55866660}.
+[2021.02.28-07.34.15:918][663]LogTemp: Resetting audio stream to device id 
+[2021.02.28-07.34.15:946][663]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.28-07.34.15:946][663]LogAudioMixer: Display: 1: FrontRight
+[2021.02.28-07.53.12:335][120]Candidate modules for hot reload:
+[2021.02.28-07.53.12:335][120]  KJB_Portfolio
+[2021.02.28-07.53.12:335][120]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KJB_Portfolio,5293 KJB_PortfolioEditor Win64 Development -Project="C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/KJB_Portfolio.uproject" "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/KJB_Portfolio.uproject"  -IgnoreJunk]
+[2021.02.28-07.53.12:339][120]Warning: Starting HotReload took  0.0s.
+[2021.02.28-07.53.42:988][419]CompilerResultsLog: New page: 컴파일 - 2021. 3. 1. 오전 1:53:42
+[2021.02.28-07.53.42:989][419]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\unrealP\KJB_Portfolio_UE4).
+[2021.02.28-07.53.42:989][419]CompilerResultsLog: Parsing headers for KJB_PortfolioEditor
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   Running UnrealHeaderTool "C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\KJB_Portfolio.uproject" "C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\KJB_PortfolioEditor\Development\KJB_PortfolioEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\KJB\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.28-07.53.42:989][419]CompilerResultsLog: Reflection code generated for KJB_PortfolioEditor in 5.740778 seconds
+[2021.02.28-07.53.42:989][419]CompilerResultsLog: Building KJB_PortfolioEditor...
+[2021.02.28-07.53.42:989][419]CompilerResultsLog: Using Visual Studio 2017 14.16.27042 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.28-07.53.42:989][419]CompilerResultsLog: Building 13 actions with 12 processes...
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [1/13] KJB_Portfolio.init.gen.cpp
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [2/13] Item.cpp
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [3/13] UsableItem.gen.cpp
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [4/13] InventoryComponent.gen.cpp
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [5/13] Item.gen.cpp
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [6/13] InventoryComponent.cpp
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [7/13] UsableItem.cpp
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [8/13] ItemActor.cpp
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [9/13] MyCharacter.cpp
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [10/13] Monster.cpp
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [11/13] UE4Editor-KJB_Portfolio-5293.lib
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:      C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-5293.lib ???̺귯?? ?? C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-5293.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [12/13] UE4Editor-KJB_Portfolio-5293.dll
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:      C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-5293.suppressed.lib ???̺귯?? ?? C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-5293.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.02.28-07.53.42:989][419]CompilerResultsLog:   [13/13] KJB_PortfolioEditor.target
+[2021.02.28-07.53.42:989][419]CompilerResultsLog: Total time in Parallel executor: 23.85 seconds
+[2021.02.28-07.53.42:989][419]CompilerResultsLog: Total execution time: 30.54 seconds
+[2021.02.28-07.53.42:989][419]LogMainFrame: MainFrame: Module compiling took 30.660 seconds
+[2021.02.28-07.53.43:036][419]LogClass: Could not find existing class InventoryComponent in package /Script/KJB_Portfolio for HotReload, assuming new class
+[2021.02.28-07.53.43:036][419]LogClass: Function AddItem is new.
+[2021.02.28-07.53.43:036][419]LogClass: Function RemoveItem is new.
+[2021.02.28-07.53.43:036][419]LogClass: Could not find existing class Item in package /Script/KJB_Portfolio for HotReload, assuming new class
+[2021.02.28-07.53.43:081][419]LogClass: Could not find existing class UsableItem in package /Script/KJB_Portfolio for HotReload, assuming new class
+[2021.02.28-07.53.43:081][419]LogClass: EItemType HotReload.
+[2021.02.28-07.53.43:081][419]LogClass: ECharacterState HotReload.
+[2021.02.28-07.53.43:081][419]LogClass: PlayerStatData HotReload.
+[2021.02.28-07.53.43:081][419]LogClass: MonsterStatData HotReload.
+[2021.02.28-07.53.43:093][419]LogHotReload: Re-instancing InventoryComponent after hot-reload.
+[2021.02.28-07.53.43:095][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Potion_HP.BP_Potion_HP_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Potion_HP_C /Engine/Transient.Default__BP_PlayerBase_C:HOTRELOADED_InventoryComponent_1.BP_Potion_HP_C_0
+[2021.02.28-07.53.43:095][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Weapon_Sword.BP_Weapon_Sword_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Weapon_Sword_C /Engine/Transient.Default__BP_PlayerBase_C:HOTRELOADED_InventoryComponent_1.BP_Weapon_Sword_C_0
+[2021.02.28-07.53.43:096][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Weapon_Axe.BP_Weapon_Axe_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Weapon_Axe_C /Engine/Transient.Default__BP_PlayerBase_C:HOTRELOADED_InventoryComponent_1.BP_Weapon_Axe_C_1
+[2021.02.28-07.53.43:096][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Potion_HP.BP_Potion_HP_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Potion_HP_C /Game/MyContents/Character/BP_PlayerBase.Default__BP_PlayerBase_C:HOTRELOADED_InventoryComponent_1.BP_Potion_HP_C_0
+[2021.02.28-07.53.43:096][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Weapon_Sword.BP_Weapon_Sword_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Weapon_Sword_C /Game/MyContents/Character/BP_PlayerBase.Default__BP_PlayerBase_C:HOTRELOADED_InventoryComponent_1.BP_Weapon_Sword_C_0
+[2021.02.28-07.53.43:096][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Weapon_Axe.BP_Weapon_Axe_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Weapon_Axe_C /Game/MyContents/Character/BP_PlayerBase.Default__BP_PlayerBase_C:HOTRELOADED_InventoryComponent_1.BP_Weapon_Axe_C_1
+[2021.02.28-07.53.43:096][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Potion_HP.BP_Potion_HP_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Potion_HP_C /Engine/Transient.World_6:PersistentLevel.BP_PlayerBase_C_0.HOTRELOADED_InventoryComponent_1.BP_Potion_HP_C_0
+[2021.02.28-07.53.43:096][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Weapon_Sword.BP_Weapon_Sword_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Weapon_Sword_C /Engine/Transient.World_6:PersistentLevel.BP_PlayerBase_C_0.HOTRELOADED_InventoryComponent_1.BP_Weapon_Sword_C_0
+[2021.02.28-07.53.43:096][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Weapon_Axe.BP_Weapon_Axe_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Weapon_Axe_C /Engine/Transient.World_6:PersistentLevel.BP_PlayerBase_C_0.HOTRELOADED_InventoryComponent_1.BP_Weapon_Axe_C_1
+[2021.02.28-07.53.43:096][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Potion_HP.BP_Potion_HP_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Potion_HP_C /Engine/Transient.World_5:PersistentLevel.BP_PlayerBase_C_1.HOTRELOADED_InventoryComponent_1.BP_Potion_HP_C_0
+[2021.02.28-07.53.43:096][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Weapon_Sword.BP_Weapon_Sword_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Weapon_Sword_C /Engine/Transient.World_5:PersistentLevel.BP_PlayerBase_C_1.HOTRELOADED_InventoryComponent_1.BP_Weapon_Sword_C_0
+[2021.02.28-07.53.43:096][419]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/MyContents/Items/BP_Weapon_Axe.BP_Weapon_Axe_C for a property of Class /Script/KJB_Portfolio.Item. Reference will be nullptred.
+    Property = ObjectProperty DefaultItems./Script/KJB_Portfolio.InventoryComponent:DefaultItems
+    Item = BP_Weapon_Axe_C /Engine/Transient.World_5:PersistentLevel.BP_PlayerBase_C_1.HOTRELOADED_InventoryComponent_1.BP_Weapon_Axe_C_1
+[2021.02.28-07.53.43:136][419]LogHotReload: Re-instancing Item after hot-reload.
+[2021.02.28-07.53.43:221][419]LogHotReload: Re-instancing UsableItem after hot-reload.
+[2021.02.28-07.53.43:257][419]LogContentBrowser: Native class hierarchy updated for 'KJB_Portfolio' in 0.0009 seconds. Added 28 classes and 3 folders.
+[2021.02.28-07.53.43:262][419]Display: HotReload successful (12 functions remapped  2 scriptstructs remapped)
+[2021.02.28-07.53.43:398][419]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 3455 classes and 824 folders.
+[2021.02.28-07.53.43:400][419]Display: HotReload took 31.1s.
+[2021.02.28-07.53.46:340][654]Candidate modules for hot reload:
+[2021.02.28-07.53.46:340][654]  KJB_Portfolio
+[2021.02.28-07.53.46:340][654]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KJB_Portfolio,3928 KJB_PortfolioEditor Win64 Development -Project="C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/KJB_Portfolio.uproject" "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/KJB_Portfolio.uproject"  -IgnoreJunk]
+[2021.02.28-07.53.46:344][654]Warning: Starting HotReload took  0.0s.
+[2021.02.28-07.53.50:287][  0]CompilerResultsLog: New page: 컴파일 - 2021. 3. 1. 오전 1:53:50
+[2021.02.28-07.53.50:287][  0]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\unrealP\KJB_Portfolio_UE4).
+[2021.02.28-07.53.50:287][  0]CompilerResultsLog: Building KJB_PortfolioEditor...
+[2021.02.28-07.53.50:287][  0]CompilerResultsLog: Using Visual Studio 2017 14.16.27042 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.28-07.53.50:287][  0]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.02.28-07.53.50:287][  0]CompilerResultsLog:   [1/3] UE4Editor-KJB_Portfolio-3928.lib
+[2021.02.28-07.53.50:287][  0]CompilerResultsLog:      C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-3928.lib ???̺귯?? ?? C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-3928.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.02.28-07.53.50:287][  0]CompilerResultsLog:   [2/3] UE4Editor-KJB_Portfolio-3928.dll
+[2021.02.28-07.53.50:287][  0]CompilerResultsLog:      C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-3928.suppressed.lib ???̺귯?? ?? C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-3928.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.02.28-07.53.50:288][  0]CompilerResultsLog:   [3/3] KJB_PortfolioEditor.target
+[2021.02.28-07.53.50:288][  0]CompilerResultsLog: Total time in Parallel executor: 3.13 seconds
+[2021.02.28-07.53.50:288][  0]CompilerResultsLog: Total execution time: 3.85 seconds
+[2021.02.28-07.53.50:288][  0]LogMainFrame: MainFrame: Module compiling took 3.951 seconds
+[2021.02.28-07.53.50:413][  0]LogClass: EItemType HotReload.
+[2021.02.28-07.53.50:413][  0]LogClass: ECharacterState HotReload.
+[2021.02.28-07.53.50:414][  0]LogClass: PlayerStatData HotReload.
+[2021.02.28-07.53.50:414][  0]LogClass: MonsterStatData HotReload.
+[2021.02.28-07.53.50:441][  0]LogContentBrowser: Native class hierarchy updated for 'KJB_Portfolio' in 0.0007 seconds. Added 28 classes and 3 folders.
+[2021.02.28-07.53.50:452][  0]Display: HotReload successful (14 functions remapped  2 scriptstructs remapped)
+[2021.02.28-07.53.50:596][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3455 classes and 824 folders.
+[2021.02.28-07.53.50:596][  0]Display: HotReload took  4.3s.
+[2021.02.28-07.53.50:969][  0]LogSlate: Took 0.001584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.02.28-07.53.50:969][  0]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2021.02.28-07.53.50:986][  0]LogSlate: Took 0.016237 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2021.02.28-07.53.52:440][146]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.02.28-07.53.52:457][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.28-07.53.52:457][146]PIE: New page: PIE 세션: NewMap (2021. 3. 1. 오전 1:53:52)
+[2021.02.28-07.53.52:459][146]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.28-07.53.52:460][146]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.28-07.53.52:460][146]LogPlayLevel: Creating play world package: /Game/MyContents/UEDPIE_0_NewMap
+[2021.02.28-07.53.52:468][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007918s)
+[2021.02.28-07.53.52:470][146]LogAIModule: Creating AISystem for world NewMap
+[2021.02.28-07.53.52:470][146]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FCC55C0C00), frame # 91146
+[2021.02.28-07.53.52:470][146]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FCC559EFC0), frame # 91146
+[2021.02.28-07.53.52:470][146]LogPlayLevel: PIE: World Init took: (0.001691s)
+[2021.02.28-07.53.52:470][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContents/NewMap.NewMap to /Game/MyContents/UEDPIE_0_NewMap.NewMap (0.009841s)
+[2021.02.28-07.53.52:591][146]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2021.02.28-07.53.52:596][146]GameLog: Warning: UMyGameInstance::Init(27) Attack of Level 25 Player : 0
+[2021.02.28-07.53.52:596][146]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.28-07.53.52:596][146]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.28-07.53.52:596][146]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.28-07.53.52:596][146]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.28-07.53.52:596][146]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.28-07.53.52:596][146]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.28-07.53.52:596][146]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.28-07.53.52:596][146]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.28-07.53.52:597][146]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.28-07.53.52:597][146]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.28-07.53.52:606][146]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.28-07.53.52:606][146]LogAudioMixer: Display: 1: FrontRight
+[2021.02.28-07.53.52:647][146]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.02.28-07.53.52:647][146]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.28-07.53.52:647][146]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.28-07.53.52:647][146]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.28-07.53.52:648][146]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.28-07.53.52:658][146]LogInit: FAudioDevice initialized.
+[2021.02.28-07.53.52:669][146]LogLoad: Game class is 'MyGameModeBase'
+[2021.02.28-07.53.52:671][146]LogWorld: Bringing World /Game/MyContents/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.02.28-16.53.52
+[2021.02.28-07.53.52:678][146]LogWorld: Bringing up level for play took: 0.008595
+[2021.02.28-07.53.52:679][146]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.02.28-07.53.52:719][146]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2021.02.28-07.53.52:720][146]AnimBlueprintLog: Warning: 슬롯노드: MyCharacterAnim_BP_C 애니메이션 인스턴트 클래스의 'UpperBody' 는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2021.02.28-07.53.52:733][146]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.02.28-07.53.52:733][146]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.02.28-07.53.52:734][146]PIE: 서버가 로그인했습니다.
+[2021.02.28-07.53.52:735][146]PIE: 에디터에서 플레이 총 시작 시간 0.284초입니다.
+[2021.02.28-07.53.54:304][240]GameLog: Warning: AMyCharacter::ShowInventory(270) Inventory open
+[2021.02.28-07.53.54:305][240]LogScript: Warning: 존재하지 않는 'OnInventoryUpdated' 프로퍼티에 접근하려 했습니다. 패키지/쿠킹된 빌드에서 에디터 전용 프로퍼티를 사용하려는 것은 아닌가요?
+	W_Inventory_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.W_Inventory_C_0
+	Function /Game/MyContents/UI/W_Inventory.W_Inventory_C:ExecuteUbergraph_W_Inventory:02CF
+[2021.02.28-07.53.54:305][240]PIE: Error: 블루프린트 런타임 오류: "존재하지 않는 'OnInventoryUpdated' 프로퍼티에 접근하려 했습니다. 패키지/쿠킹된 빌드에서 에디터 전용 프로퍼티를 사용하려는 것은 아닌가요?". 블루프린트: W_Inventory 함수: Execute Ubergraph W Inventory 그래프: EventGraph 노드: On Inventory Updated 에 이벤트 바인딩
+[2021.02.28-07.53.54:305][240]LogScript: Warning: 존재하지 않는 'Items' 프로퍼티에 접근하려 했습니다. 패키지/쿠킹된 빌드에서 에디터 전용 프로퍼티를 사용하려는 것은 아닌가요?
+	W_Inventory_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.W_Inventory_C_0
+	Function /Game/MyContents/UI/W_Inventory.W_Inventory_C:ExecuteUbergraph_W_Inventory:00AF
+[2021.02.28-07.53.54:305][240]PIE: Error: 블루프린트 런타임 오류: "존재하지 않는 'Items' 프로퍼티에 접근하려 했습니다. 패키지/쿠킹된 빌드에서 에디터 전용 프로퍼티를 사용하려는 것은 아닌가요?". 블루프린트: W_Inventory 함수: Execute Ubergraph W Inventory 그래프: ForEachLoop 노드: Branch
+[2021.02.28-07.53.58:066][680]GameLog: Warning: AMyCharacter::ShowInventory(270) Inventory open
+[2021.02.28-07.53.58:067][680]LogScript: Warning: 존재하지 않는 'OnInventoryUpdated' 프로퍼티에 접근하려 했습니다. 패키지/쿠킹된 빌드에서 에디터 전용 프로퍼티를 사용하려는 것은 아닌가요?
+	W_Inventory_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.W_Inventory_C_1
+	Function /Game/MyContents/UI/W_Inventory.W_Inventory_C:ExecuteUbergraph_W_Inventory:02CF
+[2021.02.28-07.53.58:067][680]PIE: Error: 블루프린트 런타임 오류: "존재하지 않는 'OnInventoryUpdated' 프로퍼티에 접근하려 했습니다. 패키지/쿠킹된 빌드에서 에디터 전용 프로퍼티를 사용하려는 것은 아닌가요?". 블루프린트: W_Inventory 함수: Execute Ubergraph W Inventory 그래프: EventGraph 노드: On Inventory Updated 에 이벤트 바인딩
+[2021.02.28-07.53.58:067][680]LogScript: Warning: 존재하지 않는 'Items' 프로퍼티에 접근하려 했습니다. 패키지/쿠킹된 빌드에서 에디터 전용 프로퍼티를 사용하려는 것은 아닌가요?
+	W_Inventory_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.W_Inventory_C_1
+	Function /Game/MyContents/UI/W_Inventory.W_Inventory_C:ExecuteUbergraph_W_Inventory:00AF
+[2021.02.28-07.53.58:067][680]PIE: Error: 블루프린트 런타임 오류: "존재하지 않는 'Items' 프로퍼티에 접근하려 했습니다. 패키지/쿠킹된 빌드에서 에디터 전용 프로퍼티를 사용하려는 것은 아닌가요?". 블루프린트: W_Inventory 함수: Execute Ubergraph W Inventory 그래프: ForEachLoop 노드: Branch
+[2021.02.28-07.54.02:775][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.28-07.54.02:775][162]LogWorld: BeginTearingDown for /Game/MyContents/UEDPIE_0_NewMap
+[2021.02.28-07.54.02:776][162]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.28-07.54.02:778][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.28-07.54.02:786][162]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.28-07.54.02:793][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.28-07.54.04:045][162]Message dialog closed, result: Ok, title: 메시지, text: 앱 실행 도중 pure virtual 함수가 호출되고 있었습니다 (GIsRunning == 1).
+[2021.02.28-07.54.04:045][162]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2021.02.28-07.54.08:520][162]LogThreadingWindows: Error: Runnable thread TaskGraphThreadNP 4 crashed.
+[2021.02.28-07.54.08:520][162]LogWindows: Error: === Critical error: ===
+[2021.02.28-07.54.08:520][162]LogWindows: Error: 
+[2021.02.28-07.54.08:520][162]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Core/Private/Windows/WindowsPlatformMisc.cpp] [Line: 475] 
+[2021.02.28-07.54.08:520][162]LogWindows: Error: Pure virtual function being called
+[2021.02.28-07.54.08:520][162]LogWindows: Error: 
+[2021.02.28-07.54.08:520][162]LogWindows: Error: 
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fffdd17d759 KERNELBASE.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff9a33ec66 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff9a342048 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff9a0ce52d UE4Editor-Core.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff9a35eb10 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fffbd966994 VCRUNTIME140.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff98cb9724 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff98ef02c3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff98eb6da1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff98ebe11e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff99e77ad9 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff99e78b1d UE4Editor-Core.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff99e80eeb UE4Editor-Core.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff9a3604db UE4Editor-Core.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fff9a357eb0 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fffdeb47034 KERNEL32.DLL!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: [Callstack] 0x00007fffdf59d241 ntdll.dll!UnknownFunction []
+[2021.02.28-07.54.08:520][162]LogWindows: Error: 
+[2021.02.28-07.54.08:520][162]LogWindows: Error: Crash in runnable thread TaskGraphThreadNP 4
+[2021.02.28-07.54.08:536][162]LogExit: Executing StaticShutdownAfterError
+[2021.02.28-07.54.08:536][162]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.02.28-07.54.08:536][162]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.02.28-07.54.08:546][162]Log file closed, 02/28/21 16:54:08

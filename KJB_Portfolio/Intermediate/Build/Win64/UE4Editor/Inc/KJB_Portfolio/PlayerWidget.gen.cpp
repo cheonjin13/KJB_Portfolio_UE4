@@ -46,6 +46,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerWidget() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ExpBar;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MPProgressBar_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MPProgressBar;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HPProgressBar_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HPProgressBar;
@@ -86,6 +90,13 @@ void EmptyLinkFunctionForGeneratedCodePlayerWidget() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerWidget_Statics::NewProp_ExpBar = { "ExpBar", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerWidget, ExpBar), Z_Construct_UClass_UProgressBar_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerWidget_Statics::NewProp_ExpBar_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerWidget_Statics::NewProp_ExpBar_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerWidget_Statics::NewProp_MPProgressBar_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/PlayerWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerWidget_Statics::NewProp_MPProgressBar = { "MPProgressBar", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerWidget, MPProgressBar), Z_Construct_UClass_UProgressBar_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerWidget_Statics::NewProp_MPProgressBar_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerWidget_Statics::NewProp_MPProgressBar_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerWidget_Statics::NewProp_HPProgressBar_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/PlayerWidget.h" },
@@ -96,6 +107,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerWidget() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerWidget_Statics::NewProp_ExpPercent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerWidget_Statics::NewProp_PlayerLevel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerWidget_Statics::NewProp_ExpBar,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerWidget_Statics::NewProp_MPProgressBar,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerWidget_Statics::NewProp_HPProgressBar,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UPlayerWidget_Statics::StaticCppClassTypeInfo = {
@@ -125,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerWidget, 3880837396);
+	IMPLEMENT_CLASS(UPlayerWidget, 1163986366);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<UPlayerWidget>()
 	{
 		return UPlayerWidget::StaticClass();
