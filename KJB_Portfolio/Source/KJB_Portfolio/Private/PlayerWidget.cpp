@@ -13,6 +13,8 @@ void UPlayerWidget::BindCharacterStat(class UMyCharacterDataComponent* NewDataSt
 
 	CurrentCharacterStat = NewDataStat;
 	CurrentCharacterStat->OnHPChange.AddUObject(this, &UPlayerWidget::UpdateHPWidget);
+	CurrentCharacterStat->OnMPChange.AddUObject(this, &UPlayerWidget::UpdateMPWidget);
+
 }
 
 void UPlayerWidget::BindPlayerState(AMyPlayerState * PlayerState)

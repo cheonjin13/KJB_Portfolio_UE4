@@ -17,7 +17,9 @@ class KJB_PORTFOLIO_API AMyPlayerController : public APlayerController
 public:
 	AMyPlayerController();
 
+	UFUNCTION(BlueprintCallable)
 	class UPlayerWidget* GetHUDWidget() const;
+
 	void NPCKill(class AMonster* KilledNPC) const;
 protected:
 	virtual void BeginPlay() override;

@@ -17,12 +17,64 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerController() {}
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_AMyPlayerController();
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	UPackage* Z_Construct_UPackage__Script_KJB_Portfolio();
-	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_AMyPlayerState_NoRegister();
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_UPlayerWidget_NoRegister();
+	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_AMyPlayerState_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 // End Cross Module References
+	DEFINE_FUNCTION(AMyPlayerController::execGetHUDWidget)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(UPlayerWidget**)Z_Param__Result=P_THIS->GetHUDWidget();
+		P_NATIVE_END;
+	}
 	void AMyPlayerController::StaticRegisterNativesAMyPlayerController()
 	{
+		UClass* Class = AMyPlayerController::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "GetHUDWidget", &AMyPlayerController::execGetHUDWidget },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics
+	{
+		struct MyPlayerController_eventGetHUDWidget_Parms
+		{
+			UPlayerWidget* ReturnValue;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReturnValue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::NewProp_ReturnValue_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000080588, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyPlayerController_eventGetHUDWidget_Parms, ReturnValue), Z_Construct_UClass_UPlayerWidget_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::NewProp_ReturnValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::NewProp_ReturnValue_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/MyPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyPlayerController, nullptr, "GetHUDWidget", nullptr, nullptr, sizeof(MyPlayerController_eventGetHUDWidget_Parms), Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyPlayerController_GetHUDWidget()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyPlayerController_GetHUDWidget_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AMyPlayerController_NoRegister()
 	{
@@ -31,6 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerController() {}
 	struct Z_Construct_UClass_AMyPlayerController_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -53,6 +106,9 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerController() {}
 	UObject* (*const Z_Construct_UClass_AMyPlayerController_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_APlayerController,
 		(UObject* (*)())Z_Construct_UPackage__Script_KJB_Portfolio,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AMyPlayerController_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AMyPlayerController_GetHUDWidget, "GetHUDWidget" }, // 2427840292
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayerController_Statics::Class_MetaDataParams[] = {
@@ -95,11 +151,11 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerController() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AMyPlayerController_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayerController_Statics::PropPointers),
 		0,
 		0x009002A4u,
@@ -114,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyPlayerController, 2356662122);
+	IMPLEMENT_CLASS(AMyPlayerController, 1835490584);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<AMyPlayerController>()
 	{
 		return AMyPlayerController::StaticClass();

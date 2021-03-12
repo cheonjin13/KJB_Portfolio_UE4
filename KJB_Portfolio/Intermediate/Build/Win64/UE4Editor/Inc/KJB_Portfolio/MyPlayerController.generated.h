@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPlayerWidget;
 #ifdef KJB_PORTFOLIO_MyPlayerController_generated_h
 #error "MyPlayerController.generated.h already included, missing '#pragma once' in MyPlayerController.h"
 #endif
 #define KJB_PORTFOLIO_MyPlayerController_generated_h
 
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_MyPlayerController_h_15_SPARSE_DATA
-#define KJB_Portfolio_Source_KJB_Portfolio_Public_MyPlayerController_h_15_RPC_WRAPPERS
-#define KJB_Portfolio_Source_KJB_Portfolio_Public_MyPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define KJB_Portfolio_Source_KJB_Portfolio_Public_MyPlayerController_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetHUDWidget);
+
+
+#define KJB_Portfolio_Source_KJB_Portfolio_Public_MyPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetHUDWidget);
+
+
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_MyPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyPlayerController(); \

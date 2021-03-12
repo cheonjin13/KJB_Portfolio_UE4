@@ -9,6 +9,9 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UAnimMontage;
+struct FDamageEvent;
+class AController;
+class AActor;
 #ifdef KJB_PORTFOLIO_Monster_generated_h
 #error "Monster.generated.h already included, missing '#pragma once' in Monster.h"
 #endif
@@ -17,12 +20,14 @@ class UAnimMontage;
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_Monster_h_14_SPARSE_DATA
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_Monster_h_14_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnAttackMontageEnded);
+	DECLARE_FUNCTION(execOnAttackMontageEnded); \
+	DECLARE_FUNCTION(execTakeDamage);
 
 
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_Monster_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnAttackMontageEnded);
+	DECLARE_FUNCTION(execOnAttackMontageEnded); \
+	DECLARE_FUNCTION(execTakeDamage);
 
 
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_Monster_h_14_INCLASS_NO_PURE_DECLS \

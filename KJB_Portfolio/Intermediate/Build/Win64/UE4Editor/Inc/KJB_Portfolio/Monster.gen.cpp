@@ -18,6 +18,9 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_KJB_Portfolio();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FDamageEvent();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_AItemActor_NoRegister();
 	KJB_PORTFOLIO_API UClass* Z_Construct_UClass_ADamageWidgetActor_NoRegister();
@@ -37,11 +40,23 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 		P_THIS->OnAttackMontageEnded(Z_Param_Montage,Z_Param_bInterrupted);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AMonster::execTakeDamage)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_DamageAmount);
+		P_GET_STRUCT_REF(FDamageEvent,Z_Param_Out_DamageEvent);
+		P_GET_OBJECT(AController,Z_Param_EventInstigator);
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->TakeDamage(Z_Param_DamageAmount,Z_Param_Out_DamageEvent,Z_Param_EventInstigator,Z_Param_DamageCauser);
+		P_NATIVE_END;
+	}
 	void AMonster::StaticRegisterNativesAMonster()
 	{
 		UClass* Class = AMonster::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnAttackMontageEnded", &AMonster::execOnAttackMontageEnded },
+			{ "TakeDamage", &AMonster::execTakeDamage },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -83,6 +98,62 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMonster_OnAttackMontageEnded_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMonster_TakeDamage_Statics
+	{
+		struct Monster_eventTakeDamage_Parms
+		{
+			float DamageAmount;
+			FDamageEvent DamageEvent;
+			AController* EventInstigator;
+			AActor* DamageCauser;
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DamageCauser;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_EventInstigator;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageEvent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_DamageEvent;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DamageAmount;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Monster_eventTakeDamage_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_DamageCauser = { "DamageCauser", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Monster_eventTakeDamage_Parms, DamageCauser), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_EventInstigator = { "EventInstigator", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Monster_eventTakeDamage_Parms, EventInstigator), Z_Construct_UClass_AController_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_DamageEvent_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_DamageEvent = { "DamageEvent", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Monster_eventTakeDamage_Parms, DamageEvent), Z_Construct_UScriptStruct_FDamageEvent, METADATA_PARAMS(Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_DamageEvent_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_DamageEvent_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_DamageAmount = { "DamageAmount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Monster_eventTakeDamage_Parms, DamageAmount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMonster_TakeDamage_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_DamageCauser,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_EventInstigator,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_DamageEvent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMonster_TakeDamage_Statics::NewProp_DamageAmount,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMonster_TakeDamage_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Monster.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMonster_TakeDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMonster, nullptr, "TakeDamage", nullptr, nullptr, sizeof(Monster_eventTakeDamage_Parms), Z_Construct_UFunction_AMonster_TakeDamage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMonster_TakeDamage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMonster_TakeDamage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMonster_TakeDamage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMonster_TakeDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMonster_TakeDamage_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -167,6 +238,7 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMonster_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMonster_OnAttackMontageEnded, "OnAttackMontageEnded" }, // 2037423833
+		{ &Z_Construct_UFunction_AMonster_TakeDamage, "TakeDamage" }, // 3503688654
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonster_Statics::Class_MetaDataParams[] = {
@@ -334,7 +406,7 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMonster, 2529742571);
+	IMPLEMENT_CLASS(AMonster, 1585873286);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<AMonster>()
 	{
 		return AMonster::StaticClass();
