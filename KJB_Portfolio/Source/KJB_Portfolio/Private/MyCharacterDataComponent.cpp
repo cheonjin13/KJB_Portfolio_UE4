@@ -109,3 +109,9 @@ bool UMyCharacterDataComponent::UseMP(float val)
 	}
 	return false;
 }
+
+void UMyCharacterDataComponent::ModifyMP(float val)
+{
+	if (CurrentStatData == nullptr) return;
+	SetMP(FMath::Clamp<float>(CurrentMP + val, 0.0f, CurrentStatData->MaxMP));
+}

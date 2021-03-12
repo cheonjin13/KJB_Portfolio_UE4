@@ -16,11 +16,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_MyCharacterDataComponent_h_16_SPARSE_DATA
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_MyCharacterDataComponent_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execModifyMP); \
 	DECLARE_FUNCTION(execUseMP);
 
 
 #define KJB_Portfolio_Source_KJB_Portfolio_Public_MyCharacterDataComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execModifyMP); \
 	DECLARE_FUNCTION(execUseMP);
 
 

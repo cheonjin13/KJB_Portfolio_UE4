@@ -18,6 +18,14 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterDataComponent() {}
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_KJB_Portfolio();
 // End Cross Module References
+	DEFINE_FUNCTION(UMyCharacterDataComponent::execModifyMP)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_val);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ModifyMP(Z_Param_val);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UMyCharacterDataComponent::execUseMP)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param_val);
@@ -30,9 +38,42 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterDataComponent() {}
 	{
 		UClass* Class = UMyCharacterDataComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "ModifyMP", &UMyCharacterDataComponent::execModifyMP },
 			{ "UseMP", &UMyCharacterDataComponent::execUseMP },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics
+	{
+		struct MyCharacterDataComponent_eventModifyMP_Parms
+		{
+			float val;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_val;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics::NewProp_val = { "val", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCharacterDataComponent_eventModifyMP_Parms, val), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics::NewProp_val,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/MyCharacterDataComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyCharacterDataComponent, nullptr, "ModifyMP", nullptr, nullptr, sizeof(MyCharacterDataComponent_eventModifyMP_Parms), Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UMyCharacterDataComponent_UseMP_Statics
 	{
@@ -107,6 +148,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterDataComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_KJB_Portfolio,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyCharacterDataComponent_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP, "ModifyMP" }, // 753961294
 		{ &Z_Construct_UFunction_UMyCharacterDataComponent_UseMP, "UseMP" }, // 4235905641
 	};
 #if WITH_METADATA
@@ -173,7 +215,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterDataComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyCharacterDataComponent, 3384643734);
+	IMPLEMENT_CLASS(UMyCharacterDataComponent, 923383316);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<UMyCharacterDataComponent>()
 	{
 		return UMyCharacterDataComponent::StaticClass();

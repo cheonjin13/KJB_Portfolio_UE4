@@ -35,6 +35,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	bool UseMP(float val);
+
+	UFUNCTION(BlueprintCallable)
+	void ModifyMP(float val);
 		
 public:
 	FOnHPChangeDelegate OnHPChange;
