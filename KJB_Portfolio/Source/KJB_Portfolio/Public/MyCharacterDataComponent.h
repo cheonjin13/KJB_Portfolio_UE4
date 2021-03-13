@@ -33,6 +33,9 @@ public:
 	float GetAttack();
 	void SetHPUsePotion(float PotionPoint);
 
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	int32 GetCurrentCharacterLevel();
+
 	UFUNCTION(BlueprintCallable)
 	bool UseMP(float val);
 

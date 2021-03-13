@@ -12,6 +12,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeKJB_Portfolio_init() {}
 	KJB_PORTFOLIO_API UFunction* Z_Construct_UDelegateFunction_KJB_Portfolio_OnInventoryUpdatedDelegate__DelegateSignature();
+	KJB_PORTFOLIO_API UFunction* Z_Construct_UDelegateFunction_KJB_Portfolio_OnPlayerLevelUpDelegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_KJB_Portfolio()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -19,14 +20,15 @@ void EmptyLinkFunctionForGeneratedCodeKJB_Portfolio_init() {}
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
 				(UObject* (*)())Z_Construct_UDelegateFunction_KJB_Portfolio_OnInventoryUpdatedDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_KJB_Portfolio_OnPlayerLevelUpDelegate__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/KJB_Portfolio",
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xE8B8900C,
-				0x47D408CB,
+				0x69C456A2,
+				0x3260B045,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

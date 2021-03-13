@@ -385,6 +385,7 @@ void AMyCharacter::UpdateCharacterStat()
 	if (myPlayerState != nullptr)
 	{
 		CharacterStat->SetNewLevel(myPlayerState->GetCharacterLevel());
+		FOnPlayerLevelUp.Broadcast();
 	}
 }
 

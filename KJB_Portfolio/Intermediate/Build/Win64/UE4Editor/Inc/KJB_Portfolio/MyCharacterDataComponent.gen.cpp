@@ -34,14 +34,54 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterDataComponent() {}
 		*(bool*)Z_Param__Result=P_THIS->UseMP(Z_Param_val);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(UMyCharacterDataComponent::execGetCurrentCharacterLevel)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->GetCurrentCharacterLevel();
+		P_NATIVE_END;
+	}
 	void UMyCharacterDataComponent::StaticRegisterNativesUMyCharacterDataComponent()
 	{
 		UClass* Class = UMyCharacterDataComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetCurrentCharacterLevel", &UMyCharacterDataComponent::execGetCurrentCharacterLevel },
 			{ "ModifyMP", &UMyCharacterDataComponent::execModifyMP },
 			{ "UseMP", &UMyCharacterDataComponent::execUseMP },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics
+	{
+		struct MyCharacterDataComponent_eventGetCurrentCharacterLevel_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCharacterDataComponent_eventGetCurrentCharacterLevel_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/MyCharacterDataComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyCharacterDataComponent, nullptr, "GetCurrentCharacterLevel", nullptr, nullptr, sizeof(MyCharacterDataComponent_eventGetCurrentCharacterLevel_Parms), Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP_Statics
 	{
@@ -148,6 +188,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterDataComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_KJB_Portfolio,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyCharacterDataComponent_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMyCharacterDataComponent_GetCurrentCharacterLevel, "GetCurrentCharacterLevel" }, // 128196185
 		{ &Z_Construct_UFunction_UMyCharacterDataComponent_ModifyMP, "ModifyMP" }, // 753961294
 		{ &Z_Construct_UFunction_UMyCharacterDataComponent_UseMP, "UseMP" }, // 4235905641
 	};
@@ -215,7 +256,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterDataComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyCharacterDataComponent, 923383316);
+	IMPLEMENT_CLASS(UMyCharacterDataComponent, 2467930879);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<UMyCharacterDataComponent>()
 	{
 		return UMyCharacterDataComponent::StaticClass();

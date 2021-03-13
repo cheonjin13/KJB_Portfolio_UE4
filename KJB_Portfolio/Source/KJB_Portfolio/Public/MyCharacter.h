@@ -8,6 +8,7 @@
 
 
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnPlayerLevelUpDelegate);
 DECLARE_MULTICAST_DELEGATE(FOnAttackEndDelegate);
 
 UCLASS()
@@ -20,6 +21,9 @@ public:
 	void Attack();	
 
 	FOnAttackEndDelegate OnAttackEnd;
+
+	UPROPERTY(BlueprintAssignable)
+	FOnPlayerLevelUpDelegate FOnPlayerLevelUp;
 
 	UFUNCTION(BlueprintCallable, Category = "Items")
 	void UseItem(class UItem* Item);
@@ -64,8 +68,6 @@ public: //변수
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "UI")
 	UUserWidget* InventoryWidget;
 
-	UPROPERTY()
-	bool IsPossibleItemRoot;
 
 
 private: //함수

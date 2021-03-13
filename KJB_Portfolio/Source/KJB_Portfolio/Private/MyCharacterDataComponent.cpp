@@ -50,6 +50,7 @@ void UMyCharacterDataComponent::SetNewLevel(int32 NewLevel)
 		Level = NewLevel;
 		SetHP(CurrentStatData->MaxHP);
 		SetMP(CurrentStatData->MaxMP);
+
 	}
 }
 
@@ -98,6 +99,12 @@ void UMyCharacterDataComponent::SetHPUsePotion(float PotionPoint)
 {
 	if (CurrentStatData == nullptr) return;
 	SetHP(FMath::Clamp<float>(CurrentHP + PotionPoint, 0.0f, CurrentStatData->MaxHP));
+}
+
+int32 UMyCharacterDataComponent::GetCurrentCharacterLevel()
+{
+	if (CurrentStatData == nullptr) return 0;
+	return CurrentStatData->Level;
 }
 
 bool UMyCharacterDataComponent::UseMP(float val)
