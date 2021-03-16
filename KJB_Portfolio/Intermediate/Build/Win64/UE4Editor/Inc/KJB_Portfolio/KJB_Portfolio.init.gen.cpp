@@ -27,7 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeKJB_Portfolio_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x69C456A2,
+				0xAF186BA4,
 				0x3260B045,
 				METADATA_PARAMS(nullptr, 0)
 			};

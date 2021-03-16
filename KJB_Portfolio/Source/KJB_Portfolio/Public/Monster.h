@@ -46,7 +46,7 @@ public:
 public: //변수
 	UPROPERTY(VisibleAnywhere, Category = "Stat")
 	class UMonsterDataComponent* MonsterStat;
-	UPROPERTY(VisibleAnywhere, Category = "UI")
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "UI")
 	class UWidgetComponent* HPBarWidget;
 private: //함수
 	void AttackCheck();

@@ -336,7 +336,7 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 		{ "ModuleRelativePath", "Public/Monster.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMonster_Statics::NewProp_HPBarWidget = { "HPBarWidget", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonster, HPBarWidget), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMonster_Statics::NewProp_HPBarWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonster_Statics::NewProp_HPBarWidget_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMonster_Statics::NewProp_HPBarWidget = { "HPBarWidget", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonster, HPBarWidget), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMonster_Statics::NewProp_HPBarWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonster_Statics::NewProp_HPBarWidget_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonster_Statics::NewProp_MonsterStat_MetaData[] = {
 		{ "Category", "Stat" },
@@ -406,7 +406,7 @@ void EmptyLinkFunctionForGeneratedCodeMonster() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMonster, 1585873286);
+	IMPLEMENT_CLASS(AMonster, 77943686);
 	template<> KJB_PORTFOLIO_API UClass* StaticClass<AMonster>()
 	{
 		return AMonster::StaticClass();

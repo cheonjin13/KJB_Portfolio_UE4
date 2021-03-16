@@ -1,0 +1,1632 @@
+﻿Log file open, 03/16/21 12:42:13
+LogInit: Display: Running engine for game: KJB_Portfolio
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.194752
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: NVIDIA GeForce GTX 1660 SUPER
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=cheonjin13 -epicuserid=9ce07566b3e8499d8258e7641dbf49df -epiclocale=ko
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.03.16-03.42.14:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.16-03.42.14:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.03.16-03.42.14:058][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.03.16-03.42.14:061][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:061][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.16-03.42.14:061][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.16-03.42.14:061][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:061][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.16-03.42.14:061][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:061][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.16-03.42.14:061][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.16-03.42.14:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.16-03.42.14:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.16-03.42.14:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.16-03.42.14:061][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.16-03.42.14:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.16-03.42.14:063][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.16-03.42.14:063][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.16-03.42.14:063][  0]LogHAL: Display: Platform has ~ 16 GB [17110773760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.16-03.42.14:063][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.16-03.42.14:063][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2021.03.16-03.42.14:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.16-03.42.14:064][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.16-03.42.14:065][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.16-03.42.14:065][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.16-03.42.14:065][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.03.16-03.42.14:065][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Config/Windows/Engine.ini]
+[2021.03.16-03.42.14:065][  0]LogInit: Computer: DESKTOP-6HEEP2H
+[2021.03.16-03.42.14:065][  0]LogInit: User: KJB
+[2021.03.16-03.42.14:065][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.03.16-03.42.14:065][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.16-03.42.14:065][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.03.16-03.42.14:065][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.16-03.42.14:065][  0]LogMemory: Process Physical Memory: 117.10 MB used, 117.11 MB peak
+[2021.03.16-03.42.14:065][  0]LogMemory: Process Virtual Memory: 98.99 MB used, 98.99 MB peak
+[2021.03.16-03.42.14:065][  0]LogMemory: Physical Memory: 9263.21 MB used,  7054.90 MB free, 16318.11 MB total
+[2021.03.16-03.42.14:065][  0]LogMemory: Virtual Memory: 5168.86 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2021.03.16-03.42.14:074][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.16-03.42.14:178][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.03.16-03.42.14:179][  0]LogInit: Using OS detected language (ko-KR).
+[2021.03.16-03.42.14:179][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.03.16-03.42.14:183][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2021.03.16-03.42.14:269][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.16-03.42.14:331][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.16-03.42.14:331][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.16-03.42.14:497][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.16-03.42.14:497][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.16-03.42.14:497][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.16-03.42.14:497][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.16-03.42.14:597][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 SUPER' (Feature Level 11_0)
+[2021.03.16-03.42.14:597][  0]LogD3D11RHI:       5991/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.03.16-03.42.14:599][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.16-03.42.14:599][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.16-03.42.14:599][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.16-03.42.14:605][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.16-03.42.14:605][  0]LogD3D11RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.16-03.42.14:605][  0]LogWindows: EnumDisplayDevices:
+[2021.03.16-03.42.14:605][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 SUPER' (P:1 D:1)
+[2021.03.16-03.42.14:606][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2021.03.16-03.42.14:607][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2021.03.16-03.42.14:607][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2021.03.16-03.42.14:608][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.03.16-03.42.14:608][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 SUPER
+[2021.03.16-03.42.14:608][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.03.16-03.42.14:608][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.03.16-03.42.14:608][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.03.16-03.42.14:684][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.16-03.42.14:684][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.16-03.42.14:684][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.03.16-03.42.14:700][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.16-03.42.15:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.16-03.42.15:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.16-03.42.15:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.16-03.42.15:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.16-03.42.15:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.16-03.42.15:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.16-03.42.15:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.16-03.42.15:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.16-03.42.15:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.16-03.42.15:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.16-03.42.15:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.16-03.42.15:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.16-03.42.15:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.16-03.42.15:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.16-03.42.15:138][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.16-03.42.15:149][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.16-03.42.15:162][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.16-03.42.15:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.16-03.42.15:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.16-03.42.15:196][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.16-03.42.15:225][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.16-03.42.15:225][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.16-03.42.15:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.16-03.42.15:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.16-03.42.15:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.16-03.42.15:267][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.16-03.42.15:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.16-03.42.15:289][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.16-03.42.15:289][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.16-03.42.15:300][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.16-03.42.15:383][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Intermediate/Shaders/WorkingDirectory/6136/).
+[2021.03.16-03.42.15:383][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/KJB/AppData/Local/Temp/UnrealShaderWorkingDir/0EA13A1C49514F658707488A93A11D5C/'.
+[2021.03.16-03.42.15:384][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.16-03.42.15:384][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.16-03.42.15:384][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.16-03.42.16:083][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.16-03.42.16:145][  0]LogDerivedDataCache: Loaded boot cache 0.06s 128MB C:/Users/KJB/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.16-03.42.16:145][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/KJB/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.16-03.42.16:146][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.16-03.42.16:146][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.16-03.42.16:146][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.16-03.42.16:146][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.16-03.42.16:156][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.16-03.42.16:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.16-03.42.16:156][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.16-03.42.16:157][  0]LogDerivedDataCache: Using Local data cache path C:/Users/KJB/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.16-03.42.16:157][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.16-03.42.16:157][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.16-03.42.16:202][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.16-03.42.16:202][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.16-03.42.16:228][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2021.03.16-03.42.16:482][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.16-03.42.16:601][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.16-03.42.16:601][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.16-03.42.16:601][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.16-03.42.16:601][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.16-03.42.16:601][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.16-03.42.16:616][  0]LogNetVersion: KJB_Portfolio 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3600608709)
+[2021.03.16-03.42.17:007][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002844F7F9C40), frame # 0
+[2021.03.16-03.42.17:007][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002844F727C40), frame # 0
+[2021.03.16-03.42.17:008][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002844F7D0800), frame # 0
+[2021.03.16-03.42.17:044][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.030701 seconds
+[2021.03.16-03.42.17:049][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.03.16-03.42.17:049][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.03.16-03.42.17:049][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.16-03.42.17:467][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.16-03.42.17:473][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.16-03.42.18:751][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.16-03.42.18:751][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.16-03.42.18:756][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.16-03.42.18:759][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.16-03.42.18:770][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.16-03.42.19:099][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.16-03.42.19:130][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.16-03.42.19:130][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.16-03.42.19:219][  0]LogOcInput: OculusInput pre-init called
+[2021.03.16-03.42.19:251][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.16-03.42.19:251][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.16-03.42.19:325][  0]LogEngine: Initializing Engine...
+[2021.03.16-03.42.19:326][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.16-03.42.19:326][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.03.16-03.42.19:327][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.16-03.42.19:430][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.16-03.42.19:439][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.16-03.42.19:439][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000284597B9200), frame # 0
+[2021.03.16-03.42.19:439][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000284597F1A80), frame # 0
+[2021.03.16-03.42.19:450][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.16-03.42.19:450][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.16-03.42.19:450][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.16-03.42.19:450][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.16-03.42.19:450][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.16-03.42.19:450][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.16-03.42.19:450][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.16-03.42.19:451][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.16-03.42.19:451][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.16-03.42.19:451][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.16-03.42.19:474][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-03.42.19:474][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-03.42.19:534][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.03.16-03.42.19:534][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.16-03.42.19:536][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.16-03.42.19:536][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.16-03.42.19:537][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.16-03.42.19:538][  0]LogInit: FAudioDevice initialized.
+[2021.03.16-03.42.19:538][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.16-03.42.19:662][  0]LogDerivedDataCache: Saved boot cache 0.12s 128MB C:/Users/KJB/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.16-03.42.19:665][  0]LogInit: Texture streaming: Enabled
+[2021.03.16-03.42.19:691][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.16-03.42.19:691][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.16-03.42.19:696][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.16-03.42.19:740][  0]LogInit: Transaction tracking system initialized
+[2021.03.16-03.42.19:768][  0]BlueprintLog: New page: 에디터 로드
+[2021.03.16-03.42.19:861][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2021.03.16-03.42.20:234][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.16-03.42.20:234][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.16-03.42.20:354][  0]LogFileCache: Scanning file cache for directory 'C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/' took 0.07s
+[2021.03.16-03.42.20:652][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.16-03.42.20:652][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.270
+[2021.03.16-03.42.20:652][  0]Cmd: MAP LOAD FILE="../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/InfinityBladeGrassLands/Maps/ElvenRuins.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.16-03.42.20:653][  0]LightingResults: New page: 라이팅 빌드
+[2021.03.16-03.42.20:653][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.42.20:654][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.42.20:654][  0]MapCheck: New page: 맵 체크
+[2021.03.16-03.42.20:654][  0]LightingResults: New page: 라이팅 빌드
+[2021.03.16-03.42.20:667][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000284597B9200), frame # 0
+[2021.03.16-03.42.20:667][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000284597F1A80), frame # 0
+[2021.03.16-03.42.20:669][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.03.16-03.42.21:214][  0]LogAIModule: Creating AISystem for world ElvenRuins
+[2021.03.16-03.42.21:214][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002843E0BDC00), frame # 0
+[2021.03.16-03.42.21:214][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002843EF71A80), frame # 0
+[2021.03.16-03.42.21:254][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.16-03.42.21:286][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.03.16-03.42.21:287][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.16-03.42.21:287][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.307ms.
+[2021.03.16-03.42.21:287][  0]LogFileHelpers: Loading map 'ElvenRuins' took 0.635
+[2021.03.16-03.42.21:291][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.909
+[2021.03.16-03.42.21:422][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.42.21:428][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.42.21:434][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.42.21:440][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.42.21:449][  0]LogCollectionManager: Loaded 0 collections in 0.001789 seconds
+[2021.03.16-03.42.21:463][  0]LogFileCache: Scanning file cache for directory 'C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Collections/' took 0.00s
+[2021.03.16-03.42.21:463][  0]LogFileCache: Scanning file cache for directory 'C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/Developers/KJB/Collections/' took 0.00s
+[2021.03.16-03.42.21:463][  0]LogFileCache: Scanning file cache for directory 'C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/Collections/' took 0.00s
+[2021.03.16-03.42.21:463][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3455 classes and 824 folders.
+[2021.03.16-03.42.21:466][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.16-03.42.21:523][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.16-03.42.21:529][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.03.16-03.42.21:788][  0]LogSlate: Took 0.000582 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.16-03.42.21:790][  0]LogSlate: Took 0.001205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2021.03.16-03.42.21:791][  0]LogSlate: Took 0.001422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2021.03.16-03.42.21:792][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.16-03.42.21:795][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.16-03.42.21:861][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 9 NumSamples 1 (Frame:1).
+[2021.03.16-03.42.22:015][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2021.03.16-03.42.22:015][  0]LogLoad: (Engine Initialization) Total time: 9.63 seconds
+[2021.03.16-03.42.22:015][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.16-03.42.22:082][  0]LogContentStreaming: Texture pool size now 600 MB
+[2021.03.16-03.42.22:119][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.16-03.42.22:164][  1]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_0:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.42.22:250][  2]LogAssetRegistry: Asset discovery search completed in 6.0230 seconds
+[2021.03.16-03.42.22:254][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.03.16-03.42.29:625][781]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.16-03.42.29:708][781]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MyContents/NewMap.NewMap
+[2021.03.16-03.42.29:719][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.03.16-03.42.29:722][781]Cmd: MAP LOAD FILE="../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.16-03.42.29:722][781]LightingResults: New page: 라이팅 빌드
+[2021.03.16-03.42.29:722][781]LoadErrors: New page: 맵 로드중: NewMap.umap
+[2021.03.16-03.42.29:730][781]LogWorld: UWorld::CleanupWorld for ElvenRuins, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.42.29:730][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.42.29:731][781]MapCheck: New page: 맵 체크
+[2021.03.16-03.42.29:731][781]LightingResults: New page: 라이팅 빌드
+[2021.03.16-03.42.29:758][781]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002843E0BDC00), frame # 781
+[2021.03.16-03.42.29:758][781]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002843EF71A80), frame # 781
+[2021.03.16-03.42.29:759][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2021.03.16-03.42.29:999][781]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.16-03.42.29:999][781]LogAIModule: Creating AISystem for world NewMap
+[2021.03.16-03.42.29:999][781]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028472006200), frame # 781
+[2021.03.16-03.42.29:999][781]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002843E68B600), frame # 781
+[2021.03.16-03.42.30:013][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.03.16-03.42.30:038][781]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.16-03.42.30:038][781]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.139ms.
+[2021.03.16-03.42.30:038][781]LogFileHelpers: Loading map 'NewMap' took 0.316
+[2021.03.16-03.42.32:214][999]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2021.03.16-03.42.32:229][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.16-03.42.32:229][999]PIE: New page: PIE 세션: NewMap (2021. 3. 16. 오후 9:42:32)
+[2021.03.16-03.42.32:230][999]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.16-03.42.32:231][999]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.16-03.42.32:231][999]LogPlayLevel: Creating play world package: /Game/MyContents/UEDPIE_0_NewMap
+[2021.03.16-03.42.32:235][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003684s)
+[2021.03.16-03.42.32:236][999]LogAIModule: Creating AISystem for world NewMap
+[2021.03.16-03.42.32:236][999]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002845C161A00), frame # 999
+[2021.03.16-03.42.32:236][999]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002842B177740), frame # 999
+[2021.03.16-03.42.32:236][999]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2021.03.16-03.42.32:236][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContents/NewMap.NewMap to /Game/MyContents/UEDPIE_0_NewMap.NewMap (0.004840s)
+[2021.03.16-03.42.32:246][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.03.16-03.42.32:247][999]GameLog: Warning: UMyGameInstance::Init(27) Attack of Level 25 Player : 0
+[2021.03.16-03.42.32:247][999]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.16-03.42.32:247][999]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.16-03.42.32:247][999]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.16-03.42.32:247][999]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.16-03.42.32:247][999]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.16-03.42.32:247][999]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.16-03.42.32:247][999]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.16-03.42.32:247][999]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.16-03.42.32:248][999]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.16-03.42.32:248][999]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.16-03.42.32:256][999]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-03.42.32:256][999]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-03.42.32:290][999]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.03.16-03.42.32:290][999]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.16-03.42.32:290][999]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.16-03.42.32:290][999]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.16-03.42.32:290][999]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.16-03.42.32:301][999]LogInit: FAudioDevice initialized.
+[2021.03.16-03.42.32:324][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.42.32:324][999]LogLoad: Game class is 'MyGameModeBase'
+[2021.03.16-03.42.32:326][999]LogWorld: Bringing World /Game/MyContents/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.03.16-12.42.32
+[2021.03.16-03.42.32:328][999]LogWorld: Bringing up level for play took: 0.002588
+[2021.03.16-03.42.32:328][999]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.03.16-03.42.32:331][999]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.03.16-03.42.32:350][999]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-03.42.32:350][999]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-03.42.32:356][999]PIE: 서버가 로그인했습니다.
+[2021.03.16-03.42.32:357][999]PIE: 에디터에서 플레이 총 시작 시간 0.131초입니다.
+[2021.03.16-03.42.32:400][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 9 NumSamples 1 (Frame:1).
+[2021.03.16-03.42.37:086][536]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.42.37:830][622]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP10_23 took Damage : 60.000000
+[2021.03.16-03.42.38:640][716]GameLog: Warning: AMonster::SetCharacterState(194) 0.000000
+[2021.03.16-03.42.38:641][716]GameLog: Warning: AItemActor::OnCharacterOverlap(56) Overlaped Character
+[2021.03.16-03.42.38:641][716]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.250000, Current : 10, Max : 40
+[2021.03.16-03.42.38:641][716]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.250000, Current : 10, Max : 40
+[2021.03.16-03.42.38:642][716]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP10_23 took Damage : 60.000000
+[2021.03.16-03.42.39:567][821]GameLog: Warning: AItemActor::OnCharacterOverlapEnd(74) Overlaped End Character
+[2021.03.16-03.42.40:829][964]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.UI_Damage_C_0' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.42.46:122][590]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP7_14 took Damage : 20.000000
+[2021.03.16-03.42.46:165][595]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderEliteBP2_2 took Damage : 40.000000
+[2021.03.16-03.42.46:779][664]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP_2 took Damage : 20.000000
+[2021.03.16-03.42.48:241][834]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderEliteBP2_2 took Damage : 20.000000
+[2021.03.16-03.42.49:124][936]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.UI_Damage_C_2' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.42.49:170][941]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.UI_Damage_C_3' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.42.49:393][968]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP9_20 took Damage : 20.000000
+[2021.03.16-03.42.50:087][ 51]GameLog: Warning: AMonster::SetCharacterState(194) 0.000000
+[2021.03.16-03.42.50:088][ 51]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderEliteBP2_2 took Damage : 40.000000
+[2021.03.16-03.42.51:082][165]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP9_20 took Damage : 20.000000
+[2021.03.16-03.42.51:247][184]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.UI_Damage_C_5' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.42.52:399][318]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.UI_Damage_C_6' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.42.52:770][362]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP9_20 took Damage : 20.000000
+[2021.03.16-03.42.53:093][400]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.UI_Damage_C_7' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.42.54:085][515]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.UI_Damage_C_8' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.42.55:773][713]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_0.UI_Damage_C_9' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.42.58:863][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.42.58:863][ 74]LogWorld: BeginTearingDown for /Game/MyContents/UEDPIE_0_NewMap
+[2021.03.16-03.42.58:863][ 74]LogSlate: Window 'KJB_Portfolio 프리뷰 [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.16-03.42.58:866][ 74]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.42.58:867][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.42.58:877][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.16-03.42.58:879][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.42.58:907][ 74]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002842B177740), frame # 4074
+[2021.03.16-03.42.58:907][ 74]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002845C161A00), frame # 4074
+[2021.03.16-03.42.58:908][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.03.16-03.42.58:939][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.03.16-03.43.12:087][ 72]LogSlate: Window '프로파일 편집' being destroyed
+[2021.03.16-03.43.16:331][280]LogSlate: Window '프로파일 편집' being destroyed
+[2021.03.16-03.43.24:712][495]LogSlate: Window '프로파일 편집' being destroyed
+[2021.03.16-03.43.32:569][563]LogSlate: Window '프로파일 편집' being destroyed
+[2021.03.16-03.43.36:015][926]LogSlate: Window '프로젝트 세팅' being destroyed
+[2021.03.16-03.43.36:018][926]LogSlate: Window '프로젝트 세팅' being destroyed
+[2021.03.16-03.43.48:697][214]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2021.03.16-03.43.48:713][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.16-03.43.48:713][214]PIE: New page: PIE 세션: NewMap (2021. 3. 16. 오후 9:43:48)
+[2021.03.16-03.43.48:713][214]LogPlayLevel: Creating play world package: /Game/MyContents/UEDPIE_0_NewMap
+[2021.03.16-03.43.48:717][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003709s)
+[2021.03.16-03.43.48:717][214]LogAIModule: Creating AISystem for world NewMap
+[2021.03.16-03.43.48:718][214]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002848BEE7E00), frame # 7214
+[2021.03.16-03.43.48:718][214]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002843E596C00), frame # 7214
+[2021.03.16-03.43.48:718][214]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2021.03.16-03.43.48:718][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContents/NewMap.NewMap to /Game/MyContents/UEDPIE_0_NewMap.NewMap (0.004850s)
+[2021.03.16-03.43.48:728][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.03.16-03.43.48:730][214]GameLog: Warning: UMyGameInstance::Init(27) Attack of Level 25 Player : 0
+[2021.03.16-03.43.48:730][214]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.16-03.43.48:730][214]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.16-03.43.48:730][214]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.16-03.43.48:730][214]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.16-03.43.48:730][214]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.16-03.43.48:730][214]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.16-03.43.48:730][214]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.16-03.43.48:730][214]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.16-03.43.48:731][214]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.16-03.43.48:731][214]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.16-03.43.48:741][214]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-03.43.48:741][214]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-03.43.48:778][214]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.03.16-03.43.48:778][214]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.16-03.43.48:778][214]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.16-03.43.48:778][214]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.16-03.43.48:779][214]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.16-03.43.48:792][214]LogInit: FAudioDevice initialized.
+[2021.03.16-03.43.48:844][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.43.48:844][214]LogLoad: Game class is 'MyGameModeBase'
+[2021.03.16-03.43.48:847][214]LogWorld: Bringing World /Game/MyContents/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.03.16-12.43.48
+[2021.03.16-03.43.48:849][214]LogWorld: Bringing up level for play took: 0.003858
+[2021.03.16-03.43.48:849][214]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.03.16-03.43.48:876][214]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-03.43.48:876][214]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-03.43.48:881][214]PIE: 서버가 로그인했습니다.
+[2021.03.16-03.43.48:882][214]PIE: 에디터에서 플레이 총 시작 시간 0.172초입니다.
+[2021.03.16-03.43.55:471][991]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP2_2 took Damage : 20.000000
+[2021.03.16-03.43.57:161][188]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP4_8 took Damage : 20.000000
+[2021.03.16-03.43.58:470][339]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_1.UI_Damage_C_0' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.43.58:840][381]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP2_2 took Damage : 20.000000
+[2021.03.16-03.44.00:169][534]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_1.UI_Damage_C_1' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.44.00:529][577]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.44.00:563][581]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.44.01:762][721]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.44.01:844][730]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_1.UI_Damage_C_2' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.44.02:215][775]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP4_8 took Damage : 20.000000
+[2021.03.16-03.44.03:455][918]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.44.03:915][973]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP2_2 took Damage : 20.000000
+[2021.03.16-03.44.05:136][114]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP3_5 took Damage : 20.000000
+[2021.03.16-03.44.05:218][123]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_1.UI_Damage_C_3' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.44.06:826][311]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.44.06:835][312]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.44.06:916][321]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_1.UI_Damage_C_4' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.44.08:026][450]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP4_8 took Damage : 20.000000
+[2021.03.16-03.44.08:141][463]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_1.UI_Damage_C_5' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.44.08:515][506]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.44.09:719][648]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.44.10:202][698]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.44.10:584][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.44.10:584][739]LogWorld: BeginTearingDown for /Game/MyContents/UEDPIE_0_NewMap
+[2021.03.16-03.44.10:584][739]LogSlate: Window 'KJB_Portfolio 프리뷰 [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.16-03.44.10:587][739]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.44.10:588][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.44.10:598][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.16-03.44.10:600][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.44.10:627][739]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002843E596C00), frame # 9739
+[2021.03.16-03.44.10:627][739]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002848BEE7E00), frame # 9739
+[2021.03.16-03.44.10:628][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.03.16-03.44.10:654][740]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.03.16-03.44.48:195][192]LogSlate: Window '프로젝트 세팅' being destroyed
+[2021.03.16-03.44.48:198][192]LogSlate: Window '프로젝트 세팅' being destroyed
+[2021.03.16-03.45.05:233][649]LogSlate: Window '채널 편집' being destroyed
+[2021.03.16-03.45.42:987][  3]LogSlate: Window '프로파일 편집' being destroyed
+[2021.03.16-03.45.45:376][238]LogSlate: Window '프로젝트 세팅' being destroyed
+[2021.03.16-03.45.45:379][238]LogSlate: Window '프로젝트 세팅' being destroyed
+[2021.03.16-03.45.46:019][305]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2021.03.16-03.45.46:034][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.16-03.45.46:035][305]PIE: New page: PIE 세션: NewMap (2021. 3. 16. 오후 9:45:46)
+[2021.03.16-03.45.46:035][305]LogPlayLevel: Creating play world package: /Game/MyContents/UEDPIE_0_NewMap
+[2021.03.16-03.45.46:040][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005107s)
+[2021.03.16-03.45.46:041][305]LogAIModule: Creating AISystem for world NewMap
+[2021.03.16-03.45.46:041][305]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000284AAE1F400), frame # 13305
+[2021.03.16-03.45.46:041][305]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002843E53BD80), frame # 13305
+[2021.03.16-03.45.46:041][305]LogPlayLevel: PIE: World Init took: (0.001324s)
+[2021.03.16-03.45.46:041][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContents/NewMap.NewMap to /Game/MyContents/UEDPIE_0_NewMap.NewMap (0.006569s)
+[2021.03.16-03.45.46:051][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2021.03.16-03.45.46:053][305]GameLog: Warning: UMyGameInstance::Init(27) Attack of Level 25 Player : 0
+[2021.03.16-03.45.46:053][305]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.16-03.45.46:053][305]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.16-03.45.46:053][305]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.16-03.45.46:053][305]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.16-03.45.46:053][305]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.16-03.45.46:053][305]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.16-03.45.46:053][305]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.16-03.45.46:053][305]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.16-03.45.46:054][305]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.16-03.45.46:054][305]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.16-03.45.46:063][305]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-03.45.46:063][305]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-03.45.46:101][305]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.03.16-03.45.46:101][305]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.16-03.45.46:101][305]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.16-03.45.46:101][305]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.16-03.45.46:102][305]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.16-03.45.46:113][305]LogInit: FAudioDevice initialized.
+[2021.03.16-03.45.46:140][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.45.46:140][305]LogLoad: Game class is 'MyGameModeBase'
+[2021.03.16-03.45.46:143][305]LogWorld: Bringing World /Game/MyContents/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.03.16-12.45.46
+[2021.03.16-03.45.46:144][305]LogWorld: Bringing up level for play took: 0.003075
+[2021.03.16-03.45.46:144][305]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.03.16-03.45.46:164][305]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-03.45.46:164][305]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-03.45.46:169][305]PIE: 서버가 로그인했습니다.
+[2021.03.16-03.45.46:170][305]PIE: 에디터에서 플레이 총 시작 시간 0.138초입니다.
+[2021.03.16-03.45.50:937][842]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP2_2 took Damage : 20.000000
+[2021.03.16-03.45.52:620][ 39]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.45.52:840][ 62]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP3_5 took Damage : 20.000000
+[2021.03.16-03.45.53:793][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.45.53:794][172]LogWorld: BeginTearingDown for /Game/MyContents/UEDPIE_0_NewMap
+[2021.03.16-03.45.53:794][172]LogSlate: Window 'KJB_Portfolio 프리뷰 [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.16-03.45.53:800][172]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.45.53:800][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.45.53:806][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.16-03.45.53:809][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.45.53:834][172]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002843E53BD80), frame # 14172
+[2021.03.16-03.45.53:834][172]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000284AAE1F400), frame # 14172
+[2021.03.16-03.45.53:835][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.03.16-03.45.53:884][174]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.03.16-03.51.37:667][186]Candidate modules for hot reload:
+[2021.03.16-03.51.37:667][186]  KJB_Portfolio
+[2021.03.16-03.51.37:667][186]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KJB_Portfolio,5196 KJB_PortfolioEditor Win64 Development -Project="C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/KJB_Portfolio.uproject" "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/KJB_Portfolio.uproject"  -IgnoreJunk]
+[2021.03.16-03.51.37:671][186]Warning: Starting HotReload took  0.0s.
+[2021.03.16-03.51.49:857][544]CompilerResultsLog: New page: 컴파일 - 2021. 3. 16. 오후 9:51:49
+[2021.03.16-03.51.49:857][544]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\unrealP\KJB_Portfolio_UE4).
+[2021.03.16-03.51.49:857][544]CompilerResultsLog: Building KJB_PortfolioEditor...
+[2021.03.16-03.51.49:857][544]CompilerResultsLog: Using Visual Studio 2017 14.16.27042 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.16-03.51.49:857][544]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.03.16-03.51.49:857][544]CompilerResultsLog:   [1/4] Monster.cpp
+[2021.03.16-03.51.49:857][544]CompilerResultsLog:   [2/4] UE4Editor-KJB_Portfolio-5196.lib
+[2021.03.16-03.51.49:857][544]CompilerResultsLog:      C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-5196.lib ???̺귯?? ?? C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-5196.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.03.16-03.51.49:857][544]CompilerResultsLog:   [3/4] UE4Editor-KJB_Portfolio-5196.dll
+[2021.03.16-03.51.49:857][544]CompilerResultsLog:      C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-5196.suppressed.lib ???̺귯?? ?? C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-5196.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.03.16-03.51.49:857][544]CompilerResultsLog:   [4/4] KJB_PortfolioEditor.target
+[2021.03.16-03.51.49:857][544]CompilerResultsLog: Total time in Parallel executor: 11.24 seconds
+[2021.03.16-03.51.49:857][544]CompilerResultsLog: Total execution time: 12.07 seconds
+[2021.03.16-03.51.49:857][544]LogMainFrame: MainFrame: Module compiling took 12.211 seconds
+[2021.03.16-03.51.49:892][544]LogClass: EItemType HotReload.
+[2021.03.16-03.51.49:893][544]LogClass: ECharacterState HotReload.
+[2021.03.16-03.51.49:893][544]LogClass: PlayerStatData HotReload.
+[2021.03.16-03.51.49:893][544]LogClass: MonsterStatData HotReload.
+[2021.03.16-03.51.49:907][544]LogContentBrowser: Native class hierarchy updated for 'KJB_Portfolio' in 0.0006 seconds. Added 28 classes and 3 folders.
+[2021.03.16-03.51.49:909][544]Display: HotReload successful (19 functions remapped  2 scriptstructs remapped)
+[2021.03.16-03.51.50:001][544]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3455 classes and 824 folders.
+[2021.03.16-03.51.50:005][544]Display: HotReload took 12.4s.
+[2021.03.16-03.51.53:090][854]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP
+[2021.03.16-03.51.53:433][854]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2021.03.16-03.52.03:076][604]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Greater_SpiderBP06AC30D243277C9220F347851026B3A9.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.uasset'
+[2021.03.16-03.52.03:093][604]AssetCheck: New page: 애셋 저장: Greater_SpiderBP
+[2021.03.16-03.52.03:093][604]LogContentValidation: Display: Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP 유효성 검사
+[2021.03.16-03.52.04:221][711]LogSlate: Window 'Greater_SpiderBP' being destroyed
+[2021.03.16-03.52.04:226][711]LogSlate: Window 'Greater_SpiderBP' being destroyed
+[2021.03.16-03.52.04:226][711]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.52.04:226][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.52.08:498][198]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2021.03.16-03.52.08:516][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.16-03.52.08:516][198]PIE: New page: PIE 세션: NewMap (2021. 3. 16. 오후 9:52:08)
+[2021.03.16-03.52.08:516][198]LogPlayLevel: Creating play world package: /Game/MyContents/UEDPIE_0_NewMap
+[2021.03.16-03.52.08:520][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004396s)
+[2021.03.16-03.52.08:522][198]LogAIModule: Creating AISystem for world NewMap
+[2021.03.16-03.52.08:522][198]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000284A7500A00), frame # 19198
+[2021.03.16-03.52.08:522][198]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000284BC23CCC0), frame # 19198
+[2021.03.16-03.52.08:522][198]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2021.03.16-03.52.08:522][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContents/NewMap.NewMap to /Game/MyContents/UEDPIE_0_NewMap.NewMap (0.005942s)
+[2021.03.16-03.52.08:541][198]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.03.16-03.52.08:544][198]GameLog: Warning: UMyGameInstance::Init(27) Attack of Level 25 Player : 0
+[2021.03.16-03.52.08:544][198]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.16-03.52.08:544][198]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.16-03.52.08:544][198]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.16-03.52.08:544][198]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.16-03.52.08:544][198]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.16-03.52.08:544][198]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.16-03.52.08:544][198]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.16-03.52.08:544][198]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.16-03.52.08:544][198]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.16-03.52.08:544][198]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.16-03.52.08:554][198]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-03.52.08:554][198]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-03.52.08:598][198]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.03.16-03.52.08:598][198]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.16-03.52.08:598][198]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.16-03.52.08:598][198]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.16-03.52.08:599][198]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.16-03.52.08:611][198]LogInit: FAudioDevice initialized.
+[2021.03.16-03.52.08:655][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.52.08:655][198]LogLoad: Game class is 'MyGameModeBase'
+[2021.03.16-03.52.08:658][198]LogWorld: Bringing World /Game/MyContents/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.03.16-12.52.08
+[2021.03.16-03.52.08:660][198]LogWorld: Bringing up level for play took: 0.004222
+[2021.03.16-03.52.08:660][198]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.03.16-03.52.08:688][198]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-03.52.08:688][198]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-03.52.08:695][198]PIE: 서버가 로그인했습니다.
+[2021.03.16-03.52.08:696][198]PIE: 에디터에서 플레이 총 시작 시간 0.185초입니다.
+[2021.03.16-03.52.13:968][794]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.52.15:648][989]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.52.16:072][ 35]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.52.17:331][182]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.52.17:389][187]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.52.17:766][230]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.52.18:947][365]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP2_2 took Damage : 60.000000
+[2021.03.16-03.52.18:948][365]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP3_5 took Damage : 60.000000
+[2021.03.16-03.52.19:021][373]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.52.21:317][624]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.52.21:416][635]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.52.21:947][690]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_3.UI_Damage_C_1' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.52.21:947][690]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_3.UI_Damage_C_0' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.52.21:948][691]GameLog: Warning: AMonster::SetCharacterState(194) 0.000000
+[2021.03.16-03.52.21:948][691]GameLog: Warning: AItemActor::OnCharacterOverlap(56) Overlaped Character
+[2021.03.16-03.52.21:949][691]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.250000, Current : 10, Max : 40
+[2021.03.16-03.52.21:949][691]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.250000, Current : 10, Max : 40
+[2021.03.16-03.52.21:949][691]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP3_5 took Damage : 60.000000
+[2021.03.16-03.52.21:992][696]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP4_8 took Damage : 60.000000
+[2021.03.16-03.52.23:023][805]GameLog: Warning: AItemActor::OnCharacterOverlapEnd(74) Overlaped End Character
+[2021.03.16-03.52.23:023][805]GameLog: Warning: AMyCharacter::TakeDamage(231) Actor : BP_PlayerBase_C_0 took Damage : 20.000000
+[2021.03.16-03.52.24:997][ 26]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_3.UI_Damage_C_3' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-03.52.27:154][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.52.27:154][275]LogWorld: BeginTearingDown for /Game/MyContents/UEDPIE_0_NewMap
+[2021.03.16-03.52.27:154][275]LogSlate: Window 'KJB_Portfolio 프리뷰 [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.16-03.52.27:161][275]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.52.27:161][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.52.27:171][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.16-03.52.27:175][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.52.27:211][275]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000284A7500A00), frame # 21275
+[2021.03.16-03.52.27:212][275]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000284BC23CCC0), frame # 21275
+[2021.03.16-03.52.27:213][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.03.16-03.52.27:243][276]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.03.16-03.52.29:789][492]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP
+[2021.03.16-03.52.29:811][492]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2021.03.16-03.52.30:011][492]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.16-03.52.30:011][492]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.30:022][492]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2021.03.16-03.52.30:392][492]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.03.16-03.52.30:981][492]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.30:997][492]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.16-03.52.31:051][492]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2021.03.16-03.52.31:099][492]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.03.16-03.52.31:434][493]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.16-03.52.31:495][495]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:514][496]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:532][497]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:553][498]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:569][499]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:605][500]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:645][501]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:676][502]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:706][503]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:725][504]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:739][505]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:753][506]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:768][507]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.31:782][508]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_0
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:477][894]BlueprintLog: New page: MyCharacterAnim_BP 컴파일
+[2021.03.16-03.52.37:503][894]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_0:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:504][894]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:583][894]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2021.03.16-03.52.37:598][894]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:631][894]LogSlate: Took 0.001314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.03.16-03.52.37:646][894]LogSlate: Took 0.014571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2021.03.16-03.52.37:657][895]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:678][896]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:698][897]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:717][898]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:735][899]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:754][900]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:772][901]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:787][902]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:800][903]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:813][904]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:826][905]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:840][906]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:854][907]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.37:868][908]LogScript: Warning: CharacterRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	MyCharacterAnim_BP_C /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.MyCharacterAnim_BP_C_1
+	Function /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP_C:ExecuteUbergraph_MyCharacterAnim_BP:001F
+[2021.03.16-03.52.38:113][913]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/MyCharacterAnim_BP545E47DB49665347BA9328A4F54BA52F.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Character/Animations/MyCharacterAnim_BP.uasset'
+[2021.03.16-03.52.38:130][913]AssetCheck: New page: 애셋 저장: MyCharacterAnim_BP
+[2021.03.16-03.52.38:130][913]LogContentValidation: Display: AnimBlueprint /Game/MyContents/Character/Animations/MyCharacterAnim_BP.MyCharacterAnim_BP 유효성 검사
+[2021.03.16-03.52.39:178][984]LogSlate: Window 'MyCharacterAnim_BP' being destroyed
+[2021.03.16-03.52.39:182][984]LogSlate: Window 'MyCharacterAnim_BP' being destroyed
+[2021.03.16-03.52.39:207][984]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.52.39:207][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.52.39:211][984]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.52.39:211][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.52.39:311][984]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.52.39:311][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.52.43:404][461]LogEditorViewport: Clicking on Actor (LMB): Greater_SpiderBP_C (Greater_SpiderBP4)
+[2021.03.16-03.52.50:621][195]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MyContents/NewMap.NewMap
+[2021.03.16-03.52.50:669][195]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.03.16-03.52.53:473][195]LogSlate: Window '콘텐츠 저장' being destroyed
+[2021.03.16-03.52.56:455][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContents/NewMap" FILE="../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.16-03.52.56:498][504]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.03.16-03.52.56:536][504]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/NewMap082802E24D986E9C2FFEFF81E5718484.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/NewMap.umap'
+[2021.03.16-03.52.56:573][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContents/NewMap_BuiltData" FILE="../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/NewMap_BuiltData.uasset" SILENT=true
+[2021.03.16-03.52.56:600][504]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/NewMap_BuiltData6C5E7D6A49C5F949074BE2BA0FB48282.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/NewMap_BuiltData.uasset'
+[2021.03.16-03.52.56:624][504]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2021.03.16-03.52.56:624][504]LogContentValidation: Display: World /Game/MyContents/NewMap.NewMap 유효성 검사
+[2021.03.16-03.52.56:624][504]LogContentValidation: Display: MapBuildDataRegistry /Game/MyContents/NewMap_BuiltData.NewMap_BuiltData 유효성 검사
+[2021.03.16-03.53.09:663][744]LogAssetEditorSubsystem: Opening Asset editor for World /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins
+[2021.03.16-03.53.09:688][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.03.16-03.53.09:692][744]Cmd: MAP LOAD FILE="../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/InfinityBladeGrassLands/Maps/ElvenRuins.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.16-03.53.09:693][744]LightingResults: New page: 라이팅 빌드
+[2021.03.16-03.53.09:693][744]LoadErrors: New page: 맵 로드중: ElvenRuins.umap
+[2021.03.16-03.53.09:694][744]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.53.09:694][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.53.09:695][744]MapCheck: New page: 맵 체크
+[2021.03.16-03.53.09:695][744]LightingResults: New page: 라이팅 빌드
+[2021.03.16-03.53.09:710][744]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002843E68B600), frame # 24744
+[2021.03.16-03.53.09:710][744]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028472006200), frame # 24744
+[2021.03.16-03.53.09:712][744]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.03.16-03.53.10:148][744]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.16-03.53.10:148][744]LogAIModule: Creating AISystem for world ElvenRuins
+[2021.03.16-03.53.10:148][744]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000284C0344800), frame # 24744
+[2021.03.16-03.53.10:148][744]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000284BC23DD00), frame # 24744
+[2021.03.16-03.53.10:179][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.03.16-03.53.10:203][744]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.16-03.53.10:204][744]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.345ms.
+[2021.03.16-03.53.10:204][744]LogFileHelpers: Loading map 'ElvenRuins' took 0.512
+[2021.03.16-03.53.12:019][930]LogEditorViewport: Clicking on Actor (LMB): Greater_SpiderBP_C (Greater_SpiderBP2)
+[2021.03.16-03.53.12:978][ 39]Cmd: DELETE
+[2021.03.16-03.53.12:978][ 39]Cmd: ACTOR DELETE
+[2021.03.16-03.53.12:998][ 39]LogEditorActor: Deleted Actor: Greater_SpiderBP_C
+[2021.03.16-03.53.13:016][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.03.16-03.53.13:021][ 39]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2021.03.16-03.53.13:838][136]LogEditorViewport: Clicking on Actor (LMB): Greater_SpiderBP_C (Greater_SpiderBP)
+[2021.03.16-03.53.14:303][186]Cmd: DELETE
+[2021.03.16-03.53.14:303][186]Cmd: ACTOR DELETE
+[2021.03.16-03.53.14:325][186]LogEditorActor: Deleted Actor: Greater_SpiderBP_C
+[2021.03.16-03.53.14:342][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.03.16-03.53.14:343][186]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2021.03.16-03.53.14:848][245]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume4)
+[2021.03.16-03.53.15:428][311]LogEditorViewport: Clicking on Actor (LMB): Greater_SpiderEliteBP_C (Greater_SpiderEliteBP)
+[2021.03.16-03.53.15:904][361]Cmd: DELETE
+[2021.03.16-03.53.15:904][361]Cmd: ACTOR DELETE
+[2021.03.16-03.53.15:924][361]LogEditorActor: Deleted Actor: Greater_SpiderEliteBP_C
+[2021.03.16-03.53.15:940][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.03.16-03.53.15:942][361]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2021.03.16-03.53.49:989][ 24]Cmd: DELETE
+[2021.03.16-03.53.49:989][ 24]Cmd: ACTOR DELETE
+[2021.03.16-03.53.50:008][ 24]LogEditorActor: Deleted Actor: Greater_SpiderBP_C
+[2021.03.16-03.53.50:024][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.03.16-03.53.50:031][ 24]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2021.03.16-03.53.50:918][107]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP
+[2021.03.16-03.53.57:285][626]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Greater_SpiderBP5D59B69F42262FE4B45355B92F081CBB.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.uasset'
+[2021.03.16-03.53.57:304][626]AssetCheck: New page: 애셋 저장: Greater_SpiderBP
+[2021.03.16-03.53.57:304][626]LogContentValidation: Display: Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP 유효성 검사
+[2021.03.16-03.54.02:512][ 90]LogSlate: Window 'Greater_SpiderBP' being destroyed
+[2021.03.16-03.54.02:521][ 90]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.54.02:521][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.54.02:602][ 90]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP
+[2021.03.16-03.54.09:195][556]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Greater_SpiderBPB31890B148E1877D702474BA63B6F923.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.uasset'
+[2021.03.16-03.54.09:210][556]AssetCheck: New page: 애셋 저장: Greater_SpiderBP
+[2021.03.16-03.54.09:210][556]LogContentValidation: Display: Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP 유효성 검사
+[2021.03.16-03.54.10:233][642]LogSlate: Window 'Greater_SpiderBP' being destroyed
+[2021.03.16-03.54.10:237][642]LogSlate: Window 'Greater_SpiderBP' being destroyed
+[2021.03.16-03.54.10:239][642]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.54.10:239][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.54.36:226][407]LogEditorViewport: Clicking on Actor (LMB): Greater_SpiderBP_C (Greater_SpiderBP6)
+[2021.03.16-03.54.49:199][933]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2021.03.16-03.54.49:214][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.16-03.54.49:214][933]PIE: New page: PIE 세션: ElvenRuins (2021. 3. 16. 오후 9:54:49)
+[2021.03.16-03.54.49:215][933]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2021.03.16-03.54.49:306][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091416s)
+[2021.03.16-03.54.49:307][933]LogAIModule: Creating AISystem for world ElvenRuins
+[2021.03.16-03.54.49:307][933]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000284EEF1CC00), frame # 34933
+[2021.03.16-03.54.49:307][933]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000284D9743B00), frame # 34933
+[2021.03.16-03.54.49:308][933]LogPlayLevel: PIE: World Init took: (0.001860s)
+[2021.03.16-03.54.49:308][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.093609s)
+[2021.03.16-03.54.49:335][933]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.03.16-03.54.49:340][933]GameLog: Warning: UMyGameInstance::Init(27) Attack of Level 25 Player : 0
+[2021.03.16-03.54.49:340][933]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.16-03.54.49:340][933]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.16-03.54.49:340][933]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.16-03.54.49:340][933]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.16-03.54.49:340][933]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.16-03.54.49:340][933]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.16-03.54.49:340][933]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.16-03.54.49:340][933]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.16-03.54.49:341][933]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.16-03.54.49:341][933]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.16-03.54.49:355][933]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-03.54.49:355][933]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-03.54.49:407][933]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.03.16-03.54.49:407][933]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.16-03.54.49:407][933]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.16-03.54.49:407][933]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.16-03.54.49:407][933]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.16-03.54.49:418][933]LogInit: FAudioDevice initialized.
+[2021.03.16-03.54.49:468][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.54.49:469][933]LogLoad: Game class is 'MyGameModeBase'
+[2021.03.16-03.54.49:493][933]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2021.03.16-12.54.49
+[2021.03.16-03.54.49:495][933]LogWorld: Bringing up level for play took: 0.025658
+[2021.03.16-03.54.49:495][933]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.03.16-03.54.49:519][933]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-03.54.49:519][933]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-03.54.49:526][933]PIE: 서버가 로그인했습니다.
+[2021.03.16-03.54.49:526][933]PIE: 에디터에서 플레이 총 시작 시간 0.314초입니다.
+[2021.03.16-03.54.59:164][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-03.54.59:164][927]LogWorld: BeginTearingDown for /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2021.03.16-03.54.59:164][927]LogSlate: Window 'KJB_Portfolio 프리뷰 [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.16-03.54.59:166][927]LogWorld: UWorld::CleanupWorld for ElvenRuins, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-03.54.59:170][927]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.54.59:174][927]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.16-03.54.59:179][927]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-03.54.59:219][927]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000284D9743B00), frame # 35927
+[2021.03.16-03.54.59:219][927]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000284EEF1CC00), frame # 35927
+[2021.03.16-03.54.59:224][927]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.03.16-03.54.59:259][928]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.03.16-03.55.09:320][907]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP
+[2021.03.16-03.59.52:304][837]BlueprintLog: New page: Greater_SpiderBP 컴파일
+[2021.03.16-03.59.52:307][837]LogBlueprint: Warning: [Compiler Greater_SpiderBP] Monster.HPBarWidget : 블루프린트에서 보이도록 (BlueprintReadOnly 또는  BlueprintReadWrite) 되어있지 않습니다. 마크업을 수정하거나 접근을 중단하지 않으면, 앞으로 릴리즈에서 오류가 발생할 것입니다.  HPBarWidget 구하기
+[2021.03.16-03.59.52:307][837]LogBlueprint: Warning: [Compiler Greater_SpiderBP] Monster.HPBarWidget : 블루프린트에서 보이도록 (BlueprintReadOnly 또는  BlueprintReadWrite) 되어있지 않습니다. 마크업을 수정하거나 접근을 중단하지 않으면, 앞으로 릴리즈에서 오류가 발생할 것입니다.  HPBarWidget 구하기
+[2021.03.16-03.59.52:375][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.03.16-04.00.27:126][277]Candidate modules for hot reload:
+[2021.03.16-04.00.27:126][277]  KJB_Portfolio
+[2021.03.16-04.00.27:126][277]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KJB_Portfolio,1491 KJB_PortfolioEditor Win64 Development -Project="C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/KJB_Portfolio.uproject" "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/KJB_Portfolio.uproject"  -IgnoreJunk]
+[2021.03.16-04.00.27:130][277]Warning: Starting HotReload took  0.0s.
+[2021.03.16-04.00.46:991][532]CompilerResultsLog: New page: 컴파일 - 2021. 3. 16. 오후 10:00:46
+[2021.03.16-04.00.46:991][532]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\unrealP\KJB_Portfolio_UE4).
+[2021.03.16-04.00.46:991][532]CompilerResultsLog: Parsing headers for KJB_PortfolioEditor
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:   Running UnrealHeaderTool "C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\KJB_Portfolio.uproject" "C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\KJB_PortfolioEditor\Development\KJB_PortfolioEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\KJB\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.03.16-04.00.46:991][532]CompilerResultsLog: Reflection code generated for KJB_PortfolioEditor in 6.2019259 seconds
+[2021.03.16-04.00.46:991][532]CompilerResultsLog: Building KJB_PortfolioEditor...
+[2021.03.16-04.00.46:991][532]CompilerResultsLog: Using Visual Studio 2017 14.16.27042 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.16-04.00.46:991][532]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:   [1/9] KJB_Portfolio.init.gen.cpp
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:   [2/9] Monster.gen.cpp
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:   [3/9] AttackBTTNode.cpp
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:   [4/9] TurnBTTNode.cpp
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:   [5/9] MyPlayerController.cpp
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:   [6/9] Monster.cpp
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:   [7/9] UE4Editor-KJB_Portfolio-1491.lib
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:      C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-1491.lib ???̺귯?? ?? C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-1491.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:   [8/9] UE4Editor-KJB_Portfolio-1491.dll
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:      C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-1491.suppressed.lib ???̺귯?? ?? C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-1491.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.03.16-04.00.46:991][532]CompilerResultsLog:   [9/9] KJB_PortfolioEditor.target
+[2021.03.16-04.00.46:991][532]CompilerResultsLog: Total time in Parallel executor: 12.58 seconds
+[2021.03.16-04.00.46:991][532]CompilerResultsLog: Total execution time: 19.77 seconds
+[2021.03.16-04.00.46:991][532]LogMainFrame: MainFrame: Module compiling took 19.868 seconds
+[2021.03.16-04.00.47:041][532]LogClass: Could not find existing class Monster in package /Script/KJB_Portfolio for HotReload, assuming new class
+[2021.03.16-04.00.47:042][532]LogClass: Function OnAttackMontageEnded is new.
+[2021.03.16-04.00.47:042][532]LogClass: Function TakeDamage is new.
+[2021.03.16-04.00.47:064][532]LogClass: EItemType HotReload.
+[2021.03.16-04.00.47:064][532]LogClass: ECharacterState HotReload.
+[2021.03.16-04.00.47:064][532]LogClass: PlayerStatData HotReload.
+[2021.03.16-04.00.47:064][532]LogClass: MonsterStatData HotReload.
+[2021.03.16-04.00.47:085][532]LogHotReload: Re-instancing Monster after hot-reload.
+[2021.03.16-04.00.47:174][532]LogContentBrowser: Native class hierarchy updated for 'KJB_Portfolio' in 0.0006 seconds. Added 28 classes and 3 folders.
+[2021.03.16-04.00.47:179][532]Display: HotReload successful (17 functions remapped  2 scriptstructs remapped)
+[2021.03.16-04.00.47:284][532]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3456 classes and 826 folders.
+[2021.03.16-04.00.47:290][532]Display: HotReload took 20.2s.
+[2021.03.16-04.03.19:304][200]LogUObjectHash: Compacting FUObjectHashTables data took   5.67ms
+[2021.03.16-04.03.19:834][200]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/ElvenRuins_Auto14033278443132F586651ECB007EDADFA.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/ElvenRuins_Auto1.umap'
+[2021.03.16-04.03.19:836][200]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/InfinityBladeGrassLands/Maps/ElvenRuins' took 0.585
+[2021.03.16-04.03.19:836][200]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.585
+[2021.03.16-04.03.19:836][200]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP] ([1] browsable assets)...
+[2021.03.16-04.03.19:843][200]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP]
+[2021.03.16-04.03.19:843][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP]
+[2021.03.16-04.03.19:862][200]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Greater_SpiderBP_Auto17172F769424F33BD9F19D982E708D14B.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Autosaves/Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP_Auto1.uasset'
+[2021.03.16-04.03.19:863][200]LogFileHelpers: Auto-saving content packages took 0.027
+[2021.03.16-04.13.15:656][534]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{9bd00b8a-d7c0-409b-8725-506fddd41424}.
+[2021.03.16-04.13.15:663][534]LogTemp: Resetting audio stream to device id 
+[2021.03.16-04.13.15:686][534]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-04.13.15:686][534]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-04.30.36:121][997]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{b8df9652-b760-491d-8787-84da55866660}.
+[2021.03.16-04.30.36:121][997]LogTemp: Resetting audio stream to device id 
+[2021.03.16-04.30.36:156][997]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-04.30.36:156][997]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-04.30.55:969][732]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Greater_SpiderBP2352DE1344B559FED4E0CAB93771450E.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.uasset'
+[2021.03.16-04.30.56:011][732]AssetCheck: New page: 애셋 저장: Greater_SpiderBP
+[2021.03.16-04.30.56:011][732]LogContentValidation: Display: Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP 유효성 검사
+[2021.03.16-04.31.00:823][154]LogSlate: Window 'Greater_SpiderBP' being destroyed
+[2021.03.16-04.31.00:830][154]LogSlate: Window 'Greater_SpiderBP' being destroyed
+[2021.03.16-04.31.00:833][154]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-04.31.00:833][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-04.31.01:933][250]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2021.03.16-04.31.01:951][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.16-04.31.01:951][250]PIE: New page: PIE 세션: ElvenRuins (2021. 3. 16. 오후 10:31:01)
+[2021.03.16-04.31.01:951][250]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2021.03.16-04.31.02:026][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074685s)
+[2021.03.16-04.31.02:026][250]LogAIModule: Creating AISystem for world ElvenRuins
+[2021.03.16-04.31.02:026][250]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002850C314800), frame # 278250
+[2021.03.16-04.31.02:026][250]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028523CCA700), frame # 278250
+[2021.03.16-04.31.02:027][250]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2021.03.16-04.31.02:027][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.076101s)
+[2021.03.16-04.31.02:076][250]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.03.16-04.31.02:081][250]GameLog: Warning: UMyGameInstance::Init(27) Attack of Level 25 Player : 0
+[2021.03.16-04.31.02:081][250]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.16-04.31.02:081][250]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.16-04.31.02:081][250]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.16-04.31.02:081][250]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.16-04.31.02:081][250]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.16-04.31.02:081][250]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.16-04.31.02:081][250]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.16-04.31.02:081][250]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.16-04.31.02:081][250]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.16-04.31.02:081][250]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.16-04.31.02:090][250]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-04.31.02:090][250]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-04.31.02:125][250]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.03.16-04.31.02:126][250]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.16-04.31.02:126][250]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.16-04.31.02:126][250]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.16-04.31.02:126][250]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.16-04.31.02:137][250]LogInit: FAudioDevice initialized.
+[2021.03.16-04.31.02:184][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-04.31.02:185][250]LogLoad: Game class is 'MyGameModeBase'
+[2021.03.16-04.31.02:207][250]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2021.03.16-13.31.02
+[2021.03.16-04.31.02:209][250]LogWorld: Bringing up level for play took: 0.023476
+[2021.03.16-04.31.02:209][250]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.03.16-04.31.02:233][250]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-04.31.02:233][250]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-04.31.02:238][250]PIE: 서버가 로그인했습니다.
+[2021.03.16-04.31.02:239][250]PIE: 에디터에서 플레이 총 시작 시간 0.294초입니다.
+[2021.03.16-04.31.13:254][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-04.31.13:254][400]LogWorld: BeginTearingDown for /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2021.03.16-04.31.13:254][400]LogSlate: Window 'KJB_Portfolio 프리뷰 [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.16-04.31.13:261][400]LogWorld: UWorld::CleanupWorld for ElvenRuins, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-04.31.13:266][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-04.31.13:271][400]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.16-04.31.13:277][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-04.31.13:330][400]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028523CCA700), frame # 279400
+[2021.03.16-04.31.13:330][400]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002850C314800), frame # 279400
+[2021.03.16-04.31.13:348][400]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.03.16-04.31.13:384][401]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.03.16-04.31.30:619][917]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.Greater_SpiderEliteBP
+[2021.03.16-04.31.32:393][ 18]LogSlate: Window 'Greater_SpiderEliteBP' being destroyed
+[2021.03.16-04.31.32:401][ 18]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-04.31.32:401][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-04.31.32:468][ 18]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.Greater_SpiderEliteBP
+[2021.03.16-04.31.57:775][  5]BlueprintLog: New page: Greater_SpiderEliteBP 컴파일
+[2021.03.16-04.31.57:817][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.03.16-04.31.58:524][ 44]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Greater_SpiderEliteBPD15EF29843C66F7FF8396A9B2D4077DE.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.uasset'
+[2021.03.16-04.31.58:558][ 44]AssetCheck: New page: 애셋 저장: Greater_SpiderEliteBP
+[2021.03.16-04.31.58:558][ 44]LogContentValidation: Display: Blueprint /Game/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.Greater_SpiderEliteBP 유효성 검사
+[2021.03.16-04.33.10:248][116]BlueprintLog: New page: Greater_SpiderEliteBP 컴파일
+[2021.03.16-04.33.10:291][116]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.03.16-04.33.10:902][147]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Greater_SpiderEliteBP5686BDC04BF52F841C74899C5CE1CFF7.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.uasset'
+[2021.03.16-04.33.10:921][147]AssetCheck: New page: 애셋 저장: Greater_SpiderEliteBP
+[2021.03.16-04.33.10:921][147]LogContentValidation: Display: Blueprint /Game/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.Greater_SpiderEliteBP 유효성 검사
+[2021.03.16-04.33.15:124][439]BlueprintLog: New page: Greater_SpiderEliteBP 컴파일
+[2021.03.16-04.33.15:180][439]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.03.16-04.33.15:756][464]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Greater_SpiderEliteBPF945D1614AD760A1BF49928B090FF6B6.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.uasset'
+[2021.03.16-04.33.15:770][464]AssetCheck: New page: 애셋 저장: Greater_SpiderEliteBP
+[2021.03.16-04.33.15:770][464]LogContentValidation: Display: Blueprint /Game/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.Greater_SpiderEliteBP 유효성 검사
+[2021.03.16-04.33.17:118][585]LogSlate: Window 'Greater_SpiderEliteBP' being destroyed
+[2021.03.16-04.33.17:122][585]LogSlate: Window 'Greater_SpiderEliteBP' being destroyed
+[2021.03.16-04.33.17:135][585]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-04.33.17:135][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-04.33.18:288][706]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2021.03.16-04.33.18:307][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.16-04.33.18:307][706]PIE: New page: PIE 세션: ElvenRuins (2021. 3. 16. 오후 10:33:18)
+[2021.03.16-04.33.18:307][706]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2021.03.16-04.33.18:384][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076810s)
+[2021.03.16-04.33.18:385][706]LogAIModule: Creating AISystem for world ElvenRuins
+[2021.03.16-04.33.18:385][706]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028520BDA800), frame # 289706
+[2021.03.16-04.33.18:385][706]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000284D8B51D00), frame # 289706
+[2021.03.16-04.33.18:386][706]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2021.03.16-04.33.18:386][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.078337s)
+[2021.03.16-04.33.18:406][706]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.03.16-04.33.18:408][706]GameLog: Warning: UMyGameInstance::Init(27) Attack of Level 25 Player : 0
+[2021.03.16-04.33.18:408][706]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.16-04.33.18:408][706]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.16-04.33.18:408][706]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.16-04.33.18:408][706]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.16-04.33.18:408][706]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.16-04.33.18:408][706]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.16-04.33.18:408][706]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.16-04.33.18:408][706]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.16-04.33.18:408][706]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.16-04.33.18:408][706]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.16-04.33.18:419][706]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-04.33.18:419][706]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-04.33.18:459][706]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.03.16-04.33.18:459][706]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.16-04.33.18:459][706]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.16-04.33.18:459][706]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.16-04.33.18:460][706]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.16-04.33.18:470][706]LogInit: FAudioDevice initialized.
+[2021.03.16-04.33.18:500][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-04.33.18:500][706]LogLoad: Game class is 'MyGameModeBase'
+[2021.03.16-04.33.18:521][706]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2021.03.16-13.33.18
+[2021.03.16-04.33.18:523][706]LogWorld: Bringing up level for play took: 0.022018
+[2021.03.16-04.33.18:523][706]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.03.16-04.33.18:545][706]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-04.33.18:545][706]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-04.33.18:551][706]PIE: 서버가 로그인했습니다.
+[2021.03.16-04.33.18:553][706]PIE: 에디터에서 플레이 총 시작 시간 0.248초입니다.
+[2021.03.16-04.33.24:242][301]GameLog: Warning: AMonster::SetCharacterState(194) 0.000000
+[2021.03.16-04.33.24:242][301]GameLog: Warning: AItemActor::OnCharacterOverlap(56) Overlaped Character
+[2021.03.16-04.33.24:243][301]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.250000, Current : 10, Max : 40
+[2021.03.16-04.33.24:243][301]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.250000, Current : 10, Max : 40
+[2021.03.16-04.33.24:243][301]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP6_21 took Damage : 60.000000
+[2021.03.16-04.33.24:243][301]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.500000, Current : 20, Max : 40
+[2021.03.16-04.33.24:243][301]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.500000, Current : 20, Max : 40
+[2021.03.16-04.33.24:243][301]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP6_21 took Damage : 60.000000
+[2021.03.16-04.33.24:243][301]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP7_24 took Damage : 60.000000
+[2021.03.16-04.33.25:050][379]GameLog: Warning: AMonster::SetCharacterState(194) 0.000000
+[2021.03.16-04.33.25:050][379]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.750000, Current : 30, Max : 40
+[2021.03.16-04.33.25:050][379]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.750000, Current : 30, Max : 40
+[2021.03.16-04.33.25:050][379]GameLog: Warning: AMonster::TakeDamage(155) Monster : Greater_SpiderBP7_24 took Damage : 60.000000
+[2021.03.16-04.33.25:216][396]GameLog: Warning: AItemActor::OnCharacterOverlapEnd(74) Overlaped End Character
+[2021.03.16-04.33.25:373][412]GameLog: Warning: AItemActor::OnCharacterOverlap(56) Overlaped Character
+[2021.03.16-04.33.26:289][502]GameLog: Warning: AItemActor::OnCharacterOverlapEnd(74) Overlaped End Character
+[2021.03.16-04.33.27:153][593]GameLog: Warning: AItemActor::OnCharacterOverlap(56) Overlaped Character
+[2021.03.16-04.33.27:246][599]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_6.UI_Damage_C_2' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-04.33.27:246][599]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_6.UI_Damage_C_1' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-04.33.27:246][599]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_6.UI_Damage_C_0' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-04.33.28:052][682]PIE: '/Engine/Transient.UnrealEdEngine_0:MyGameInstance_6.UI_Damage_C_3' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2021.03.16-04.33.28:375][717]GameLog: Warning: AItemActor::OnCharacterOverlapEnd(74) Overlaped End Character
+[2021.03.16-04.33.28:549][734]GameLog: Warning: AItemActor::OnCharacterOverlap(56) Overlaped Character
+[2021.03.16-04.33.28:955][772]GameLog: Warning: AItemActor::OnCharacterOverlapEnd(74) Overlaped End Character
+[2021.03.16-04.33.29:649][843]GameLog: Warning: AItemActor::OnCharacterOverlap(56) Overlaped Character
+[2021.03.16-04.33.30:134][890]GameLog: Warning: AItemActor::OnCharacterOverlapEnd(74) Overlaped End Character
+[2021.03.16-04.33.31:086][993]GameLog: Warning: AItemActor::OnCharacterOverlap(56) Overlaped Character
+[2021.03.16-04.33.31:320][ 18]GameLog: Warning: AItemActor::OnCharacterOverlapEnd(74) Overlaped End Character
+[2021.03.16-04.33.39:894][931]LogCore: Error: ConvertQueryImpactHit() received NaN/Inf for position: X=-nan(ind) Y=-nan(ind) Z=-nan(ind)
+[2021.03.16-04.33.39:894][931]LogCollision: Error: SweepSingle resulted in a NaN/INF in PHit!
+[2021.03.16-04.33.42:403][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-04.33.42:404][189]LogWorld: BeginTearingDown for /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2021.03.16-04.33.42:404][189]LogSlate: Window 'KJB_Portfolio 프리뷰 [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.16-04.33.42:412][189]LogWorld: UWorld::CleanupWorld for ElvenRuins, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-04.33.42:417][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-04.33.42:427][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.16-04.33.42:434][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-04.33.42:481][189]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000284D8B51D00), frame # 292189
+[2021.03.16-04.33.42:481][189]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028520BDA800), frame # 292189
+[2021.03.16-04.33.42:484][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.03.16-04.33.42:517][190]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.03.16-04.33.50:631][714]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.Greater_SpiderEliteBP
+[2021.03.16-04.34.10:275][100]BlueprintLog: New page: Greater_SpiderEliteBP 컴파일
+[2021.03.16-04.34.10:331][100]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.03.16-04.34.10:922][131]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Greater_SpiderEliteBPD99EC4EF41AB86BE78F9279A3E0EE3A2.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.uasset'
+[2021.03.16-04.34.10:936][131]AssetCheck: New page: 애셋 저장: Greater_SpiderEliteBP
+[2021.03.16-04.34.10:936][131]LogContentValidation: Display: Blueprint /Game/MyContents/Monster/Enemy_Greater_Spider_Boss/Greater_SpiderEliteBP.Greater_SpiderEliteBP 유효성 검사
+[2021.03.16-04.34.18:913][863]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP
+[2021.03.16-04.34.35:871][ 55]BlueprintLog: New page: Greater_SpiderBP 컴파일
+[2021.03.16-04.34.35:940][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.03.16-04.34.36:459][ 76]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Greater_SpiderBPDC85F6844D1DDF463DC98EA22EACFB9F.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.uasset'
+[2021.03.16-04.34.36:475][ 76]AssetCheck: New page: 애셋 저장: Greater_SpiderBP
+[2021.03.16-04.34.36:475][ 76]LogContentValidation: Display: Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP 유효성 검사
+[2021.03.16-04.34.37:447][143]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-04.34.37:447][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-04.35.04:877][526]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.03.16-04.35.05:407][526]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/ElvenRuins_Auto227B33C604C8782AFFEE06694BC6927CC.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/ElvenRuins_Auto2.umap'
+[2021.03.16-04.35.05:408][526]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/InfinityBladeGrassLands/Maps/ElvenRuins' took 0.553
+[2021.03.16-04.35.05:408][526]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.553
+[2021.03.16-04.36.39:036][ 38]LogSlate: Window 'Greater_SpiderEliteBP' being destroyed
+[2021.03.16-04.36.39:041][ 38]LogSlate: Window 'Greater_SpiderEliteBP' being destroyed
+[2021.03.16-04.36.39:042][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.16-04.36.39:042][ 38]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-04.36.39:042][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-04.36.41:687][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.03.16-04.36.42:267][283]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/ElvenRuins51D292484C4661C98A3B47978F39FD2E.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/InfinityBladeGrassLands/Maps/ElvenRuins.umap'
+[2021.03.16-04.36.44:740][283]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/ElvenRuins_BuiltData3BCD3EFA423D98E272C1488DA5E720F8.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Content/InfinityBladeGrassLands/Maps/ElvenRuins_BuiltData.uasset'
+[2021.03.16-04.36.44:792][283]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2021.03.16-04.36.44:792][283]LogContentValidation: Display: World /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins 유효성 검사
+[2021.03.16-04.36.44:792][283]LogContentValidation: Display: MapBuildDataRegistry /Game/InfinityBladeGrassLands/Maps/ElvenRuins_BuiltData.ElvenRuins_BuiltData 유효성 검사
+[2021.03.16-06.51.20:335][513]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2021.03.16-06.51.20:350][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.16-06.51.20:351][513]PIE: New page: PIE 세션: ElvenRuins (2021. 3. 17. 오전 12:51:20)
+[2021.03.16-06.51.20:351][513]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2021.03.16-06.51.20:428][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076991s)
+[2021.03.16-06.51.20:429][513]LogAIModule: Creating AISystem for world ElvenRuins
+[2021.03.16-06.51.20:429][513]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002852F2DA000), frame # 328513
+[2021.03.16-06.51.20:429][513]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000284BA4F1940), frame # 328513
+[2021.03.16-06.51.20:429][513]LogPlayLevel: PIE: World Init took: (0.001258s)
+[2021.03.16-06.51.20:429][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.078474s)
+[2021.03.16-06.51.20:459][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.03.16-06.51.20:472][513]GameLog: Warning: UMyGameInstance::Init(27) Attack of Level 25 Player : 0
+[2021.03.16-06.51.20:472][513]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.16-06.51.20:472][513]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.16-06.51.20:472][513]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.16-06.51.20:472][513]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.16-06.51.20:472][513]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.16-06.51.20:472][513]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.16-06.51.20:472][513]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.16-06.51.20:472][513]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.16-06.51.20:473][513]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.16-06.51.20:473][513]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.16-06.51.20:484][513]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-06.51.20:484][513]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-06.51.20:525][513]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2021.03.16-06.51.20:525][513]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.16-06.51.20:525][513]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.16-06.51.20:525][513]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.16-06.51.20:526][513]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.16-06.51.20:537][513]LogInit: FAudioDevice initialized.
+[2021.03.16-06.51.20:616][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-06.51.20:616][513]LogLoad: Game class is 'MyGameModeBase'
+[2021.03.16-06.51.20:640][513]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2021.03.16-15.51.20
+[2021.03.16-06.51.20:643][513]LogWorld: Bringing up level for play took: 0.025936
+[2021.03.16-06.51.20:643][513]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.03.16-06.51.20:671][513]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-06.51.20:671][513]GameLog: Warning: AMyPlayerState::GetExpRatio(24) Ratio : 0.000000, Current : 0, Max : 40
+[2021.03.16-06.51.20:678][513]PIE: 서버가 로그인했습니다.
+[2021.03.16-06.51.20:678][513]PIE: 에디터에서 플레이 총 시작 시간 0.33초입니다.
+[2021.03.16-06.51.28:455][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-06.51.28:455][309]LogWorld: BeginTearingDown for /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2021.03.16-06.51.28:456][309]LogSlate: Window 'KJB_Portfolio 프리뷰 [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.16-06.51.28:462][309]LogWorld: UWorld::CleanupWorld for ElvenRuins, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-06.51.28:466][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-06.51.28:471][309]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.16-06.51.28:476][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-06.51.28:515][309]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000284BA4F1940), frame # 329309
+[2021.03.16-06.51.28:515][309]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002852F2DA000), frame # 329309
+[2021.03.16-06.51.28:520][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.03.16-06.51.28:555][310]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.03.16-06.51.57:355][282]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MyContents/SkillSystem/UI/W_MainTree.W_MainTree
+[2021.03.16-06.52.49:204][143]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Character/BP_PlayerBase.BP_PlayerBase
+[2021.03.16-06.53.35:988][606]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Monster/Enemy_Great_Spider/Greater_SpiderBP.Greater_SpiderBP
+[2021.03.16-06.54.13:920][514]LogSlate: Window 'Greater_SpiderBP' being destroyed
+[2021.03.16-06.54.13:925][514]LogSlate: Window 'Greater_SpiderBP' being destroyed
+[2021.03.16-06.54.13:934][514]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-06.54.13:934][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-06.54.13:955][514]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-06.54.13:955][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-06.54.14:006][514]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-06.54.14:006][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-06.54.14:066][514]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.16-06.54.14:066][514]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-06.54.14:066][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-06.55.07:884][706]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContents/Character/BP_PlayerBase.BP_PlayerBase
+[2021.03.16-06.55.44:483][ 94]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2021.03.16-06.55.49:633][700]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2021.03.16-06.55.51:948][975]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2021.03.16-06.55.55:736][304]Cmd: DELETE
+[2021.03.16-06.55.55:736][304]Cmd: ACTOR DELETE
+[2021.03.16-06.55.55:759][304]LogEditorActor: Deleted Actor: BP_PlayerBase_C
+[2021.03.16-06.55.55:846][304]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2021.03.16-06.55.55:857][304]LogEditorActor: Deleted 1 Actors (0.120 secs)
+[2021.03.16-06.56.19:704][356]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/KJB_Portfolio.MyCharacterDataComponent
+[2021.03.16-06.56.59:326][645]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.03.16-06.56.59:908][645]LogSavePackage: Moving '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/ElvenRuins_Auto3B074788941223F65E018939C2336DCD9.tmp' to '../../../../../../unrealP/KJB_Portfolio_UE4/KJB_Portfolio/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/ElvenRuins_Auto3.umap'
+[2021.03.16-06.56.59:910][645]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/InfinityBladeGrassLands/Maps/ElvenRuins' took 0.642
+[2021.03.16-06.56.59:910][645]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.642
+[2021.03.16-06.57.12:882][713]Candidate modules for hot reload:
+[2021.03.16-06.57.12:882][713]  KJB_Portfolio
+[2021.03.16-06.57.12:882][713]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KJB_Portfolio,7178 KJB_PortfolioEditor Win64 Development -Project="C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/KJB_Portfolio.uproject" "C:/unrealP/KJB_Portfolio_UE4/KJB_Portfolio/KJB_Portfolio.uproject"  -IgnoreJunk]
+[2021.03.16-06.57.12:886][713]Warning: Starting HotReload took  0.1s.
+[2021.03.16-06.57.20:048][514]CompilerResultsLog: New page: 컴파일 - 2021. 3. 17. 오전 12:57:20
+[2021.03.16-06.57.20:048][514]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\unrealP\KJB_Portfolio_UE4).
+[2021.03.16-06.57.20:048][514]CompilerResultsLog: Building KJB_PortfolioEditor...
+[2021.03.16-06.57.20:048][514]CompilerResultsLog: Using Visual Studio 2017 14.16.27042 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.16-06.57.20:048][514]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.03.16-06.57.20:048][514]CompilerResultsLog:   [1/4] MyCharacterDataComponent.cpp
+[2021.03.16-06.57.20:048][514]CompilerResultsLog:   [2/4] UE4Editor-KJB_Portfolio-7178.lib
+[2021.03.16-06.57.20:048][514]CompilerResultsLog:      C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-7178.lib ???̺귯?? ?? C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-7178.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.03.16-06.57.20:048][514]CompilerResultsLog:   [3/4] UE4Editor-KJB_Portfolio-7178.dll
+[2021.03.16-06.57.20:049][514]CompilerResultsLog:      C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-7178.suppressed.lib ???̺귯?? ?? C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Development\KJB_Portfolio\UE4Editor-KJB_Portfolio-7178.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.03.16-06.57.20:049][514]CompilerResultsLog:   [4/4] KJB_PortfolioEditor.target
+[2021.03.16-06.57.20:049][514]CompilerResultsLog: Total time in Parallel executor: 6.34 seconds
+[2021.03.16-06.57.20:049][514]CompilerResultsLog: Total execution time: 7.06 seconds
+[2021.03.16-06.57.20:049][514]LogMainFrame: MainFrame: Module compiling took 7.169 seconds
+[2021.03.16-06.57.20:117][514]LogClass: EItemType HotReload.
+[2021.03.16-06.57.20:117][514]LogClass: ECharacterState HotReload.
+[2021.03.16-06.57.20:117][514]LogClass: PlayerStatData HotReload.
+[2021.03.16-06.57.20:117][514]LogClass: MonsterStatData HotReload.
+[2021.03.16-06.57.20:130][514]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2021.03.16-06.57.20:266][514]LogHotReload: Re-instancing MyCharacterDataComponent after hot-reload.
+[2021.03.16-06.57.20:267][514]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.03.16-06.57.20:933][514]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.665 s
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: === Handled ensure: ===
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: 
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: Ensure condition failed: bArchetypeReinstanced [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetReinstanceUtilities.cpp] [Line: 1657]
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: Reinstancing non-actor (/Engine/Transient.Default__SKEL_BP_PlayerBase_C:CHARACTERSTAT); failed to resolve archetype object - property values may be lost.
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: Stack: 
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe4fdd58ce UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe4f62c279 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe4f629d90 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe4f628ea5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe4f625ece UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe4f6263ee UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe23ec6c97 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe23ec6e01 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe23ebf836 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe5b7eed1d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe5bb76839 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe5bb55bc6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe5ba74465 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe59db986a UE4Editor-Core.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe59dd99f0 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe59dd8b08 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe23ebb9b2 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe23eb9617 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe23eba1ad UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe23ecc057 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ffe59b3d0a9 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ff61d86a213 UE4Editor.exe!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ff61d87ba7c UE4Editor.exe!UnknownFunction []
+[2021.03.16-06.57.20:933][514]LogOutputDevice: Error: [Callstack] 0x00007ff61d87bb5a UE4Editor.exe!UnknownFunction []
+[2021.03.16-06.57.20:934][514]LogOutputDevice: Error: [Callstack] 0x00007ff61d88e31d UE4Editor.exe!UnknownFunction []
+[2021.03.16-06.57.20:934][514]LogOutputDevice: Error: [Callstack] 0x00007ff61d89145a UE4Editor.exe!UnknownFunction []
+[2021.03.16-06.57.20:934][514]LogOutputDevice: Error: [Callstack] 0x00007ffea1ef7034 KERNEL32.DLL!UnknownFunction []
+[2021.03.16-06.57.20:934][514]LogOutputDevice: Error: [Callstack] 0x00007ffea3282651 ntdll.dll!UnknownFunction []
+[2021.03.16-06.57.20:934][514]LogOutputDevice: Error: 
+[2021.03.16-06.57.20:935][514]LogStats:                SubmitErrorReport -  0.000 s
+[2021.03.16-06.57.23:140][514]LogStats:                    SendNewReport -  2.206 s
+[2021.03.16-06.57.23:140][514]LogStats:             FDebug::EnsureFailed -  2.873 s
+[2021.03.16-06.57.23:169][514]LogContentBrowser: Native class hierarchy updated for 'KJB_Portfolio' in 0.0005 seconds. Added 28 classes and 3 folders.
+[2021.03.16-06.57.23:174][514]Display: HotReload successful (19 functions remapped  2 scriptstructs remapped)

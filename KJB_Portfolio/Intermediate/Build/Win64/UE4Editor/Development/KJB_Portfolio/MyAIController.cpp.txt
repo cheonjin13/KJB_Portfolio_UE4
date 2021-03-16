@@ -220,6 +220,8 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\VisualLo
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\MyAIController.generated.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\MyCharacter.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\MyCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTree.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTCompositeNode.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTNode.h

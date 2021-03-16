@@ -2,6 +2,7 @@
 
 
 #include "MyAIController.h"
+#include "MyCharacter.h"
 #include "BehaviorTree/BehaviorTree.h"
 #include "BehaviorTree/BlackboardData.h"
 #include "BehaviorTree/BlackboardComponent.h"
@@ -45,4 +46,15 @@ void AMyAIController::OnPossess(APawn * InPawn)
 void AMyAIController::OnUnPossess()
 {
 	Super::OnUnPossess();
+}
+
+void AMyAIController::SetTarget(AMyCharacter * target)
+{
+	if (target && target->GetController()->IsPlayerController())
+	{
+		if (UseBlackboard(BBAsset, Blackboard))
+		{
+			Blackboard->SetValueAsObject(TargetKey, target);
+		}
+	}
 }

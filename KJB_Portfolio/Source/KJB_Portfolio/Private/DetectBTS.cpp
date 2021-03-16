@@ -45,9 +45,9 @@ void UDetectBTS::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory
 			if (myCharacter && myCharacter->GetController()->IsPlayerController())
 			{
 				OwnerComp.GetBlackboardComponent()->SetValueAsObject(AMyAIController::TargetKey, myCharacter);
-				DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Green, false, 0.2f);
-				DrawDebugPoint(World, myCharacter->GetActorLocation(), 10.0f, FColor::Blue, false, 0.2f);
-				DrawDebugLine(World, ControllingPawn->GetActorLocation(), myCharacter->GetActorLocation(), FColor::Blue, false, 0.2f);
+				//DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Green, false, 0.2f);
+				//DrawDebugPoint(World, myCharacter->GetActorLocation(), 10.0f, FColor::Blue, false, 0.2f);
+				//DrawDebugLine(World, ControllingPawn->GetActorLocation(), myCharacter->GetActorLocation(), FColor::Blue, false, 0.2f);
 				return;
 			}
 		}
@@ -55,7 +55,15 @@ void UDetectBTS::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory
 	}
 	else
 	{
-		OwnerComp.GetBlackboardComponent()->SetValueAsObject(AMyAIController::TargetKey, nullptr);
+		AMyCharacter* target = Cast<AMyCharacter>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(AMyAIController::TargetKey));
+		if (target)
+		{
+			if (target->GetDistanceTo(ControllingPawn) >= 1000.0f)
+			{
+				OwnerComp.GetBlackboardComponent()->SetValueAsObject(AMyAIController::TargetKey, nullptr);
+			}
+		}
+
 	}
-	DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Red, false, 0.2f);
+	//DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Red, false, 0.2f);
 }

@@ -75,7 +75,7 @@ void UPlayerWidget::UpdatePlayerState()
 	if (CurrentPlayerState.IsValid())
 	{
 		ExpBar->SetPercent(CurrentPlayerState->GetExpRatio());
-		ExpPercent->SetText(FText::FromString(FString::SanitizeFloat(CurrentPlayerState->GetExpRatio()*100.0f)+"%"));
+		ExpPercent->SetText(FText::FromString(FString::SanitizeFloat(CurrentPlayerState->GetExpRatio()*100.0f, 2)+"%"));
 		PlayerLevel->SetText(FText::FromString("Lv." + FString::FromInt(CurrentPlayerState->GetCharacterLevel())));
 
 	}

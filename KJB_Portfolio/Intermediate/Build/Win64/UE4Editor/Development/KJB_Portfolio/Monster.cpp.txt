@@ -358,3 +358,5 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitC
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
 C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\Item.generated.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Source\KJB_Portfolio\Public\MyCharacter.h
+C:\unrealP\KJB_Portfolio_UE4\KJB_Portfolio\Intermediate\Build\Win64\UE4Editor\Inc\KJB_Portfolio\MyCharacter.generated.h

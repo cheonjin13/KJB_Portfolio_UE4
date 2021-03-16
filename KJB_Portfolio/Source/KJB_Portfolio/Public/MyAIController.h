@@ -17,6 +17,9 @@ public:
 	AMyAIController();
 	virtual void OnPossess(APawn* InPawn) override;
 	virtual void OnUnPossess() override;
+
+	void SetTarget(class AMyCharacter* target);
+
 public: //Static const Key
 	static const FName HomePosKey;
 	static const FName TargetKey;

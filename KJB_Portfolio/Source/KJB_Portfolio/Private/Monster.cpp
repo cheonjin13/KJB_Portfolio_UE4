@@ -13,6 +13,7 @@
 #include "DamageWidgetActor.h"
 #include "ItemActor.h"
 #include "Item.h"
+#include "MyCharacter.h"
 
 // Sets default values
 AMonster::AMonster()
@@ -33,7 +34,7 @@ AMonster::AMonster()
 
 	GetCapsuleComponent()->SetCapsuleHalfHeight(120.0f);
 	GetCapsuleComponent()->SetCapsuleRadius(120.0f);
-	GetCapsuleComponent()->SetCollisionProfileName(TEXT("MyCharacter"));
+	GetCapsuleComponent()->SetCollisionProfileName(TEXT("MyEnemy"));
 
 	GetMesh()->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, -120.0f), FRotator(0.0f, -90.0f, 0.0f));
 	
@@ -136,6 +137,16 @@ float AMonster::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent,
 		}
 	}
 
+	auto myAIcon = Cast<AMyAIController>(GetController());
+	if (myAIcon)
+	{
+		auto target = Cast<AMyCharacter>(DamageCauser);
+		if (target)
+		{
+			myAIcon->SetTarget(target);
+		}
+	}
+
 	IsDamaged = true;
 	MyAnim->PlayDamagedMontage();
 	SetActorLocation(GetActorLocation() + GetActorForwardVector() * -10.0f);
@@ -224,6 +235,7 @@ void AMonster::Attack()
 
 void AMonster::AttackCheck()
 {
+	
 	FHitResult HitResult;
 	FCollisionQueryParams Params(NAME_None, false, this);
 	bool bResult = GetWorld()->SweepSingleByChannel(
@@ -231,24 +243,25 @@ void AMonster::AttackCheck()
 		GetActorLocation(),
 		GetActorLocation() + GetActorForwardVector() * AttackRange,
 		FQuat::Identity, 
-		ECollisionChannel::ECC_EngineTraceChannel2,
+		ECollisionChannel::ECC_GameTraceChannel2,
 		FCollisionShape::MakeSphere(AttackRadius), Params);
 
 #if ENABLE_DRAW_DEBUG
 
+	/*
 	FVector TraceVec = GetActorForwardVector() * AttackRange;
 	FVector Center = GetActorLocation() + TraceVec * 0.5f;
 	float HalfHeight = AttackRange * 0.5f + AttackRadius;
 	FQuat CapsuleRot = FRotationMatrix::MakeFromZ(TraceVec).ToQuat();
 	FColor DrawColor = bResult ? FColor::Green : FColor::Red;
 	float DebugLifeTime = 5.0f;
+	DrawDebugCapsule(GetWorld(), Center, HalfHeight,AttackRadius, CapsuleRot, DrawColor, false, DebugLifeTime);
+	*/
 
-	DrawDebugCapsule(GetWorld(), Center, HalfHeight,
-		AttackRadius, CapsuleRot, DrawColor, false, DebugLifeTime);
 #endif
 	if (bResult)
 	{
-		if (HitResult.GetActor()->ActorHasTag("Player")) //HitResult.Actor.IsValid()
+		if (HitResult.Actor.IsValid() && !IsDamaged) //HitResult.Actor.IsValid()
 		{
 			FDamageEvent DamageEvent;
 			HitResult.Actor->TakeDamage(MonsterStat->GetAttack(), DamageEvent, GetController(), this);
